@@ -8,10 +8,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-DB_PATH = "fyp/data/F1_timingdata_2014_2019.sqlite"
+DB_PATH = "../database/F1_timingdata_2014_2019.sqlite"
 
 # ---- user-selectable filters ----
-SEASON = 2017
+SEASON = 2019
 LOCATION_LIKE = "%Marina%"   # e.g. "%Bahrain%", "%Monza%", set to None to skip
 # ---------------------------------
 
@@ -243,9 +243,9 @@ def main():
     cols = [c for c in cols if c in df.columns]
     df_out = df[cols].sort_values(["driver_code", "lap"]).reset_index(drop=True)
 
-    os.makedirs("data", exist_ok=True)
+    os.makedirs("../database/data", exist_ok=True)
     fname = f"{df['location'].iat[0].replace(' ', '_')}_{int(df['season'].iat[0])}.csv"
-    out_path = os.path.join("data", fname)
+    out_path = os.path.join("../database/data", fname)
     df_out.to_csv(out_path, index=False)
     print(f"Saved: {out_path}")
 
