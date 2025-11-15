@@ -16,6 +16,14 @@ LOCATION_LIKE = "%Marina%"   # e.g. "%Bahrain%", "%Monza%", set to None to skip
 # ---------------------------------
 
 
+def save_plot(path: str):
+    """Create folder if needed and save the current matplotlib figure."""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    plt.savefig(path, dpi=200, bbox_inches="tight")
+    print(f"Saved plot: {path}")
+# ---------------------------------
+
+
 def pick_race(conn, season: int, location_like: str | None):
     # list seasons
     seasons = pd.read_sql("SELECT DISTINCT season FROM races ORDER BY season;", conn)
@@ -63,7 +71,7 @@ def pick_race(conn, season: int, location_like: str | None):
 def load_laps_with_meta(conn, race_id: int) -> pd.DataFrame:
     q = """
     SELECT
-      l.race_id                 AS race_id,      -- ✅ ensure race_id exists for later merge
+      l.race_id                 AS race_id,      -- ensure race_id exists for later merge
       r.season,
       r.date,
       r.location,
@@ -169,6 +177,13 @@ def plot_driver_trace(df: pd.DataFrame, fcy: pd.DataFrame, code: str):
     plt.title(title)
     plt.legend()
     plt.tight_layout()
+
+    # --- save single-driver trace plot in race-specific folder ---
+    race_tag = f"{d['location'].iat[0].replace(' ', '_')}_{int(d['season'].iat[0])}"
+    race_dir = os.path.join("../outputs/analyze_f1/graphs", race_tag)
+    img_path = os.path.join(race_dir, f"{race_tag}_{code}_trace.png")
+    save_plot(img_path)
+
     plt.show()
 
 
@@ -219,6 +234,13 @@ def main():
         plt.title(f"Lap traces — {df['location'].iat[0]} {int(df['season'].iat[0])}")
         plt.legend(ncol=len(fast4))
         plt.tight_layout()
+
+        # save fast-4 comparison in same race folder
+        race_tag = f"{df['location'].iat[0].replace(' ', '_')}_{int(df['season'].iat[0])}"
+        race_dir = os.path.join("../outputs/analyze_f1/graphs", race_tag)
+        img_path = os.path.join(race_dir, f"{race_tag}_fast4.png")
+        save_plot(img_path)
+
         plt.show()
 
     # C) Boxplot per driver (drop first 3 laps to reduce outliers)
@@ -230,6 +252,13 @@ def main():
         plt.xlabel("")
         plt.ylabel("Lap time (s)")
         plt.tight_layout()
+
+        # save boxplot in same race folder
+        race_tag = f"{df['location'].iat[0].replace(' ', '_')}_{int(df['season'].iat[0])}"
+        race_dir = os.path.join("../outputs/analyze_f1/graphs", race_tag)
+        img_path = os.path.join(race_dir, f"{race_tag}_boxplot.png")
+        save_plot(img_path)
+
         plt.show()
 
     # Export a clean table
@@ -243,9 +272,9 @@ def main():
     cols = [c for c in cols if c in df.columns]
     df_out = df[cols].sort_values(["driver_code", "lap"]).reset_index(drop=True)
 
-    os.makedirs("../database/race_results", exist_ok=True)
+    os.makedirs("../outputs/analyze_f1/race_results", exist_ok=True)
     fname = f"{df['location'].iat[0].replace(' ', '_')}_{int(df['season'].iat[0])}.csv"
-    out_path = os.path.join("../database/race_results", fname)
+    out_path = os.path.join("../outputs/analyze_f1/race_results", fname)
     df_out.to_csv(out_path, index=False)
     print(f"Saved: {out_path}")
 

@@ -1,9 +1,9 @@
-# run_simu_test.py
+# run_simulation_test.py
 # First validation experiment:
 #   - YasMarina 2017
 #   - Valtteri Bottas (BOT)
 #   - Fit stint-based linear models from real data
-#   - Simulate race with SimpleRaceSim and compare vs real
+#   - Simulate race with SimpleRaceSim and compare vs real (with pit spike)
 
 from __future__ import annotations
 
@@ -15,18 +15,26 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from sim_engine import SimpleRaceSim, StintModel
+from sim_engine_test import SimpleRaceSim, StintModel
 
-# Adjust this path if yousim_engine.pyr DB lives somewhere else.
 # If this file is inside src/ and the DB is at project root, "../" is correct.
 DB_PATH = "../database/F1_timingdata_2014_2019.sqlite"
 
 # ---- user-selectable filters ----
-SEASON = 2017
-LOCATION_LIKE = "%YasMarina%"   # adjust if needed (use % for LIKE)
+SEASON = 2019
+LOCATION_LIKE = "%YasMarina%"   # adjust if needed
 DRIVER_CODE = "BOT"             # Bottas as example
-PIT_LOSS_SECONDS = 22.0
+PIT_LOSS_SECONDS = 22.0         # fallback if no pit duration in data
 NOISE_STD = 0.15
+# ---------------------------------
+
+
+# --- NEW: helper to save plots ---
+def save_plot(path: str):
+    """Create folder if needed and save the current matplotlib figure."""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    plt.savefig(path, dpi=200, bbox_inches="tight")
+    print(f"Saved plot: {path}")
 # ---------------------------------
 
 
@@ -199,7 +207,6 @@ def build_stints(df_in: pd.DataFrame) -> pd.DataFrame:
 
     stints = agg.merge(df_endlaps, on=["driver_code", "stint_no"], how="left")
 
-    # order columns nicely
     cols = [
         "season", "location", "driver_code", "stint_no", "compound",
         "start_lap", "end_lap", "total_laps", "avg_lap_s",
@@ -237,9 +244,8 @@ def fit_stint_linear_model(stint_laps: pd.DataFrame) -> Tuple[float, float]:
         base = float(np.mean(y))
         return base, 0.0
 
-    # np.polyfit: degree 1 -> [slope, intercept]
     slope, intercept = np.polyfit(X, y, 1)
-    base_pace = float(intercept)      # value near stint_idx = 0
+    base_pace = float(intercept)
     deg_rate = float(slope)
     return base_pace, deg_rate
 
@@ -276,28 +282,54 @@ def main():
     print("\nStints for driver:")
     print(stints_drv)
 
-    # 5) fit one linear model per stint
+    # 5) fit one linear model per stint + build StintModels (with pit_loss)
     stint_models: list[StintModel] = []
+    max_stint_no = int(stints_drv["stint_no"].max())
+
     for _, row in stints_drv.sort_values("stint_no").iterrows():
         mask = (drv["lap"] >= row["start_lap"]) & (drv["lap"] <= row["end_lap"])
         stint_laps = drv[mask]
         base_pace, deg_rate = fit_stint_linear_model(stint_laps)
+
+        # determine pit loss for this stint (applied to its final lap)
+        is_last_stint = (int(row["stint_no"]) == max_stint_no)
+        pit_loss_val: float | None
+
+        if is_last_stint:
+            # no pit after final stint
+            pit_loss_val = None
+        else:
+            # prefer actual pitstopduration if present, else fallback constant
+            pl = row.get("pitstopduration", np.nan)
+            try:
+                pl_val = float(pl)
+            except (TypeError, ValueError):
+                pl_val = float("nan")
+
+            if np.isnan(pl_val) or pl_val <= 0:
+                pl_val = PIT_LOSS_SECONDS
+
+            pit_loss_val = pl_val
 
         stint_models.append(
             StintModel(
                 total_laps=int(row["total_laps"]),
                 base_pace=base_pace,
                 deg_rate=deg_rate,
+                pit_loss=pit_loss_val,
             )
         )
 
     print("\nFitted stint models:")
     for sm in stint_models:
-        print(f"  stint: laps={sm.total_laps}, base={sm.base_pace:.3f}s, deg={sm.deg_rate:.4f}s/lap")
+        print(
+            f"  stint: laps={sm.total_laps}, base={sm.base_pace:.3f}s, "
+            f"deg={sm.deg_rate:.4f}s/lap, pit_loss={sm.pit_loss}"
+        )
 
     # 6) simulate race
     sim = SimpleRaceSim(
-        pit_loss=PIT_LOSS_SECONDS,
+        default_pit_loss=PIT_LOSS_SECONDS,
         noise_std=NOISE_STD,
         random_state=42,
     )
@@ -323,6 +355,13 @@ def main():
     plt.title(title)
     plt.legend()
     plt.tight_layout()
+
+    # --- NEW: save validation plot in race-specific folder ---
+    race_tag = f"{drv['location'].iat[0].replace(' ', '_')}_{int(drv['season'].iat[0])}"
+    race_dir = os.path.join("../outputs/sim_results/graphs", race_tag)
+    img_path = os.path.join(race_dir, f"{race_tag}_{DRIVER_CODE}_real_vs_sim.png")
+    save_plot(img_path)
+
     plt.show()
 
     conn.close()

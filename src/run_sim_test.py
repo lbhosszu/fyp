@@ -21,11 +21,20 @@ from sim_engine_test import SimpleRaceSim, StintModel
 DB_PATH = "../database/F1_timingdata_2014_2019.sqlite"
 
 # ---- user-selectable filters ----
-SEASON = 2017
+SEASON = 2019
 LOCATION_LIKE = "%YasMarina%"   # adjust if needed
 DRIVER_CODE = "BOT"             # Bottas as example
 PIT_LOSS_SECONDS = 22.0         # fallback if no pit duration in data
 NOISE_STD = 0.15
+# ---------------------------------
+
+
+# --- NEW: helper to save plots ---
+def save_plot(path: str):
+    """Create folder if needed and save the current matplotlib figure."""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    plt.savefig(path, dpi=200, bbox_inches="tight")
+    print(f"Saved plot: {path}")
 # ---------------------------------
 
 
@@ -346,6 +355,13 @@ def main():
     plt.title(title)
     plt.legend()
     plt.tight_layout()
+
+    # --- NEW: save validation plot in race-specific folder ---
+    race_tag = f"{drv['location'].iat[0].replace(' ', '_')}_{int(drv['season'].iat[0])}"
+    race_dir = os.path.join("../outputs/sim_results/graphs", race_tag)
+    img_path = os.path.join(race_dir, f"{race_tag}_{DRIVER_CODE}_real_vs_sim.png")
+    save_plot(img_path)
+
     plt.show()
 
     conn.close()

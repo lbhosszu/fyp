@@ -1,4 +1,4 @@
-# sim_test.py
+# sim_engine.py
 # Simple race simulation engine for FYP – data-driven, stint-based model.
 
 from __future__ import annotations
@@ -15,6 +15,7 @@ class StintModel:
     total_laps: int
     base_pace: float      # seconds (intercept)
     deg_rate: float       # seconds per lap (slope)
+    pit_loss: Optional[float] = None  # extra time added on final lap of this stint
 
 
 class SimpleRaceSim:
@@ -28,17 +29,17 @@ class SimpleRaceSim:
 
           lap_time = base_pace + deg_rate * (stint_lap_index - 1) + noise
 
-    - Between stints we add a constant pit-loss (e.g. 20–22 s).
-      This keeps the model simple and easy to tune.
+    - If StintModel.pit_loss is set (> 0), this loss is added to the
+      final lap of that stint to create a pit-stop spike.
     """
 
     def __init__(
         self,
-        pit_loss: float = 22.0,
+        default_pit_loss: float = 22.0,
         noise_std: float = 0.15,
         random_state: Optional[int] = None,
     ) -> None:
-        self.pit_loss = pit_loss
+        self.default_pit_loss = default_pit_loss
         self.noise_std = noise_std
         self.rng = np.random.default_rng(random_state)
 
@@ -76,12 +77,12 @@ class SimpleRaceSim:
                 noise = self.rng.normal(0.0, self.noise_std, size=L)
                 lap_times = lap_times + noise
 
+            # spike on final lap of this stint if pit_loss is defined
+            if stint.pit_loss is not None and stint.pit_loss > 0:
+                lap_times[-1] = lap_times[-1] + float(stint.pit_loss)
+
             all_laps.extend(lap_times.tolist())
             total_time += float(lap_times.sum())
-
-            # add pit-loss between stints (not after final stint)
-            if i < len(stint_models) - 1:
-                total_time += self.pit_loss
 
         lap_times_arr = np.array(all_laps, dtype=float)
         cum_times = lap_times_arr.cumsum()
