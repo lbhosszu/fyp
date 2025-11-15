@@ -243,9 +243,9 @@ def main():
     cols = [c for c in cols if c in df.columns]
     df_out = df[cols].sort_values(["driver_code", "lap"]).reset_index(drop=True)
 
-    os.makedirs("../database/data", exist_ok=True)
+    os.makedirs("../database/race_results", exist_ok=True)
     fname = f"{df['location'].iat[0].replace(' ', '_')}_{int(df['season'].iat[0])}.csv"
-    out_path = os.path.join("../database/data", fname)
+    out_path = os.path.join("../database/race_results", fname)
     df_out.to_csv(out_path, index=False)
     print(f"Saved: {out_path}")
 
