@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 
 from sim_engine_test import SimpleRaceSim, StintModel
 
-# If this file is inside src/ and the DB is at project root, "../" is correct.
+# Path to local F1 timing data SQLite database
 DB_PATH = "../database/F1_timingdata_2014_2019.sqlite"
 
 # ---- user-selectable filters ----
