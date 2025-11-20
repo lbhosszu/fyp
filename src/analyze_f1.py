@@ -17,7 +17,7 @@ DB_PATH = "../database/F1_timingdata_2014_2019.sqlite"
 # ---- user-selectable filters ----
 # These allow quickly switching season/race for exploratory work.
 SEASON = 2019
-LOCATION_LIKE = "%Marina%"   # e.g. "%Bahrain%", "%Monza%", set to None for first race
+LOCATION_LIKE = "%Marina%"   #e.g. "%Bahrain%", "%Monza%", set to None for first race
 # ---------------------------------
 
 
