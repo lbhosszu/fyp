@@ -31,7 +31,7 @@ from sim_engine_test import SimpleRaceSim, StintModel
 DB_PATH = "../database/F1_timingdata_2014_2019.sqlite"
 
 # ---- experiment configuration ----
-SEASON = 2019                 # choose season
+SEASON = 2018                 # choose season
 LOCATION_LIKE = "%YasMarina%" # filter race by location string
 DRIVER_CODE = "BOT"           # which driver to validate against
 PIT_LOSS_SECONDS = 22.0       # fallback pit delta if missing
