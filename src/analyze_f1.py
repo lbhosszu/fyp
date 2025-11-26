@@ -20,6 +20,7 @@ SEASON = 2019
 LOCATION_LIKE = "%Marina%"   #e.g. "%Bahrain%", "%Monza%", set to None for first race
 # ---------------------------------
 
+
 # ---- utility functions ----
 def save_plot(path: str):
     """
