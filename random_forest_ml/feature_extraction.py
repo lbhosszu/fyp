@@ -6,7 +6,7 @@ import numpy as np
 DB_PATH = "../database/F1_timingdata_2014_2019.sqlite"
 OUT_PATH = "../ml_outputs/ml_features.csv"
 
-# Load laps + basic metadata
+# Load lap data from the database 
 def load_laps(conn):
     q = """
     SELECT
