@@ -22,7 +22,7 @@ def load_dataset():
 
     df = pd.read_csv(DATA_PATH)
 
-    # Drop rows with missing target
+    # Drop rows with missing target variable
     df = df.dropna(subset=["resultposition"])
 
     return df
@@ -37,16 +37,16 @@ def encode_categorical(df):
 
     encoded_df = pd.DataFrame(encoded, columns=enc.get_feature_names_out(categorical_cols))
 
-    # Drop old columns and merge new
+    # Drop old columns and merge new encoded columns
     df = df.drop(columns=categorical_cols)
     df = pd.concat([df.reset_index(drop=True), encoded_df.reset_index(drop=True)], axis=1)
 
     return df, enc
 
 
-# Train Random Forest model
+# Train Random Forest model 
 def train_model(df):
-    X = df.drop(columns=["resultposition", "driver_id"])  # drop target + ID columns
+    X = df.drop(columns=["resultposition", "driver_id"])  # drop target + ID columns   
     y = df["resultposition"]
 
     X_train, X_test, y_train, y_test = train_test_split(
@@ -65,7 +65,7 @@ def train_model(df):
     model.fit(X_train, y_train)
     preds = model.predict(X_test)
 
-    # Evaluation metrics
+    # Evaluation metrics 
     mae = mean_absolute_error(y_test, preds)
     rmse = np.sqrt(mean_squared_error(y_test, preds))
     r2 = r2_score(y_test, preds)
@@ -78,12 +78,12 @@ def train_model(df):
     return model, X_train.columns.tolist()
 
 
-# Plot feature importances
+# Plot feature importances 
 def save_feature_importance(model, feature_names):
     importances = model.feature_importances_
     indices = np.argsort(importances)[::-1]
 
-    top_n = 20  # only plot most important features
+    top_n = 20  # only plot most important features 
     plt.figure(figsize=(10, 6))
     plt.title("Top Feature Importances (Random Forest)")
     plt.bar(range(top_n), importances[indices][:top_n])
