@@ -1,4 +1,5 @@
-import os
+from pathlib import Path
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -10,14 +11,15 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.preprocessing import OneHotEncoder
 
 
-DATA_PATH = "../ml_outputs/ml_features.csv"
-MODEL_OUT = "../ml_outputs/rf_model.pkl"
-PLOT_OUT = "../ml_outputs/feature_importance.png"
+BASE_DIR = Path(__file__).resolve().parents[2]
+DATA_PATH = BASE_DIR / "ml_outputs" / "ml_features.csv"
+MODEL_OUT = BASE_DIR / "ml_outputs" / "rf_model.pkl"
+PLOT_OUT = BASE_DIR / "ml_outputs" / "feature_importance.png"
 
 
 # Load and preprocess dataset
 def load_dataset():
-    if not os.path.exists(DATA_PATH):
+    if not DATA_PATH.exists():
         raise FileNotFoundError(f"ML dataset not found at {DATA_PATH}")
 
     df = pd.read_csv(DATA_PATH)
@@ -90,7 +92,7 @@ def save_feature_importance(model, feature_names):
     plt.xticks(range(top_n), [feature_names[i] for i in indices][:top_n], rotation=90)
     plt.tight_layout()
 
-    os.makedirs(os.path.dirname(PLOT_OUT), exist_ok=True)
+    PLOT_OUT.parent.mkdir(parents=True, exist_ok=True)
     plt.savefig(PLOT_OUT, dpi=200)
     print(f"Saved feature importance plot: {PLOT_OUT}")
 
@@ -106,7 +108,7 @@ def main():
     model, feature_names = train_model(df_encoded)
 
     print("Saving model...")
-    os.makedirs(os.path.dirname(MODEL_OUT), exist_ok=True)
+    MODEL_OUT.parent.mkdir(parents=True, exist_ok=True)
     joblib.dump(model, MODEL_OUT)
     print(f"Model saved to: {MODEL_OUT}")
 

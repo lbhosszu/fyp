@@ -1,10 +1,12 @@
 import os
 import sqlite3
+from pathlib import Path
+
 import pandas as pd
 import numpy as np
-
-DB_PATH = "../database/F1_timingdata_2014_2019.sqlite"
-OUT_PATH = "../ml_outputs/ml_features.csv"
+BASE_DIR = Path(__file__).resolve().parents[2]
+DB_PATH = BASE_DIR / "database" / "F1_timingdata_2014_2019.sqlite"
+OUT_PATH = BASE_DIR / "ml_outputs" / "ml_features.csv"
 
 # Load lap data from the database 
 def load_laps(conn):
@@ -118,7 +120,7 @@ def build_features(df, grid):
 
 
 def main():
-    if not os.path.exists(DB_PATH):
+    if not DB_PATH.exists():
         raise FileNotFoundError(f"SQLite file not found at {DB_PATH}")
 
     conn = sqlite3.connect(DB_PATH)
@@ -130,7 +132,7 @@ def main():
     print("Building features...")
     features_df = build_features(df, grid)
 
-    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
+    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     features_df.to_csv(OUT_PATH, index=False)
 
     print(f"Saved ML dataset to: {OUT_PATH}")
