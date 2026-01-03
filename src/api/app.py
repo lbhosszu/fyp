@@ -6,4 +6,4 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("F1 Prediction Game")
+st.title("F1 Prediction Game using Machine Learning")
