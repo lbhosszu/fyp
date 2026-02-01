@@ -1,8 +1,8 @@
-import fastf1
+import fastf1_utils
 
-fastf1.Cache.enable_cache("fastf1_cache")
+fastf1_utils.Cache.enable_cache("fastf1_cache")
 
-session = fastf1.get_session(2019, "Abu Dhabi", "R")
+session = fastf1_utils.get_session(2019, "Abu Dhabi", "R")
 session.load(weather=True, laps=True, telemetry=False)
 
 print(session.event)
