@@ -13,8 +13,8 @@ def get_race_summary(season: int, gp_name: str):
     session = fastf1.get_session(season, gp_name, "R")
     session.load(weather=True)
 
-    results = session.results[["Abbreviation", "Position", "Status"]].copy()
-    results = results.sort_values("Position").head(10)
+    results = session.results[["Abbreviation", "GridPosition", "Position", "Status"]].copy()
+    results = results.sort_values("GridPosition").head(20)
 
     weather = session.weather_data.copy()
     weather_summary = {

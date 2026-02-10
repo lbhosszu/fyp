@@ -11,7 +11,7 @@ def race_summary(season: int, gp_name: str):
     session.load(weather=True)
 
     results = session.results[["Abbreviation", "Position", "Status"]].copy()
-    results = results.sort_values("Position").head(10)
+    results = results.sort_values("Position").head(20)
 
     weather = session.weather_data.copy()
     weather_summary = {
@@ -25,7 +25,7 @@ def race_summary(season: int, gp_name: str):
 
 if __name__ == "__main__":
     results, w = race_summary(2019, "Abu Dhabi")
-    print("Top 10 results:")
+    print("Top 20 results:")
     print(results)
     print("\nWeather summary:")
     print(w)

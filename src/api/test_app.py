@@ -26,7 +26,7 @@ if st.sidebar.button("Load race summary", disabled=gp_name is None):
     with st.spinner("Loading race data..."):
         results, weather = get_race_summary(season, gp_name)
 
-    st.subheader(f"{gp_name} {season} (Top 10)")
+    st.subheader(f"{gp_name} {season}")
     st.dataframe(results, use_container_width=True)
 
     st.subheader("Weather summary")
