@@ -1,4 +1,4 @@
-import fastf1_utils
+import fastf1
 
 fastf1_utils.Cache.enable_cache("fastf1_cache")
 

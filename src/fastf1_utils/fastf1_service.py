@@ -1,16 +1,16 @@
 import os
-import fastf1_utils
+import fastf1
 
 CACHE_DIR = "fastf1_cache"
 
 def init_cache():
     os.makedirs(CACHE_DIR, exist_ok=True)
-    fastf1_utils.Cache.enable_cache(CACHE_DIR)
+    fastf1.Cache.enable_cache(CACHE_DIR)
 
 def get_race_summary(season: int, gp_name: str):
     init_cache()
 
-    session = fastf1_utils.get_session(season, gp_name, "R")
+    session = fastf1.get_session(season, gp_name, "R")
     session.load(weather=True)
 
     results = session.results[["Abbreviation", "Position", "Status"]].copy()
