@@ -4,7 +4,7 @@ import pandas as pd
 
 CACHE_DIR = "fastf1_cache"
 os.makedirs(CACHE_DIR, exist_ok=True)
-    fastf1.Cache.enable_cache(CACHE_DIR)
+fastf1.Cache.enable_cache(CACHE_DIR)
 
 def race_summary(season: int, gp_name: str):
     session = fastf1.get_session(season, gp_name, "R")
