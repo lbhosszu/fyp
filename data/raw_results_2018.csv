@@ -1,0 +1,401 @@
+Year,EventName,DriverNumber,Abbreviation,TeamName,GridPos,QualiPos,FinishPos,DidFinish,Top3,Top5,Top10,EventDate
+2018,Australian Grand Prix,5,VET,Ferrari,3.0,3.0,1,1,1,1,1,2018-03-25
+2018,Australian Grand Prix,44,HAM,Mercedes,1.0,1.0,2,1,1,1,1,2018-03-25
+2018,Australian Grand Prix,7,RAI,Ferrari,2.0,2.0,3,1,1,1,1,2018-03-25
+2018,Australian Grand Prix,3,RIC,Red Bull Racing,8.0,5.0,4,1,0,1,1,2018-03-25
+2018,Australian Grand Prix,14,ALO,McLaren,10.0,11.0,5,1,0,1,1,2018-03-25
+2018,Australian Grand Prix,33,VER,Red Bull Racing,4.0,4.0,6,1,0,0,1,2018-03-25
+2018,Australian Grand Prix,27,HUL,Renault,7.0,8.0,7,1,0,0,1,2018-03-25
+2018,Australian Grand Prix,77,BOT,Mercedes,15.0,10.0,8,1,0,0,1,2018-03-25
+2018,Australian Grand Prix,2,VAN,McLaren,11.0,12.0,9,1,0,0,1,2018-03-25
+2018,Australian Grand Prix,55,SAI,Renault,9.0,9.0,10,1,0,0,1,2018-03-25
+2018,Australian Grand Prix,11,PER,Force India,12.0,13.0,11,1,0,0,0,2018-03-25
+2018,Australian Grand Prix,31,OCO,Force India,14.0,15.0,12,1,0,0,0,2018-03-25
+2018,Australian Grand Prix,16,LEC,Sauber,18.0,18.0,13,1,0,0,0,2018-03-25
+2018,Australian Grand Prix,18,STR,Williams,13.0,14.0,14,1,0,0,0,2018-03-25
+2018,Australian Grand Prix,28,HAR,Toro Rosso,16.0,16.0,15,0,0,0,0,2018-03-25
+2018,Australian Grand Prix,8,GRO,Haas F1 Team,6.0,7.0,16,0,0,0,0,2018-03-25
+2018,Australian Grand Prix,20,MAG,Haas F1 Team,5.0,6.0,17,0,0,0,0,2018-03-25
+2018,Australian Grand Prix,10,GAS,Toro Rosso,20.0,20.0,18,0,0,0,0,2018-03-25
+2018,Australian Grand Prix,9,ERI,Sauber,17.0,17.0,19,0,0,0,0,2018-03-25
+2018,Australian Grand Prix,35,SIR,Williams,19.0,19.0,20,0,0,0,0,2018-03-25
+2018,Bahrain Grand Prix,5,VET,Ferrari,1.0,1.0,1,1,1,1,1,2018-04-08
+2018,Bahrain Grand Prix,77,BOT,Mercedes,3.0,3.0,2,1,1,1,1,2018-04-08
+2018,Bahrain Grand Prix,44,HAM,Mercedes,9.0,4.0,3,1,1,1,1,2018-04-08
+2018,Bahrain Grand Prix,10,GAS,Toro Rosso,5.0,6.0,4,1,0,1,1,2018-04-08
+2018,Bahrain Grand Prix,20,MAG,Haas F1 Team,6.0,7.0,5,1,0,1,1,2018-04-08
+2018,Bahrain Grand Prix,27,HUL,Renault,7.0,8.0,6,1,0,0,1,2018-04-08
+2018,Bahrain Grand Prix,14,ALO,McLaren,13.0,13.0,7,0,0,0,1,2018-04-08
+2018,Bahrain Grand Prix,2,VAN,McLaren,14.0,14.0,8,0,0,0,1,2018-04-08
+2018,Bahrain Grand Prix,9,ERI,Sauber,17.0,17.0,9,0,0,0,1,2018-04-08
+2018,Bahrain Grand Prix,31,OCO,Force India,8.0,9.0,10,0,0,0,1,2018-04-08
+2018,Bahrain Grand Prix,55,SAI,Renault,10.0,10.0,11,0,0,0,0,2018-04-08
+2018,Bahrain Grand Prix,16,LEC,Sauber,19.0,19.0,12,0,0,0,0,2018-04-08
+2018,Bahrain Grand Prix,8,GRO,Haas F1 Team,16.0,16.0,13,0,0,0,0,2018-04-08
+2018,Bahrain Grand Prix,18,STR,Williams,20.0,20.0,14,0,0,0,0,2018-04-08
+2018,Bahrain Grand Prix,35,SIR,Williams,18.0,18.0,15,0,0,0,0,2018-04-08
+2018,Bahrain Grand Prix,11,PER,Force India,12.0,12.0,16,0,0,0,0,2018-04-08
+2018,Bahrain Grand Prix,28,HAR,Toro Rosso,11.0,11.0,17,0,0,0,0,2018-04-08
+2018,Bahrain Grand Prix,7,RAI,Ferrari,2.0,2.0,18,0,0,0,0,2018-04-08
+2018,Bahrain Grand Prix,33,VER,Red Bull Racing,15.0,15.0,19,0,0,0,0,2018-04-08
+2018,Bahrain Grand Prix,3,RIC,Red Bull Racing,4.0,5.0,20,0,0,0,0,2018-04-08
+2018,Chinese Grand Prix,3,RIC,Red Bull Racing,6.0,6.0,1,1,1,1,1,2018-04-15
+2018,Chinese Grand Prix,77,BOT,Mercedes,3.0,3.0,2,1,1,1,1,2018-04-15
+2018,Chinese Grand Prix,7,RAI,Ferrari,2.0,2.0,3,1,1,1,1,2018-04-15
+2018,Chinese Grand Prix,44,HAM,Mercedes,4.0,4.0,4,1,0,1,1,2018-04-15
+2018,Chinese Grand Prix,33,VER,Red Bull Racing,5.0,5.0,5,1,0,1,1,2018-04-15
+2018,Chinese Grand Prix,27,HUL,Renault,7.0,7.0,6,1,0,0,1,2018-04-15
+2018,Chinese Grand Prix,14,ALO,McLaren,13.0,13.0,7,1,0,0,1,2018-04-15
+2018,Chinese Grand Prix,5,VET,Ferrari,1.0,1.0,8,1,0,0,1,2018-04-15
+2018,Chinese Grand Prix,55,SAI,Renault,9.0,9.0,9,1,0,0,1,2018-04-15
+2018,Chinese Grand Prix,20,MAG,Haas F1 Team,11.0,11.0,10,1,0,0,1,2018-04-15
+2018,Chinese Grand Prix,31,OCO,Force India,12.0,12.0,11,1,0,0,0,2018-04-15
+2018,Chinese Grand Prix,11,PER,Force India,8.0,8.0,12,1,0,0,0,2018-04-15
+2018,Chinese Grand Prix,2,VAN,McLaren,14.0,14.0,13,1,0,0,0,2018-04-15
+2018,Chinese Grand Prix,18,STR,Williams,18.0,18.0,14,1,0,0,0,2018-04-15
+2018,Chinese Grand Prix,35,SIR,Williams,16.0,16.0,15,1,0,0,0,2018-04-15
+2018,Chinese Grand Prix,9,ERI,Sauber,20.0,20.0,16,1,0,0,0,2018-04-15
+2018,Chinese Grand Prix,8,GRO,Haas F1 Team,10.0,10.0,17,1,0,0,0,2018-04-15
+2018,Chinese Grand Prix,10,GAS,Toro Rosso,17.0,17.0,18,1,0,0,0,2018-04-15
+2018,Chinese Grand Prix,16,LEC,Sauber,19.0,19.0,19,1,0,0,0,2018-04-15
+2018,Chinese Grand Prix,28,HAR,Toro Rosso,15.0,15.0,20,0,0,0,0,2018-04-15
+2018,Azerbaijan Grand Prix,44,HAM,Mercedes,2.0,2.0,1,1,1,1,1,2018-04-29
+2018,Azerbaijan Grand Prix,7,RAI,Ferrari,6.0,6.0,2,1,1,1,1,2018-04-29
+2018,Azerbaijan Grand Prix,11,PER,Force India,8.0,8.0,3,1,1,1,1,2018-04-29
+2018,Azerbaijan Grand Prix,5,VET,Ferrari,1.0,1.0,4,1,0,1,1,2018-04-29
+2018,Azerbaijan Grand Prix,55,SAI,Renault,9.0,10.0,5,1,0,1,1,2018-04-29
+2018,Azerbaijan Grand Prix,16,LEC,Sauber,13.0,14.0,6,1,0,0,1,2018-04-29
+2018,Azerbaijan Grand Prix,14,ALO,McLaren,12.0,13.0,7,1,0,0,1,2018-04-29
+2018,Azerbaijan Grand Prix,18,STR,Williams,10.0,11.0,8,1,0,0,1,2018-04-29
+2018,Azerbaijan Grand Prix,2,VAN,McLaren,16.0,16.0,9,1,0,0,1,2018-04-29
+2018,Azerbaijan Grand Prix,28,HAR,Toro Rosso,19.0,19.0,10,1,0,0,1,2018-04-29
+2018,Azerbaijan Grand Prix,9,ERI,Sauber,18.0,18.0,11,1,0,0,0,2018-04-29
+2018,Azerbaijan Grand Prix,10,GAS,Toro Rosso,17.0,17.0,12,1,0,0,0,2018-04-29
+2018,Azerbaijan Grand Prix,20,MAG,Haas F1 Team,15.0,15.0,13,1,0,0,0,2018-04-29
+2018,Azerbaijan Grand Prix,77,BOT,Mercedes,3.0,3.0,14,0,0,0,0,2018-04-29
+2018,Azerbaijan Grand Prix,8,GRO,Haas F1 Team,20.0,20.0,15,0,0,0,0,2018-04-29
+2018,Azerbaijan Grand Prix,33,VER,Red Bull Racing,5.0,5.0,16,0,0,0,0,2018-04-29
+2018,Azerbaijan Grand Prix,3,RIC,Red Bull Racing,4.0,4.0,17,0,0,0,0,2018-04-29
+2018,Azerbaijan Grand Prix,27,HUL,Renault,14.0,9.0,18,0,0,0,0,2018-04-29
+2018,Azerbaijan Grand Prix,31,OCO,Force India,7.0,7.0,19,0,0,0,0,2018-04-29
+2018,Azerbaijan Grand Prix,35,SIR,Williams,11.0,12.0,20,0,0,0,0,2018-04-29
+2018,Spanish Grand Prix,44,HAM,Mercedes,1.0,1.0,1,1,1,1,1,2018-05-13
+2018,Spanish Grand Prix,77,BOT,Mercedes,2.0,2.0,2,1,1,1,1,2018-05-13
+2018,Spanish Grand Prix,33,VER,Red Bull Racing,5.0,5.0,3,1,1,1,1,2018-05-13
+2018,Spanish Grand Prix,5,VET,Ferrari,3.0,3.0,4,1,0,1,1,2018-05-13
+2018,Spanish Grand Prix,3,RIC,Red Bull Racing,6.0,6.0,5,1,0,1,1,2018-05-13
+2018,Spanish Grand Prix,20,MAG,Haas F1 Team,7.0,7.0,6,0,0,0,1,2018-05-13
+2018,Spanish Grand Prix,55,SAI,Renault,9.0,9.0,7,0,0,0,1,2018-05-13
+2018,Spanish Grand Prix,14,ALO,McLaren,8.0,8.0,8,0,0,0,1,2018-05-13
+2018,Spanish Grand Prix,11,PER,Force India,15.0,15.0,9,0,0,0,1,2018-05-13
+2018,Spanish Grand Prix,16,LEC,Sauber,14.0,14.0,10,0,0,0,1,2018-05-13
+2018,Spanish Grand Prix,18,STR,Williams,18.0,19.0,11,0,0,0,0,2018-05-13
+2018,Spanish Grand Prix,28,HAR,Toro Rosso,20.0,20.0,12,0,0,0,0,2018-05-13
+2018,Spanish Grand Prix,9,ERI,Sauber,17.0,17.0,13,0,0,0,0,2018-05-13
+2018,Spanish Grand Prix,35,SIR,Williams,19.0,18.0,14,0,0,0,0,2018-05-13
+2018,Spanish Grand Prix,2,VAN,McLaren,11.0,11.0,15,0,0,0,0,2018-05-13
+2018,Spanish Grand Prix,31,OCO,Force India,13.0,13.0,16,0,0,0,0,2018-05-13
+2018,Spanish Grand Prix,7,RAI,Ferrari,4.0,4.0,17,0,0,0,0,2018-05-13
+2018,Spanish Grand Prix,8,GRO,Haas F1 Team,10.0,10.0,18,0,0,0,0,2018-05-13
+2018,Spanish Grand Prix,10,GAS,Toro Rosso,12.0,12.0,19,0,0,0,0,2018-05-13
+2018,Spanish Grand Prix,27,HUL,Renault,16.0,16.0,20,0,0,0,0,2018-05-13
+2018,Monaco Grand Prix,3,RIC,Red Bull Racing,1.0,1.0,1,1,1,1,1,2018-05-27
+2018,Monaco Grand Prix,5,VET,Ferrari,2.0,2.0,2,1,1,1,1,2018-05-27
+2018,Monaco Grand Prix,44,HAM,Mercedes,3.0,3.0,3,1,1,1,1,2018-05-27
+2018,Monaco Grand Prix,7,RAI,Ferrari,4.0,4.0,4,1,0,1,1,2018-05-27
+2018,Monaco Grand Prix,77,BOT,Mercedes,5.0,5.0,5,1,0,1,1,2018-05-27
+2018,Monaco Grand Prix,31,OCO,Force India,6.0,6.0,6,1,0,0,1,2018-05-27
+2018,Monaco Grand Prix,10,GAS,Toro Rosso,10.0,10.0,7,1,0,0,1,2018-05-27
+2018,Monaco Grand Prix,27,HUL,Renault,11.0,11.0,8,1,0,0,1,2018-05-27
+2018,Monaco Grand Prix,33,VER,Red Bull Racing,20.0,20.0,9,1,0,0,1,2018-05-27
+2018,Monaco Grand Prix,55,SAI,Renault,8.0,8.0,10,1,0,0,1,2018-05-27
+2018,Monaco Grand Prix,9,ERI,Sauber,16.0,17.0,11,1,0,0,0,2018-05-27
+2018,Monaco Grand Prix,11,PER,Force India,9.0,9.0,12,1,0,0,0,2018-05-27
+2018,Monaco Grand Prix,20,MAG,Haas F1 Team,19.0,19.0,13,1,0,0,0,2018-05-27
+2018,Monaco Grand Prix,2,VAN,McLaren,12.0,12.0,14,0,0,0,0,2018-05-27
+2018,Monaco Grand Prix,8,GRO,Haas F1 Team,18.0,15.0,15,0,0,0,0,2018-05-27
+2018,Monaco Grand Prix,35,SIR,Williams,13.0,13.0,16,0,0,0,0,2018-05-27
+2018,Monaco Grand Prix,18,STR,Williams,17.0,18.0,17,0,0,0,0,2018-05-27
+2018,Monaco Grand Prix,16,LEC,Sauber,14.0,14.0,18,0,0,0,0,2018-05-27
+2018,Monaco Grand Prix,28,HAR,Toro Rosso,15.0,16.0,19,0,0,0,0,2018-05-27
+2018,Monaco Grand Prix,14,ALO,McLaren,7.0,7.0,20,0,0,0,0,2018-05-27
+2018,Canadian Grand Prix,5,VET,Ferrari,1.0,1.0,1,1,1,1,1,2018-06-10
+2018,Canadian Grand Prix,77,BOT,Mercedes,2.0,2.0,2,1,1,1,1,2018-06-10
+2018,Canadian Grand Prix,33,VER,Red Bull Racing,3.0,3.0,3,1,1,1,1,2018-06-10
+2018,Canadian Grand Prix,3,RIC,Red Bull Racing,6.0,6.0,4,1,0,1,1,2018-06-10
+2018,Canadian Grand Prix,44,HAM,Mercedes,4.0,4.0,5,1,0,1,1,2018-06-10
+2018,Canadian Grand Prix,7,RAI,Ferrari,5.0,5.0,6,1,0,0,1,2018-06-10
+2018,Canadian Grand Prix,27,HUL,Renault,7.0,7.0,7,0,0,0,1,2018-06-10
+2018,Canadian Grand Prix,55,SAI,Renault,9.0,9.0,8,0,0,0,1,2018-06-10
+2018,Canadian Grand Prix,31,OCO,Force India,8.0,8.0,9,0,0,0,1,2018-06-10
+2018,Canadian Grand Prix,16,LEC,Sauber,13.0,13.0,10,0,0,0,1,2018-06-10
+2018,Canadian Grand Prix,10,GAS,Toro Rosso,16.0,16.0,11,0,0,0,0,2018-06-10
+2018,Canadian Grand Prix,8,GRO,Haas F1 Team,20.0,20.0,12,0,0,0,0,2018-06-10
+2018,Canadian Grand Prix,20,MAG,Haas F1 Team,11.0,11.0,13,0,0,0,0,2018-06-10
+2018,Canadian Grand Prix,11,PER,Force India,10.0,10.0,14,0,0,0,0,2018-06-10
+2018,Canadian Grand Prix,9,ERI,Sauber,19.0,19.0,15,0,0,0,0,2018-06-10
+2018,Canadian Grand Prix,2,VAN,McLaren,15.0,15.0,16,0,0,0,0,2018-06-10
+2018,Canadian Grand Prix,35,SIR,Williams,18.0,18.0,17,0,0,0,0,2018-06-10
+2018,Canadian Grand Prix,14,ALO,McLaren,14.0,14.0,18,0,0,0,0,2018-06-10
+2018,Canadian Grand Prix,28,HAR,Toro Rosso,12.0,12.0,19,0,0,0,0,2018-06-10
+2018,Canadian Grand Prix,18,STR,Williams,17.0,17.0,20,0,0,0,0,2018-06-10
+2018,French Grand Prix,44,HAM,Mercedes,1.0,1.0,1,1,1,1,1,2018-06-24
+2018,French Grand Prix,33,VER,Red Bull Racing,4.0,4.0,2,1,1,1,1,2018-06-24
+2018,French Grand Prix,7,RAI,Ferrari,6.0,6.0,3,1,1,1,1,2018-06-24
+2018,French Grand Prix,3,RIC,Red Bull Racing,5.0,5.0,4,1,0,1,1,2018-06-24
+2018,French Grand Prix,5,VET,Ferrari,3.0,3.0,5,1,0,1,1,2018-06-24
+2018,French Grand Prix,20,MAG,Haas F1 Team,9.0,9.0,6,1,0,0,1,2018-06-24
+2018,French Grand Prix,77,BOT,Mercedes,2.0,2.0,7,1,0,0,1,2018-06-24
+2018,French Grand Prix,55,SAI,Renault,7.0,7.0,8,1,0,0,1,2018-06-24
+2018,French Grand Prix,27,HUL,Renault,12.0,12.0,9,1,0,0,1,2018-06-24
+2018,French Grand Prix,16,LEC,Sauber,8.0,8.0,10,1,0,0,1,2018-06-24
+2018,French Grand Prix,8,GRO,Haas F1 Team,10.0,10.0,11,0,0,0,0,2018-06-24
+2018,French Grand Prix,2,VAN,McLaren,17.0,18.0,12,0,0,0,0,2018-06-24
+2018,French Grand Prix,9,ERI,Sauber,15.0,15.0,13,0,0,0,0,2018-06-24
+2018,French Grand Prix,28,HAR,Toro Rosso,20.0,17.0,14,0,0,0,0,2018-06-24
+2018,French Grand Prix,35,SIR,Williams,18.0,19.0,15,0,0,0,0,2018-06-24
+2018,French Grand Prix,14,ALO,McLaren,16.0,16.0,16,0,0,0,0,2018-06-24
+2018,French Grand Prix,18,STR,Williams,19.0,20.0,17,0,0,0,0,2018-06-24
+2018,French Grand Prix,11,PER,Force India,13.0,13.0,18,0,0,0,0,2018-06-24
+2018,French Grand Prix,31,OCO,Force India,11.0,11.0,19,0,0,0,0,2018-06-24
+2018,French Grand Prix,10,GAS,Toro Rosso,14.0,14.0,20,0,0,0,0,2018-06-24
+2018,Austrian Grand Prix,33,VER,Red Bull Racing,4.0,5.0,1,1,1,1,1,2018-07-01
+2018,Austrian Grand Prix,7,RAI,Ferrari,3.0,4.0,2,1,1,1,1,2018-07-01
+2018,Austrian Grand Prix,5,VET,Ferrari,6.0,3.0,3,1,1,1,1,2018-07-01
+2018,Austrian Grand Prix,8,GRO,Haas F1 Team,5.0,6.0,4,0,0,1,1,2018-07-01
+2018,Austrian Grand Prix,20,MAG,Haas F1 Team,8.0,8.0,5,0,0,1,1,2018-07-01
+2018,Austrian Grand Prix,31,OCO,Force India,11.0,11.0,6,0,0,0,1,2018-07-01
+2018,Austrian Grand Prix,11,PER,Force India,16.0,17.0,7,0,0,0,1,2018-07-01
+2018,Austrian Grand Prix,14,ALO,McLaren,13.0,14.0,8,0,0,0,1,2018-07-01
+2018,Austrian Grand Prix,16,LEC,Sauber,18.0,13.0,9,0,0,0,1,2018-07-01
+2018,Austrian Grand Prix,9,ERI,Sauber,20.0,20.0,10,0,0,0,1,2018-07-01
+2018,Austrian Grand Prix,10,GAS,Toro Rosso,12.0,12.0,11,0,0,0,0,2018-07-01
+2018,Austrian Grand Prix,55,SAI,Renault,9.0,9.0,12,0,0,0,0,2018-07-01
+2018,Austrian Grand Prix,35,SIR,Williams,17.0,18.0,13,0,0,0,0,2018-07-01
+2018,Austrian Grand Prix,18,STR,Williams,14.0,15.0,14,0,0,0,0,2018-07-01
+2018,Austrian Grand Prix,2,VAN,McLaren,15.0,16.0,15,0,0,0,0,2018-07-01
+2018,Austrian Grand Prix,44,HAM,Mercedes,2.0,2.0,16,0,0,0,0,2018-07-01
+2018,Austrian Grand Prix,28,HAR,Toro Rosso,19.0,19.0,17,0,0,0,0,2018-07-01
+2018,Austrian Grand Prix,3,RIC,Red Bull Racing,7.0,7.0,18,0,0,0,0,2018-07-01
+2018,Austrian Grand Prix,77,BOT,Mercedes,1.0,1.0,19,0,0,0,0,2018-07-01
+2018,Austrian Grand Prix,27,HUL,Renault,10.0,10.0,20,0,0,0,0,2018-07-01
+2018,British Grand Prix,5,VET,Ferrari,2.0,2.0,1,1,1,1,1,2018-07-08
+2018,British Grand Prix,44,HAM,Mercedes,1.0,1.0,2,1,1,1,1,2018-07-08
+2018,British Grand Prix,7,RAI,Ferrari,3.0,3.0,3,1,1,1,1,2018-07-08
+2018,British Grand Prix,77,BOT,Mercedes,4.0,4.0,4,1,0,1,1,2018-07-08
+2018,British Grand Prix,3,RIC,Red Bull Racing,6.0,6.0,5,1,0,1,1,2018-07-08
+2018,British Grand Prix,27,HUL,Renault,11.0,11.0,6,1,0,0,1,2018-07-08
+2018,British Grand Prix,31,OCO,Force India,10.0,10.0,7,1,0,0,1,2018-07-08
+2018,British Grand Prix,14,ALO,McLaren,13.0,13.0,8,1,0,0,1,2018-07-08
+2018,British Grand Prix,20,MAG,Haas F1 Team,7.0,7.0,9,1,0,0,1,2018-07-08
+2018,British Grand Prix,11,PER,Force India,12.0,12.0,10,1,0,0,1,2018-07-08
+2018,British Grand Prix,2,VAN,McLaren,17.0,17.0,11,1,0,0,0,2018-07-08
+2018,British Grand Prix,18,STR,Williams,19.0,19.0,12,1,0,0,0,2018-07-08
+2018,British Grand Prix,10,GAS,Toro Rosso,14.0,14.0,13,1,0,0,0,2018-07-08
+2018,British Grand Prix,35,SIR,Williams,18.0,18.0,14,1,0,0,0,2018-07-08
+2018,British Grand Prix,33,VER,Red Bull Racing,5.0,5.0,15,0,0,0,0,2018-07-08
+2018,British Grand Prix,8,GRO,Haas F1 Team,8.0,8.0,16,0,0,0,0,2018-07-08
+2018,British Grand Prix,55,SAI,Renault,16.0,16.0,17,0,0,0,0,2018-07-08
+2018,British Grand Prix,9,ERI,Sauber,15.0,15.0,18,0,0,0,0,2018-07-08
+2018,British Grand Prix,16,LEC,Sauber,9.0,9.0,19,0,0,0,0,2018-07-08
+2018,British Grand Prix,28,HAR,Toro Rosso,0.0,20.0,20,0,0,0,0,2018-07-08
+2018,German Grand Prix,44,HAM,Mercedes,14.0,14.0,1,1,1,1,1,2018-07-22
+2018,German Grand Prix,77,BOT,Mercedes,2.0,2.0,2,1,1,1,1,2018-07-22
+2018,German Grand Prix,7,RAI,Ferrari,3.0,3.0,3,1,1,1,1,2018-07-22
+2018,German Grand Prix,33,VER,Red Bull Racing,4.0,4.0,4,1,0,1,1,2018-07-22
+2018,German Grand Prix,27,HUL,Renault,7.0,7.0,5,1,0,1,1,2018-07-22
+2018,German Grand Prix,8,GRO,Haas F1 Team,6.0,6.0,6,1,0,0,1,2018-07-22
+2018,German Grand Prix,11,PER,Force India,10.0,10.0,7,1,0,0,1,2018-07-22
+2018,German Grand Prix,31,OCO,Force India,15.0,16.0,8,1,0,0,1,2018-07-22
+2018,German Grand Prix,9,ERI,Sauber,13.0,13.0,9,1,0,0,1,2018-07-22
+2018,German Grand Prix,28,HAR,Toro Rosso,17.0,18.0,10,1,0,0,1,2018-07-22
+2018,German Grand Prix,20,MAG,Haas F1 Team,5.0,5.0,11,1,0,0,0,2018-07-22
+2018,German Grand Prix,55,SAI,Renault,8.0,8.0,12,1,0,0,0,2018-07-22
+2018,German Grand Prix,2,VAN,McLaren,19.0,20.0,13,1,0,0,0,2018-07-22
+2018,German Grand Prix,10,GAS,Toro Rosso,16.0,17.0,14,0,0,0,0,2018-07-22
+2018,German Grand Prix,16,LEC,Sauber,9.0,9.0,15,0,0,0,0,2018-07-22
+2018,German Grand Prix,14,ALO,McLaren,11.0,11.0,16,0,0,0,0,2018-07-22
+2018,German Grand Prix,18,STR,Williams,18.0,19.0,17,0,0,0,0,2018-07-22
+2018,German Grand Prix,5,VET,Ferrari,1.0,1.0,18,0,0,0,0,2018-07-22
+2018,German Grand Prix,35,SIR,Williams,12.0,12.0,19,0,0,0,0,2018-07-22
+2018,German Grand Prix,3,RIC,Red Bull Racing,20.0,15.0,20,0,0,0,0,2018-07-22
+2018,Hungarian Grand Prix,44,HAM,Mercedes,1.0,1.0,1,1,1,1,1,2018-07-29
+2018,Hungarian Grand Prix,5,VET,Ferrari,4.0,4.0,2,1,1,1,1,2018-07-29
+2018,Hungarian Grand Prix,7,RAI,Ferrari,3.0,3.0,3,1,1,1,1,2018-07-29
+2018,Hungarian Grand Prix,3,RIC,Red Bull Racing,12.0,12.0,4,1,0,1,1,2018-07-29
+2018,Hungarian Grand Prix,77,BOT,Mercedes,2.0,2.0,5,1,0,1,1,2018-07-29
+2018,Hungarian Grand Prix,10,GAS,Toro Rosso,6.0,6.0,6,1,0,0,1,2018-07-29
+2018,Hungarian Grand Prix,20,MAG,Haas F1 Team,9.0,9.0,7,0,0,0,1,2018-07-29
+2018,Hungarian Grand Prix,14,ALO,McLaren,11.0,11.0,8,0,0,0,1,2018-07-29
+2018,Hungarian Grand Prix,55,SAI,Renault,5.0,5.0,9,0,0,0,1,2018-07-29
+2018,Hungarian Grand Prix,8,GRO,Haas F1 Team,10.0,10.0,10,0,0,0,1,2018-07-29
+2018,Hungarian Grand Prix,28,HAR,Toro Rosso,8.0,8.0,11,0,0,0,0,2018-07-29
+2018,Hungarian Grand Prix,27,HUL,Renault,13.0,13.0,12,0,0,0,0,2018-07-29
+2018,Hungarian Grand Prix,31,OCO,Force India,18.0,18.0,13,0,0,0,0,2018-07-29
+2018,Hungarian Grand Prix,11,PER,Force India,19.0,19.0,14,0,0,0,0,2018-07-29
+2018,Hungarian Grand Prix,9,ERI,Sauber,14.0,14.0,15,0,0,0,0,2018-07-29
+2018,Hungarian Grand Prix,35,SIR,Williams,20.0,20.0,16,0,0,0,0,2018-07-29
+2018,Hungarian Grand Prix,18,STR,Williams,15.0,15.0,17,0,0,0,0,2018-07-29
+2018,Hungarian Grand Prix,2,VAN,McLaren,16.0,16.0,18,0,0,0,0,2018-07-29
+2018,Hungarian Grand Prix,33,VER,Red Bull Racing,7.0,7.0,19,0,0,0,0,2018-07-29
+2018,Hungarian Grand Prix,16,LEC,Sauber,17.0,17.0,20,0,0,0,0,2018-07-29
+2018,Belgian Grand Prix,5,VET,Ferrari,2.0,2.0,1,1,1,1,1,2018-08-26
+2018,Belgian Grand Prix,44,HAM,Mercedes,1.0,1.0,2,1,1,1,1,2018-08-26
+2018,Belgian Grand Prix,33,VER,Red Bull Racing,7.0,7.0,3,1,1,1,1,2018-08-26
+2018,Belgian Grand Prix,77,BOT,Mercedes,19.0,10.0,4,1,0,1,1,2018-08-26
+2018,Belgian Grand Prix,11,PER,Racing Point,4.0,4.0,5,1,0,1,1,2018-08-26
+2018,Belgian Grand Prix,31,OCO,Racing Point,3.0,3.0,6,1,0,0,1,2018-08-26
+2018,Belgian Grand Prix,8,GRO,Haas F1 Team,5.0,5.0,7,1,0,0,1,2018-08-26
+2018,Belgian Grand Prix,20,MAG,Haas F1 Team,9.0,9.0,8,1,0,0,1,2018-08-26
+2018,Belgian Grand Prix,10,GAS,Toro Rosso,10.0,11.0,9,1,0,0,1,2018-08-26
+2018,Belgian Grand Prix,9,ERI,Sauber,13.0,14.0,10,0,0,0,1,2018-08-26
+2018,Belgian Grand Prix,55,SAI,Renault,14.0,16.0,11,0,0,0,0,2018-08-26
+2018,Belgian Grand Prix,35,SIR,Williams,16.0,18.0,12,0,0,0,0,2018-08-26
+2018,Belgian Grand Prix,18,STR,Williams,17.0,19.0,13,0,0,0,0,2018-08-26
+2018,Belgian Grand Prix,28,HAR,Toro Rosso,11.0,12.0,14,0,0,0,0,2018-08-26
+2018,Belgian Grand Prix,2,VAN,McLaren,18.0,20.0,15,0,0,0,0,2018-08-26
+2018,Belgian Grand Prix,3,RIC,Red Bull Racing,8.0,8.0,16,0,0,0,0,2018-08-26
+2018,Belgian Grand Prix,7,RAI,Ferrari,6.0,6.0,17,0,0,0,0,2018-08-26
+2018,Belgian Grand Prix,16,LEC,Sauber,12.0,13.0,18,0,0,0,0,2018-08-26
+2018,Belgian Grand Prix,14,ALO,McLaren,15.0,17.0,19,0,0,0,0,2018-08-26
+2018,Belgian Grand Prix,27,HUL,Renault,20.0,15.0,20,0,0,0,0,2018-08-26
+2018,Italian Grand Prix,44,HAM,Mercedes,3.0,3.0,1,1,1,1,1,2018-09-02
+2018,Italian Grand Prix,7,RAI,Ferrari,1.0,1.0,2,1,1,1,1,2018-09-02
+2018,Italian Grand Prix,77,BOT,Mercedes,4.0,4.0,3,1,1,1,1,2018-09-02
+2018,Italian Grand Prix,5,VET,Ferrari,2.0,2.0,4,1,0,1,1,2018-09-02
+2018,Italian Grand Prix,33,VER,Red Bull Racing,5.0,5.0,5,1,0,1,1,2018-09-02
+2018,Italian Grand Prix,31,OCO,Racing Point,8.0,8.0,6,1,0,0,1,2018-09-02
+2018,Italian Grand Prix,11,PER,Racing Point,14.0,16.0,7,1,0,0,1,2018-09-02
+2018,Italian Grand Prix,55,SAI,Renault,7.0,7.0,8,1,0,0,1,2018-09-02
+2018,Italian Grand Prix,18,STR,Williams,10.0,10.0,9,0,0,0,1,2018-09-02
+2018,Italian Grand Prix,35,SIR,Williams,12.0,12.0,10,0,0,0,1,2018-09-02
+2018,Italian Grand Prix,16,LEC,Sauber,15.0,17.0,11,0,0,0,0,2018-09-02
+2018,Italian Grand Prix,2,VAN,McLaren,17.0,20.0,12,0,0,0,0,2018-09-02
+2018,Italian Grand Prix,27,HUL,Renault,20.0,14.0,13,0,0,0,0,2018-09-02
+2018,Italian Grand Prix,10,GAS,Toro Rosso,9.0,9.0,14,0,0,0,0,2018-09-02
+2018,Italian Grand Prix,9,ERI,Sauber,18.0,19.0,15,0,0,0,0,2018-09-02
+2018,Italian Grand Prix,20,MAG,Haas F1 Team,11.0,11.0,16,0,0,0,0,2018-09-02
+2018,Italian Grand Prix,3,RIC,Red Bull Racing,19.0,15.0,17,0,0,0,0,2018-09-02
+2018,Italian Grand Prix,14,ALO,McLaren,13.0,13.0,18,0,0,0,0,2018-09-02
+2018,Italian Grand Prix,28,HAR,Toro Rosso,16.0,18.0,19,0,0,0,0,2018-09-02
+2018,Italian Grand Prix,8,GRO,Haas F1 Team,6.0,6.0,20,0,0,0,0,2018-09-02
+2018,Singapore Grand Prix,44,HAM,Mercedes,1.0,1.0,1,1,1,1,1,2018-09-16
+2018,Singapore Grand Prix,33,VER,Red Bull Racing,2.0,2.0,2,1,1,1,1,2018-09-16
+2018,Singapore Grand Prix,5,VET,Ferrari,3.0,3.0,3,1,1,1,1,2018-09-16
+2018,Singapore Grand Prix,77,BOT,Mercedes,4.0,4.0,4,1,0,1,1,2018-09-16
+2018,Singapore Grand Prix,7,RAI,Ferrari,5.0,5.0,5,1,0,1,1,2018-09-16
+2018,Singapore Grand Prix,3,RIC,Red Bull Racing,6.0,6.0,6,1,0,0,1,2018-09-16
+2018,Singapore Grand Prix,14,ALO,McLaren,11.0,11.0,7,1,0,0,1,2018-09-16
+2018,Singapore Grand Prix,55,SAI,Renault,12.0,12.0,8,0,0,0,1,2018-09-16
+2018,Singapore Grand Prix,16,LEC,Sauber,13.0,13.0,9,0,0,0,1,2018-09-16
+2018,Singapore Grand Prix,27,HUL,Renault,10.0,10.0,10,0,0,0,1,2018-09-16
+2018,Singapore Grand Prix,9,ERI,Sauber,14.0,14.0,11,0,0,0,0,2018-09-16
+2018,Singapore Grand Prix,2,VAN,McLaren,18.0,18.0,12,0,0,0,0,2018-09-16
+2018,Singapore Grand Prix,10,GAS,Toro Rosso,15.0,15.0,13,0,0,0,0,2018-09-16
+2018,Singapore Grand Prix,18,STR,Williams,20.0,20.0,14,0,0,0,0,2018-09-16
+2018,Singapore Grand Prix,8,GRO,Haas F1 Team,8.0,8.0,15,0,0,0,0,2018-09-16
+2018,Singapore Grand Prix,11,PER,Racing Point,7.0,7.0,16,0,0,0,0,2018-09-16
+2018,Singapore Grand Prix,28,HAR,Toro Rosso,17.0,17.0,17,0,0,0,0,2018-09-16
+2018,Singapore Grand Prix,20,MAG,Haas F1 Team,16.0,16.0,18,0,0,0,0,2018-09-16
+2018,Singapore Grand Prix,35,SIR,Williams,19.0,19.0,19,0,0,0,0,2018-09-16
+2018,Singapore Grand Prix,31,OCO,Racing Point,9.0,9.0,20,0,0,0,0,2018-09-16
+2018,Russian Grand Prix,44,HAM,Mercedes,2.0,2.0,1,1,1,1,1,2018-09-30
+2018,Russian Grand Prix,77,BOT,Mercedes,1.0,1.0,2,1,1,1,1,2018-09-30
+2018,Russian Grand Prix,5,VET,Ferrari,3.0,3.0,3,1,1,1,1,2018-09-30
+2018,Russian Grand Prix,7,RAI,Ferrari,4.0,4.0,4,1,0,1,1,2018-09-30
+2018,Russian Grand Prix,33,VER,Red Bull Racing,19.0,11.0,5,1,0,1,1,2018-09-30
+2018,Russian Grand Prix,3,RIC,Red Bull Racing,18.0,12.0,6,1,0,0,1,2018-09-30
+2018,Russian Grand Prix,16,LEC,Sauber,7.0,7.0,7,1,0,0,1,2018-09-30
+2018,Russian Grand Prix,20,MAG,Haas F1 Team,5.0,5.0,8,0,0,0,1,2018-09-30
+2018,Russian Grand Prix,31,OCO,Racing Point,6.0,6.0,9,0,0,0,1,2018-09-30
+2018,Russian Grand Prix,11,PER,Racing Point,8.0,8.0,10,0,0,0,1,2018-09-30
+2018,Russian Grand Prix,8,GRO,Haas F1 Team,9.0,9.0,11,0,0,0,0,2018-09-30
+2018,Russian Grand Prix,27,HUL,Renault,12.0,15.0,12,0,0,0,0,2018-09-30
+2018,Russian Grand Prix,9,ERI,Sauber,10.0,10.0,13,0,0,0,0,2018-09-30
+2018,Russian Grand Prix,14,ALO,McLaren,16.0,17.0,14,0,0,0,0,2018-09-30
+2018,Russian Grand Prix,18,STR,Williams,14.0,20.0,15,0,0,0,0,2018-09-30
+2018,Russian Grand Prix,2,VAN,McLaren,15.0,19.0,16,0,0,0,0,2018-09-30
+2018,Russian Grand Prix,55,SAI,Renault,11.0,14.0,17,0,0,0,0,2018-09-30
+2018,Russian Grand Prix,35,SIR,Williams,13.0,18.0,18,0,0,0,0,2018-09-30
+2018,Russian Grand Prix,10,GAS,Toro Rosso,17.0,13.0,19,0,0,0,0,2018-09-30
+2018,Russian Grand Prix,28,HAR,Toro Rosso,20.0,16.0,20,0,0,0,0,2018-09-30
+2018,Japanese Grand Prix,44,HAM,Mercedes,1.0,1.0,1,1,1,1,1,2018-10-07
+2018,Japanese Grand Prix,77,BOT,Mercedes,2.0,2.0,2,1,1,1,1,2018-10-07
+2018,Japanese Grand Prix,33,VER,Red Bull Racing,3.0,3.0,3,1,1,1,1,2018-10-07
+2018,Japanese Grand Prix,3,RIC,Red Bull Racing,15.0,15.0,4,1,0,1,1,2018-10-07
+2018,Japanese Grand Prix,7,RAI,Ferrari,4.0,4.0,5,1,0,1,1,2018-10-07
+2018,Japanese Grand Prix,5,VET,Ferrari,8.0,9.0,6,1,0,0,1,2018-10-07
+2018,Japanese Grand Prix,11,PER,Racing Point,9.0,10.0,7,1,0,0,1,2018-10-07
+2018,Japanese Grand Prix,8,GRO,Haas F1 Team,5.0,5.0,8,1,0,0,1,2018-10-07
+2018,Japanese Grand Prix,31,OCO,Racing Point,11.0,8.0,9,1,0,0,1,2018-10-07
+2018,Japanese Grand Prix,55,SAI,Renault,13.0,13.0,10,0,0,0,1,2018-10-07
+2018,Japanese Grand Prix,10,GAS,Toro Rosso,7.0,7.0,11,0,0,0,0,2018-10-07
+2018,Japanese Grand Prix,9,ERI,Sauber,20.0,20.0,12,0,0,0,0,2018-10-07
+2018,Japanese Grand Prix,28,HAR,Toro Rosso,6.0,6.0,13,0,0,0,0,2018-10-07
+2018,Japanese Grand Prix,14,ALO,McLaren,18.0,18.0,14,0,0,0,0,2018-10-07
+2018,Japanese Grand Prix,2,VAN,McLaren,19.0,19.0,15,0,0,0,0,2018-10-07
+2018,Japanese Grand Prix,35,SIR,Williams,17.0,17.0,16,0,0,0,0,2018-10-07
+2018,Japanese Grand Prix,18,STR,Williams,14.0,14.0,17,0,0,0,0,2018-10-07
+2018,Japanese Grand Prix,16,LEC,Sauber,10.0,11.0,18,0,0,0,0,2018-10-07
+2018,Japanese Grand Prix,27,HUL,Renault,16.0,16.0,19,0,0,0,0,2018-10-07
+2018,Japanese Grand Prix,20,MAG,Haas F1 Team,12.0,12.0,20,0,0,0,0,2018-10-07
+2018,United States Grand Prix,7,RAI,Ferrari,2.0,3.0,1,1,1,1,1,2018-10-21
+2018,United States Grand Prix,33,VER,Red Bull Racing,18.0,15.0,2,1,1,1,1,2018-10-21
+2018,United States Grand Prix,44,HAM,Mercedes,1.0,1.0,3,1,1,1,1,2018-10-21
+2018,United States Grand Prix,5,VET,Ferrari,5.0,2.0,4,1,0,1,1,2018-10-21
+2018,United States Grand Prix,77,BOT,Mercedes,3.0,4.0,5,1,0,1,1,2018-10-21
+2018,United States Grand Prix,27,HUL,Renault,7.0,7.0,6,1,0,0,1,2018-10-21
+2018,United States Grand Prix,55,SAI,Renault,11.0,11.0,7,1,0,0,1,2018-10-21
+2018,United States Grand Prix,11,PER,Racing Point,10.0,10.0,8,1,0,0,1,2018-10-21
+2018,United States Grand Prix,28,HAR,Toro Rosso,20.0,14.0,9,0,0,0,1,2018-10-21
+2018,United States Grand Prix,9,ERI,Sauber,16.0,19.0,10,0,0,0,1,2018-10-21
+2018,United States Grand Prix,2,VAN,McLaren,17.0,20.0,11,0,0,0,0,2018-10-21
+2018,United States Grand Prix,10,GAS,Toro Rosso,19.0,13.0,12,0,0,0,0,2018-10-21
+2018,United States Grand Prix,35,SIR,Williams,14.0,17.0,13,0,0,0,0,2018-10-21
+2018,United States Grand Prix,18,STR,Williams,15.0,18.0,14,0,0,0,0,2018-10-21
+2018,United States Grand Prix,16,LEC,Sauber,9.0,9.0,15,0,0,0,0,2018-10-21
+2018,United States Grand Prix,3,RIC,Red Bull Racing,4.0,5.0,16,0,0,0,0,2018-10-21
+2018,United States Grand Prix,8,GRO,Haas F1 Team,8.0,8.0,17,0,0,0,0,2018-10-21
+2018,United States Grand Prix,14,ALO,McLaren,13.0,16.0,18,0,0,0,0,2018-10-21
+2018,United States Grand Prix,31,OCO,Racing Point,6.0,6.0,19,0,0,0,0,2018-10-21
+2018,United States Grand Prix,20,MAG,Haas F1 Team,12.0,12.0,20,0,0,0,0,2018-10-21
+2018,Brazilian Grand Prix,44,HAM,Mercedes,1.0,,1,1,1,1,1,2018-11-11
+2018,Brazilian Grand Prix,33,VER,Red Bull Racing,5.0,,2,1,1,1,1,2018-11-11
+2018,Brazilian Grand Prix,7,RAI,Ferrari,4.0,,3,1,1,1,1,2018-11-11
+2018,Brazilian Grand Prix,3,RIC,Red Bull Racing,11.0,,4,1,0,1,1,2018-11-11
+2018,Brazilian Grand Prix,77,BOT,Mercedes,3.0,,5,1,0,1,1,2018-11-11
+2018,Brazilian Grand Prix,5,VET,Ferrari,2.0,,6,1,0,0,1,2018-11-11
+2018,Brazilian Grand Prix,16,LEC,Sauber,7.0,,7,1,0,0,1,2018-11-11
+2018,Brazilian Grand Prix,8,GRO,Haas F1 Team,8.0,,8,1,0,0,1,2018-11-11
+2018,Brazilian Grand Prix,20,MAG,Haas F1 Team,10.0,,9,1,0,0,1,2018-11-11
+2018,Brazilian Grand Prix,11,PER,Racing Point,12.0,,10,0,0,0,1,2018-11-11
+2018,Brazilian Grand Prix,28,HAR,Toro Rosso,16.0,,11,0,0,0,0,2018-11-11
+2018,Brazilian Grand Prix,55,SAI,Renault,15.0,,12,0,0,0,0,2018-11-11
+2018,Brazilian Grand Prix,10,GAS,Toro Rosso,9.0,,13,0,0,0,0,2018-11-11
+2018,Brazilian Grand Prix,2,VAN,McLaren,20.0,,14,0,0,0,0,2018-11-11
+2018,Brazilian Grand Prix,31,OCO,Racing Point,18.0,,15,0,0,0,0,2018-11-11
+2018,Brazilian Grand Prix,35,SIR,Williams,14.0,,16,0,0,0,0,2018-11-11
+2018,Brazilian Grand Prix,14,ALO,McLaren,17.0,,17,0,0,0,0,2018-11-11
+2018,Brazilian Grand Prix,18,STR,Williams,19.0,,18,0,0,0,0,2018-11-11
+2018,Brazilian Grand Prix,27,HUL,Renault,13.0,,19,0,0,0,0,2018-11-11
+2018,Brazilian Grand Prix,9,ERI,Sauber,6.0,,20,0,0,0,0,2018-11-11
+2018,Abu Dhabi Grand Prix,44,HAM,Mercedes,1.0,1.0,1,1,1,1,1,2018-11-25
+2018,Abu Dhabi Grand Prix,5,VET,Ferrari,3.0,3.0,2,1,1,1,1,2018-11-25
+2018,Abu Dhabi Grand Prix,33,VER,Red Bull Racing,6.0,6.0,3,1,1,1,1,2018-11-25
+2018,Abu Dhabi Grand Prix,3,RIC,Red Bull Racing,5.0,5.0,4,1,0,1,1,2018-11-25
+2018,Abu Dhabi Grand Prix,77,BOT,Mercedes,2.0,2.0,5,1,0,1,1,2018-11-25
+2018,Abu Dhabi Grand Prix,55,SAI,Renault,11.0,11.0,6,1,0,0,1,2018-11-25
+2018,Abu Dhabi Grand Prix,16,LEC,Sauber,8.0,8.0,7,1,0,0,1,2018-11-25
+2018,Abu Dhabi Grand Prix,11,PER,Racing Point,14.0,14.0,8,1,0,0,1,2018-11-25
+2018,Abu Dhabi Grand Prix,8,GRO,Haas F1 Team,7.0,7.0,9,0,0,0,1,2018-11-25
+2018,Abu Dhabi Grand Prix,20,MAG,Haas F1 Team,13.0,13.0,10,0,0,0,1,2018-11-25
+2018,Abu Dhabi Grand Prix,14,ALO,McLaren,15.0,15.0,11,0,0,0,0,2018-11-25
+2018,Abu Dhabi Grand Prix,28,HAR,Toro Rosso,16.0,16.0,12,0,0,0,0,2018-11-25
+2018,Abu Dhabi Grand Prix,18,STR,Williams,20.0,20.0,13,0,0,0,0,2018-11-25
+2018,Abu Dhabi Grand Prix,2,VAN,McLaren,18.0,18.0,14,0,0,0,0,2018-11-25
+2018,Abu Dhabi Grand Prix,35,SIR,Williams,19.0,19.0,15,0,0,0,0,2018-11-25
+2018,Abu Dhabi Grand Prix,10,GAS,Toro Rosso,17.0,17.0,16,0,0,0,0,2018-11-25
+2018,Abu Dhabi Grand Prix,31,OCO,Racing Point,9.0,9.0,17,0,0,0,0,2018-11-25
+2018,Abu Dhabi Grand Prix,9,ERI,Sauber,12.0,12.0,18,0,0,0,0,2018-11-25
+2018,Abu Dhabi Grand Prix,7,RAI,Ferrari,4.0,4.0,19,0,0,0,0,2018-11-25
+2018,Abu Dhabi Grand Prix,27,HUL,Renault,10.0,10.0,20,0,0,0,0,2018-11-25

@@ -1,0 +1,421 @@
+Year,EventName,DriverNumber,Abbreviation,TeamName,GridPos,QualiPos,FinishPos,DidFinish,Top3,Top5,Top10,EventDate
+2019,Australian Grand Prix,77,BOT,Mercedes,2,2.0,1,1,1,1,1,2019-03-17
+2019,Australian Grand Prix,44,HAM,Mercedes,1,1.0,2,1,1,1,1,2019-03-17
+2019,Australian Grand Prix,33,VER,Red Bull Racing,4,4.0,3,1,1,1,1,2019-03-17
+2019,Australian Grand Prix,5,VET,Ferrari,3,3.0,4,1,0,1,1,2019-03-17
+2019,Australian Grand Prix,16,LEC,Ferrari,5,5.0,5,1,0,1,1,2019-03-17
+2019,Australian Grand Prix,20,MAG,Haas F1 Team,7,7.0,6,1,0,0,1,2019-03-17
+2019,Australian Grand Prix,27,HUL,Renault,11,11.0,7,0,0,0,1,2019-03-17
+2019,Australian Grand Prix,7,RAI,Alfa Romeo Racing,9,9.0,8,0,0,0,1,2019-03-17
+2019,Australian Grand Prix,18,STR,Racing Point,16,16.0,9,0,0,0,1,2019-03-17
+2019,Australian Grand Prix,26,KVY,Toro Rosso,15,15.0,10,0,0,0,1,2019-03-17
+2019,Australian Grand Prix,10,GAS,Red Bull Racing,17,17.0,11,0,0,0,0,2019-03-17
+2019,Australian Grand Prix,4,NOR,McLaren,8,8.0,12,0,0,0,0,2019-03-17
+2019,Australian Grand Prix,11,PER,Racing Point,10,10.0,13,0,0,0,0,2019-03-17
+2019,Australian Grand Prix,23,ALB,Toro Rosso,13,13.0,14,0,0,0,0,2019-03-17
+2019,Australian Grand Prix,99,GIO,Alfa Romeo Racing,14,14.0,15,0,0,0,0,2019-03-17
+2019,Australian Grand Prix,63,RUS,Williams,19,19.0,16,0,0,0,0,2019-03-17
+2019,Australian Grand Prix,88,KUB,Williams,20,20.0,17,0,0,0,0,2019-03-17
+2019,Australian Grand Prix,8,GRO,Haas F1 Team,6,6.0,18,0,0,0,0,2019-03-17
+2019,Australian Grand Prix,3,RIC,Renault,12,12.0,19,0,0,0,0,2019-03-17
+2019,Australian Grand Prix,55,SAI,McLaren,18,18.0,20,0,0,0,0,2019-03-17
+2019,Bahrain Grand Prix,44,HAM,Mercedes,3,3.0,1,1,1,1,1,2019-03-31
+2019,Bahrain Grand Prix,77,BOT,Mercedes,4,4.0,2,1,1,1,1,2019-03-31
+2019,Bahrain Grand Prix,16,LEC,Ferrari,1,1.0,3,1,1,1,1,2019-03-31
+2019,Bahrain Grand Prix,33,VER,Red Bull Racing,5,5.0,4,1,0,1,1,2019-03-31
+2019,Bahrain Grand Prix,5,VET,Ferrari,2,2.0,5,1,0,1,1,2019-03-31
+2019,Bahrain Grand Prix,4,NOR,McLaren,9,10.0,6,1,0,0,1,2019-03-31
+2019,Bahrain Grand Prix,7,RAI,Alfa Romeo Racing,8,9.0,7,1,0,0,1,2019-03-31
+2019,Bahrain Grand Prix,10,GAS,Red Bull Racing,13,13.0,8,1,0,0,1,2019-03-31
+2019,Bahrain Grand Prix,23,ALB,Toro Rosso,12,12.0,9,1,0,0,1,2019-03-31
+2019,Bahrain Grand Prix,11,PER,Racing Point,14,14.0,10,1,0,0,1,2019-03-31
+2019,Bahrain Grand Prix,99,GIO,Alfa Romeo Racing,16,16.0,11,1,0,0,0,2019-03-31
+2019,Bahrain Grand Prix,26,KVY,Toro Rosso,15,15.0,12,0,0,0,0,2019-03-31
+2019,Bahrain Grand Prix,20,MAG,Haas F1 Team,6,6.0,13,0,0,0,0,2019-03-31
+2019,Bahrain Grand Prix,18,STR,Racing Point,18,18.0,14,0,0,0,0,2019-03-31
+2019,Bahrain Grand Prix,63,RUS,Williams,19,19.0,15,0,0,0,0,2019-03-31
+2019,Bahrain Grand Prix,88,KUB,Williams,20,20.0,16,0,0,0,0,2019-03-31
+2019,Bahrain Grand Prix,27,HUL,Renault,17,17.0,17,0,0,0,0,2019-03-31
+2019,Bahrain Grand Prix,3,RIC,Renault,10,11.0,18,0,0,0,0,2019-03-31
+2019,Bahrain Grand Prix,55,SAI,McLaren,7,7.0,19,0,0,0,0,2019-03-31
+2019,Bahrain Grand Prix,8,GRO,Haas F1 Team,11,8.0,20,0,0,0,0,2019-03-31
+2019,Chinese Grand Prix,44,HAM,Mercedes,2,2.0,1,1,1,1,1,2019-04-14
+2019,Chinese Grand Prix,77,BOT,Mercedes,1,1.0,2,1,1,1,1,2019-04-14
+2019,Chinese Grand Prix,5,VET,Ferrari,3,3.0,3,1,1,1,1,2019-04-14
+2019,Chinese Grand Prix,33,VER,Red Bull Racing,5,5.0,4,1,0,1,1,2019-04-14
+2019,Chinese Grand Prix,16,LEC,Ferrari,4,4.0,5,1,0,1,1,2019-04-14
+2019,Chinese Grand Prix,10,GAS,Red Bull Racing,6,6.0,6,1,0,0,1,2019-04-14
+2019,Chinese Grand Prix,3,RIC,Renault,7,7.0,7,0,0,0,1,2019-04-14
+2019,Chinese Grand Prix,11,PER,Racing Point,12,12.0,8,0,0,0,1,2019-04-14
+2019,Chinese Grand Prix,7,RAI,Alfa Romeo Racing,13,13.0,9,0,0,0,1,2019-04-14
+2019,Chinese Grand Prix,23,ALB,Toro Rosso,0,,10,0,0,0,1,2019-04-14
+2019,Chinese Grand Prix,8,GRO,Haas F1 Team,10,10.0,11,0,0,0,0,2019-04-14
+2019,Chinese Grand Prix,18,STR,Racing Point,16,16.0,12,0,0,0,0,2019-04-14
+2019,Chinese Grand Prix,20,MAG,Haas F1 Team,9,9.0,13,0,0,0,0,2019-04-14
+2019,Chinese Grand Prix,55,SAI,McLaren,14,14.0,14,0,0,0,0,2019-04-14
+2019,Chinese Grand Prix,99,GIO,Alfa Romeo Racing,19,,15,0,0,0,0,2019-04-14
+2019,Chinese Grand Prix,63,RUS,Williams,17,17.0,16,0,0,0,0,2019-04-14
+2019,Chinese Grand Prix,88,KUB,Williams,18,18.0,17,0,0,0,0,2019-04-14
+2019,Chinese Grand Prix,4,NOR,McLaren,15,15.0,18,0,0,0,0,2019-04-14
+2019,Chinese Grand Prix,26,KVY,Toro Rosso,11,11.0,19,0,0,0,0,2019-04-14
+2019,Chinese Grand Prix,27,HUL,Renault,8,8.0,20,0,0,0,0,2019-04-14
+2019,Azerbaijan Grand Prix,77,BOT,Mercedes,1,1.0,1,1,1,1,1,2019-04-28
+2019,Azerbaijan Grand Prix,44,HAM,Mercedes,2,2.0,2,1,1,1,1,2019-04-28
+2019,Azerbaijan Grand Prix,5,VET,Ferrari,3,3.0,3,1,1,1,1,2019-04-28
+2019,Azerbaijan Grand Prix,33,VER,Red Bull Racing,4,4.0,4,1,0,1,1,2019-04-28
+2019,Azerbaijan Grand Prix,16,LEC,Ferrari,8,9.0,5,1,0,1,1,2019-04-28
+2019,Azerbaijan Grand Prix,11,PER,Racing Point,5,5.0,6,1,0,0,1,2019-04-28
+2019,Azerbaijan Grand Prix,55,SAI,McLaren,9,10.0,7,1,0,0,1,2019-04-28
+2019,Azerbaijan Grand Prix,4,NOR,McLaren,7,7.0,8,1,0,0,1,2019-04-28
+2019,Azerbaijan Grand Prix,18,STR,Racing Point,13,14.0,9,1,0,0,1,2019-04-28
+2019,Azerbaijan Grand Prix,7,RAI,Alfa Romeo Racing,0,19.0,10,0,0,0,1,2019-04-28
+2019,Azerbaijan Grand Prix,23,ALB,Toro Rosso,11,12.0,11,0,0,0,0,2019-04-28
+2019,Azerbaijan Grand Prix,99,GIO,Alfa Romeo Racing,17,8.0,12,0,0,0,0,2019-04-28
+2019,Azerbaijan Grand Prix,20,MAG,Haas F1 Team,12,13.0,13,0,0,0,0,2019-04-28
+2019,Azerbaijan Grand Prix,27,HUL,Renault,15,16.0,14,0,0,0,0,2019-04-28
+2019,Azerbaijan Grand Prix,63,RUS,Williams,16,17.0,15,0,0,0,0,2019-04-28
+2019,Azerbaijan Grand Prix,88,KUB,Williams,0,18.0,16,0,0,0,0,2019-04-28
+2019,Azerbaijan Grand Prix,10,GAS,Red Bull Racing,0,20.0,17,0,0,0,0,2019-04-28
+2019,Azerbaijan Grand Prix,8,GRO,Haas F1 Team,14,15.0,18,0,0,0,0,2019-04-28
+2019,Azerbaijan Grand Prix,26,KVY,Toro Rosso,6,6.0,19,0,0,0,0,2019-04-28
+2019,Azerbaijan Grand Prix,3,RIC,Renault,10,11.0,20,0,0,0,0,2019-04-28
+2019,Spanish Grand Prix,44,HAM,Mercedes,2,2.0,1,1,1,1,1,2019-05-12
+2019,Spanish Grand Prix,77,BOT,Mercedes,1,1.0,2,1,1,1,1,2019-05-12
+2019,Spanish Grand Prix,33,VER,Red Bull Racing,4,4.0,3,1,1,1,1,2019-05-12
+2019,Spanish Grand Prix,5,VET,Ferrari,3,3.0,4,1,0,1,1,2019-05-12
+2019,Spanish Grand Prix,16,LEC,Ferrari,5,5.0,5,1,0,1,1,2019-05-12
+2019,Spanish Grand Prix,10,GAS,Red Bull Racing,6,6.0,6,1,0,0,1,2019-05-12
+2019,Spanish Grand Prix,20,MAG,Haas F1 Team,8,8.0,7,1,0,0,1,2019-05-12
+2019,Spanish Grand Prix,55,SAI,McLaren,12,13.0,8,1,0,0,1,2019-05-12
+2019,Spanish Grand Prix,26,KVY,Toro Rosso,9,9.0,9,1,0,0,1,2019-05-12
+2019,Spanish Grand Prix,8,GRO,Haas F1 Team,7,7.0,10,1,0,0,1,2019-05-12
+2019,Spanish Grand Prix,23,ALB,Toro Rosso,11,12.0,11,1,0,0,0,2019-05-12
+2019,Spanish Grand Prix,3,RIC,Renault,13,10.0,12,1,0,0,0,2019-05-12
+2019,Spanish Grand Prix,27,HUL,Renault,0,16.0,13,1,0,0,0,2019-05-12
+2019,Spanish Grand Prix,7,RAI,Alfa Romeo Racing,14,14.0,14,1,0,0,0,2019-05-12
+2019,Spanish Grand Prix,11,PER,Racing Point,15,15.0,15,1,0,0,0,2019-05-12
+2019,Spanish Grand Prix,99,GIO,Alfa Romeo Racing,18,18.0,16,1,0,0,0,2019-05-12
+2019,Spanish Grand Prix,63,RUS,Williams,19,19.0,17,0,0,0,0,2019-05-12
+2019,Spanish Grand Prix,88,KUB,Williams,17,20.0,18,0,0,0,0,2019-05-12
+2019,Spanish Grand Prix,18,STR,Racing Point,16,17.0,19,0,0,0,0,2019-05-12
+2019,Spanish Grand Prix,4,NOR,McLaren,10,11.0,20,0,0,0,0,2019-05-12
+2019,Monaco Grand Prix,44,HAM,Mercedes,1,1.0,1,1,1,1,1,2019-05-26
+2019,Monaco Grand Prix,5,VET,Ferrari,4,4.0,2,1,1,1,1,2019-05-26
+2019,Monaco Grand Prix,77,BOT,Mercedes,2,2.0,3,1,1,1,1,2019-05-26
+2019,Monaco Grand Prix,33,VER,Red Bull Racing,3,3.0,4,1,0,1,1,2019-05-26
+2019,Monaco Grand Prix,10,GAS,Red Bull Racing,8,5.0,5,1,0,1,1,2019-05-26
+2019,Monaco Grand Prix,55,SAI,McLaren,9,9.0,6,1,0,0,1,2019-05-26
+2019,Monaco Grand Prix,26,KVY,Toro Rosso,7,8.0,7,1,0,0,1,2019-05-26
+2019,Monaco Grand Prix,23,ALB,Toro Rosso,10,10.0,8,1,0,0,1,2019-05-26
+2019,Monaco Grand Prix,3,RIC,Renault,6,7.0,9,1,0,0,1,2019-05-26
+2019,Monaco Grand Prix,8,GRO,Haas F1 Team,13,13.0,10,1,0,0,1,2019-05-26
+2019,Monaco Grand Prix,4,NOR,McLaren,12,12.0,11,1,0,0,0,2019-05-26
+2019,Monaco Grand Prix,11,PER,Racing Point,16,17.0,12,0,0,0,0,2019-05-26
+2019,Monaco Grand Prix,27,HUL,Renault,11,11.0,13,0,0,0,0,2019-05-26
+2019,Monaco Grand Prix,20,MAG,Haas F1 Team,5,6.0,14,0,0,0,0,2019-05-26
+2019,Monaco Grand Prix,63,RUS,Williams,19,19.0,15,0,0,0,0,2019-05-26
+2019,Monaco Grand Prix,18,STR,Racing Point,17,18.0,16,0,0,0,0,2019-05-26
+2019,Monaco Grand Prix,7,RAI,Alfa Romeo Racing,14,14.0,17,0,0,0,0,2019-05-26
+2019,Monaco Grand Prix,88,KUB,Williams,20,20.0,18,0,0,0,0,2019-05-26
+2019,Monaco Grand Prix,99,GIO,Alfa Romeo Racing,18,15.0,19,0,0,0,0,2019-05-26
+2019,Monaco Grand Prix,16,LEC,Ferrari,15,16.0,20,0,0,0,0,2019-05-26
+2019,Canadian Grand Prix,44,HAM,Mercedes,2,2.0,1,1,1,1,1,2019-06-09
+2019,Canadian Grand Prix,5,VET,Ferrari,1,1.0,2,1,1,1,1,2019-06-09
+2019,Canadian Grand Prix,16,LEC,Ferrari,3,3.0,3,1,1,1,1,2019-06-09
+2019,Canadian Grand Prix,77,BOT,Mercedes,6,6.0,4,1,0,1,1,2019-06-09
+2019,Canadian Grand Prix,33,VER,Red Bull Racing,9,11.0,5,1,0,1,1,2019-06-09
+2019,Canadian Grand Prix,3,RIC,Renault,4,4.0,6,0,0,0,1,2019-06-09
+2019,Canadian Grand Prix,27,HUL,Renault,7,7.0,7,0,0,0,1,2019-06-09
+2019,Canadian Grand Prix,10,GAS,Red Bull Racing,5,5.0,8,0,0,0,1,2019-06-09
+2019,Canadian Grand Prix,18,STR,Racing Point,17,18.0,9,0,0,0,1,2019-06-09
+2019,Canadian Grand Prix,26,KVY,Toro Rosso,10,12.0,10,0,0,0,1,2019-06-09
+2019,Canadian Grand Prix,55,SAI,McLaren,11,9.0,11,0,0,0,0,2019-06-09
+2019,Canadian Grand Prix,11,PER,Racing Point,15,16.0,12,0,0,0,0,2019-06-09
+2019,Canadian Grand Prix,99,GIO,Alfa Romeo Racing,12,13.0,13,0,0,0,0,2019-06-09
+2019,Canadian Grand Prix,8,GRO,Haas F1 Team,14,15.0,14,0,0,0,0,2019-06-09
+2019,Canadian Grand Prix,7,RAI,Alfa Romeo Racing,16,17.0,15,0,0,0,0,2019-06-09
+2019,Canadian Grand Prix,63,RUS,Williams,18,19.0,16,0,0,0,0,2019-06-09
+2019,Canadian Grand Prix,20,MAG,Haas F1 Team,0,10.0,17,0,0,0,0,2019-06-09
+2019,Canadian Grand Prix,88,KUB,Williams,19,20.0,18,0,0,0,0,2019-06-09
+2019,Canadian Grand Prix,23,ALB,Toro Rosso,13,14.0,19,0,0,0,0,2019-06-09
+2019,Canadian Grand Prix,4,NOR,McLaren,8,8.0,20,0,0,0,0,2019-06-09
+2019,French Grand Prix,44,HAM,Mercedes,1,1.0,1,1,1,1,1,2019-06-23
+2019,French Grand Prix,77,BOT,Mercedes,2,2.0,2,1,1,1,1,2019-06-23
+2019,French Grand Prix,16,LEC,Ferrari,3,3.0,3,1,1,1,1,2019-06-23
+2019,French Grand Prix,33,VER,Red Bull Racing,4,4.0,4,1,0,1,1,2019-06-23
+2019,French Grand Prix,5,VET,Ferrari,7,7.0,5,1,0,1,1,2019-06-23
+2019,French Grand Prix,55,SAI,McLaren,6,6.0,6,1,0,0,1,2019-06-23
+2019,French Grand Prix,7,RAI,Alfa Romeo Racing,12,12.0,7,0,0,0,1,2019-06-23
+2019,French Grand Prix,27,HUL,Renault,13,13.0,8,0,0,0,1,2019-06-23
+2019,French Grand Prix,4,NOR,McLaren,5,5.0,9,0,0,0,1,2019-06-23
+2019,French Grand Prix,10,GAS,Red Bull Racing,9,9.0,10,0,0,0,1,2019-06-23
+2019,French Grand Prix,3,RIC,Renault,8,8.0,11,0,0,0,0,2019-06-23
+2019,French Grand Prix,11,PER,Racing Point,14,14.0,12,0,0,0,0,2019-06-23
+2019,French Grand Prix,18,STR,Racing Point,17,18.0,13,0,0,0,0,2019-06-23
+2019,French Grand Prix,26,KVY,Toro Rosso,19,16.0,14,0,0,0,0,2019-06-23
+2019,French Grand Prix,23,ALB,Toro Rosso,11,11.0,15,0,0,0,0,2019-06-23
+2019,French Grand Prix,99,GIO,Alfa Romeo Racing,10,10.0,16,0,0,0,0,2019-06-23
+2019,French Grand Prix,20,MAG,Haas F1 Team,15,15.0,17,0,0,0,0,2019-06-23
+2019,French Grand Prix,88,KUB,Williams,18,20.0,18,0,0,0,0,2019-06-23
+2019,French Grand Prix,63,RUS,Williams,20,19.0,19,0,0,0,0,2019-06-23
+2019,French Grand Prix,8,GRO,Haas F1 Team,16,17.0,20,0,0,0,0,2019-06-23
+2019,Austrian Grand Prix,33,VER,Red Bull Racing,2,3.0,1,1,1,1,1,2019-06-30
+2019,Austrian Grand Prix,16,LEC,Ferrari,1,1.0,2,1,1,1,1,2019-06-30
+2019,Austrian Grand Prix,77,BOT,Mercedes,3,4.0,3,1,1,1,1,2019-06-30
+2019,Austrian Grand Prix,5,VET,Ferrari,9,10.0,4,1,0,1,1,2019-06-30
+2019,Austrian Grand Prix,44,HAM,Mercedes,4,2.0,5,1,0,1,1,2019-06-30
+2019,Austrian Grand Prix,4,NOR,McLaren,5,6.0,6,0,0,0,1,2019-06-30
+2019,Austrian Grand Prix,10,GAS,Red Bull Racing,8,9.0,7,0,0,0,1,2019-06-30
+2019,Austrian Grand Prix,55,SAI,McLaren,19,15.0,8,0,0,0,1,2019-06-30
+2019,Austrian Grand Prix,7,RAI,Alfa Romeo Racing,6,7.0,9,0,0,0,1,2019-06-30
+2019,Austrian Grand Prix,99,GIO,Alfa Romeo Racing,7,8.0,10,0,0,0,1,2019-06-30
+2019,Austrian Grand Prix,11,PER,Racing Point,13,16.0,11,0,0,0,0,2019-06-30
+2019,Austrian Grand Prix,3,RIC,Renault,12,14.0,12,0,0,0,0,2019-06-30
+2019,Austrian Grand Prix,27,HUL,Renault,15,12.0,13,0,0,0,0,2019-06-30
+2019,Austrian Grand Prix,18,STR,Racing Point,14,17.0,14,0,0,0,0,2019-06-30
+2019,Austrian Grand Prix,23,ALB,Toro Rosso,18,13.0,15,0,0,0,0,2019-06-30
+2019,Austrian Grand Prix,8,GRO,Haas F1 Team,11,11.0,16,0,0,0,0,2019-06-30
+2019,Austrian Grand Prix,26,KVY,Toro Rosso,16,18.0,17,0,0,0,0,2019-06-30
+2019,Austrian Grand Prix,63,RUS,Williams,0,19.0,18,0,0,0,0,2019-06-30
+2019,Austrian Grand Prix,20,MAG,Haas F1 Team,10,5.0,19,0,0,0,0,2019-06-30
+2019,Austrian Grand Prix,88,KUB,Williams,17,20.0,20,0,0,0,0,2019-06-30
+2019,British Grand Prix,44,HAM,Mercedes,2,2.0,1,1,1,1,1,2019-07-14
+2019,British Grand Prix,77,BOT,Mercedes,1,1.0,2,1,1,1,1,2019-07-14
+2019,British Grand Prix,16,LEC,Ferrari,3,3.0,3,1,1,1,1,2019-07-14
+2019,British Grand Prix,10,GAS,Red Bull Racing,5,5.0,4,1,0,1,1,2019-07-14
+2019,British Grand Prix,33,VER,Red Bull Racing,4,4.0,5,1,0,1,1,2019-07-14
+2019,British Grand Prix,55,SAI,McLaren,13,13.0,6,1,0,0,1,2019-07-14
+2019,British Grand Prix,3,RIC,Renault,7,7.0,7,1,0,0,1,2019-07-14
+2019,British Grand Prix,7,RAI,Alfa Romeo Racing,12,12.0,8,1,0,0,1,2019-07-14
+2019,British Grand Prix,26,KVY,Toro Rosso,17,17.0,9,1,0,0,1,2019-07-14
+2019,British Grand Prix,27,HUL,Renault,10,10.0,10,1,0,0,1,2019-07-14
+2019,British Grand Prix,4,NOR,McLaren,8,8.0,11,1,0,0,0,2019-07-14
+2019,British Grand Prix,23,ALB,Toro Rosso,9,9.0,12,1,0,0,0,2019-07-14
+2019,British Grand Prix,18,STR,Racing Point,18,18.0,13,1,0,0,0,2019-07-14
+2019,British Grand Prix,63,RUS,Williams,19,19.0,14,0,0,0,0,2019-07-14
+2019,British Grand Prix,88,KUB,Williams,20,20.0,15,0,0,0,0,2019-07-14
+2019,British Grand Prix,5,VET,Ferrari,6,6.0,16,0,0,0,0,2019-07-14
+2019,British Grand Prix,11,PER,Racing Point,15,15.0,17,0,0,0,0,2019-07-14
+2019,British Grand Prix,99,GIO,Alfa Romeo Racing,11,11.0,18,0,0,0,0,2019-07-14
+2019,British Grand Prix,8,GRO,Haas F1 Team,14,14.0,19,0,0,0,0,2019-07-14
+2019,British Grand Prix,20,MAG,Haas F1 Team,16,16.0,20,0,0,0,0,2019-07-14
+2019,German Grand Prix,33,VER,Red Bull Racing,2,2.0,1,1,1,1,1,2019-07-28
+2019,German Grand Prix,5,VET,Ferrari,20,20.0,2,1,1,1,1,2019-07-28
+2019,German Grand Prix,26,KVY,Toro Rosso,14,14.0,3,1,1,1,1,2019-07-28
+2019,German Grand Prix,18,STR,Racing Point,15,15.0,4,1,0,1,1,2019-07-28
+2019,German Grand Prix,55,SAI,McLaren,7,7.0,5,1,0,1,1,2019-07-28
+2019,German Grand Prix,23,ALB,Toro Rosso,16,17.0,6,1,0,0,1,2019-07-28
+2019,German Grand Prix,8,GRO,Haas F1 Team,6,6.0,7,1,0,0,1,2019-07-28
+2019,German Grand Prix,20,MAG,Haas F1 Team,12,12.0,8,1,0,0,1,2019-07-28
+2019,German Grand Prix,44,HAM,Mercedes,1,1.0,9,1,0,0,1,2019-07-28
+2019,German Grand Prix,88,KUB,Williams,18,19.0,10,1,0,0,1,2019-07-28
+2019,German Grand Prix,63,RUS,Williams,17,18.0,11,1,0,0,0,2019-07-28
+2019,German Grand Prix,7,RAI,Alfa Romeo Racing,5,5.0,12,1,0,0,0,2019-07-28
+2019,German Grand Prix,99,GIO,Alfa Romeo Racing,11,11.0,13,1,0,0,0,2019-07-28
+2019,German Grand Prix,10,GAS,Red Bull Racing,4,4.0,14,0,0,0,0,2019-07-28
+2019,German Grand Prix,77,BOT,Mercedes,3,3.0,15,0,0,0,0,2019-07-28
+2019,German Grand Prix,27,HUL,Renault,9,9.0,16,0,0,0,0,2019-07-28
+2019,German Grand Prix,16,LEC,Ferrari,10,10.0,17,0,0,0,0,2019-07-28
+2019,German Grand Prix,4,NOR,McLaren,19,16.0,18,0,0,0,0,2019-07-28
+2019,German Grand Prix,3,RIC,Renault,13,13.0,19,0,0,0,0,2019-07-28
+2019,German Grand Prix,11,PER,Racing Point,8,8.0,20,0,0,0,0,2019-07-28
+2019,Hungarian Grand Prix,44,HAM,Mercedes,3,3.0,1,1,1,1,1,2019-08-04
+2019,Hungarian Grand Prix,33,VER,Red Bull Racing,1,1.0,2,1,1,1,1,2019-08-04
+2019,Hungarian Grand Prix,5,VET,Ferrari,5,5.0,3,1,1,1,1,2019-08-04
+2019,Hungarian Grand Prix,16,LEC,Ferrari,4,4.0,4,1,0,1,1,2019-08-04
+2019,Hungarian Grand Prix,55,SAI,McLaren,8,8.0,5,0,0,1,1,2019-08-04
+2019,Hungarian Grand Prix,10,GAS,Red Bull Racing,6,6.0,6,0,0,0,1,2019-08-04
+2019,Hungarian Grand Prix,7,RAI,Alfa Romeo Racing,10,10.0,7,0,0,0,1,2019-08-04
+2019,Hungarian Grand Prix,77,BOT,Mercedes,2,2.0,8,0,0,0,1,2019-08-04
+2019,Hungarian Grand Prix,4,NOR,McLaren,7,7.0,9,0,0,0,1,2019-08-04
+2019,Hungarian Grand Prix,23,ALB,Toro Rosso,12,12.0,10,0,0,0,1,2019-08-04
+2019,Hungarian Grand Prix,11,PER,Racing Point,16,17.0,11,0,0,0,0,2019-08-04
+2019,Hungarian Grand Prix,27,HUL,Renault,11,11.0,12,0,0,0,0,2019-08-04
+2019,Hungarian Grand Prix,20,MAG,Haas F1 Team,14,15.0,13,0,0,0,0,2019-08-04
+2019,Hungarian Grand Prix,3,RIC,Renault,20,18.0,14,0,0,0,0,2019-08-04
+2019,Hungarian Grand Prix,26,KVY,Toro Rosso,13,13.0,15,0,0,0,0,2019-08-04
+2019,Hungarian Grand Prix,63,RUS,Williams,15,16.0,16,0,0,0,0,2019-08-04
+2019,Hungarian Grand Prix,18,STR,Racing Point,18,19.0,17,0,0,0,0,2019-08-04
+2019,Hungarian Grand Prix,99,GIO,Alfa Romeo Racing,17,14.0,18,0,0,0,0,2019-08-04
+2019,Hungarian Grand Prix,88,KUB,Williams,19,20.0,19,0,0,0,0,2019-08-04
+2019,Hungarian Grand Prix,8,GRO,Haas F1 Team,9,9.0,20,0,0,0,0,2019-08-04
+2019,Belgian Grand Prix,16,LEC,Ferrari,1,1.0,1,1,1,1,1,2019-09-01
+2019,Belgian Grand Prix,44,HAM,Mercedes,3,3.0,2,1,1,1,1,2019-09-01
+2019,Belgian Grand Prix,77,BOT,Mercedes,4,4.0,3,1,1,1,1,2019-09-01
+2019,Belgian Grand Prix,5,VET,Ferrari,2,2.0,4,1,0,1,1,2019-09-01
+2019,Belgian Grand Prix,23,ALB,Red Bull Racing,17,14.0,5,1,0,1,1,2019-09-01
+2019,Belgian Grand Prix,11,PER,Racing Point,7,9.0,6,1,0,0,1,2019-09-01
+2019,Belgian Grand Prix,26,KVY,Toro Rosso,19,18.0,7,1,0,0,1,2019-09-01
+2019,Belgian Grand Prix,27,HUL,Renault,12,7.0,8,1,0,0,1,2019-09-01
+2019,Belgian Grand Prix,10,GAS,Toro Rosso,13,16.0,9,1,0,0,1,2019-09-01
+2019,Belgian Grand Prix,18,STR,Racing Point,16,13.0,10,1,0,0,1,2019-09-01
+2019,Belgian Grand Prix,4,NOR,McLaren,11,12.0,11,0,0,0,0,2019-09-01
+2019,Belgian Grand Prix,20,MAG,Haas F1 Team,8,10.0,12,0,0,0,0,2019-09-01
+2019,Belgian Grand Prix,8,GRO,Haas F1 Team,9,11.0,13,0,0,0,0,2019-09-01
+2019,Belgian Grand Prix,3,RIC,Renault,10,6.0,14,0,0,0,0,2019-09-01
+2019,Belgian Grand Prix,63,RUS,Williams,14,19.0,15,0,0,0,0,2019-09-01
+2019,Belgian Grand Prix,7,RAI,Alfa Romeo Racing,6,8.0,16,0,0,0,0,2019-09-01
+2019,Belgian Grand Prix,88,KUB,Williams,0,20.0,17,0,0,0,0,2019-09-01
+2019,Belgian Grand Prix,99,GIO,Alfa Romeo Racing,18,15.0,18,0,0,0,0,2019-09-01
+2019,Belgian Grand Prix,55,SAI,McLaren,15,17.0,19,0,0,0,0,2019-09-01
+2019,Belgian Grand Prix,33,VER,Red Bull Racing,5,5.0,20,0,0,0,0,2019-09-01
+2019,Italian Grand Prix,16,LEC,Ferrari,1,1.0,1,1,1,1,1,2019-09-08
+2019,Italian Grand Prix,77,BOT,Mercedes,3,3.0,2,1,1,1,1,2019-09-08
+2019,Italian Grand Prix,44,HAM,Mercedes,2,2.0,3,1,1,1,1,2019-09-08
+2019,Italian Grand Prix,3,RIC,Renault,5,5.0,4,1,0,1,1,2019-09-08
+2019,Italian Grand Prix,27,HUL,Renault,6,6.0,5,1,0,1,1,2019-09-08
+2019,Italian Grand Prix,23,ALB,Red Bull Racing,8,8.0,6,1,0,0,1,2019-09-08
+2019,Italian Grand Prix,11,PER,Racing Point,18,17.0,7,1,0,0,1,2019-09-08
+2019,Italian Grand Prix,33,VER,Red Bull Racing,19,20.0,8,1,0,0,1,2019-09-08
+2019,Italian Grand Prix,99,GIO,Alfa Romeo Racing,10,11.0,9,0,0,0,1,2019-09-08
+2019,Italian Grand Prix,4,NOR,McLaren,16,14.0,10,0,0,0,1,2019-09-08
+2019,Italian Grand Prix,10,GAS,Toro Rosso,17,15.0,11,0,0,0,0,2019-09-08
+2019,Italian Grand Prix,18,STR,Racing Point,9,9.0,12,0,0,0,0,2019-09-08
+2019,Italian Grand Prix,5,VET,Ferrari,4,4.0,13,0,0,0,0,2019-09-08
+2019,Italian Grand Prix,63,RUS,Williams,14,18.0,14,0,0,0,0,2019-09-08
+2019,Italian Grand Prix,7,RAI,Alfa Romeo Racing,0,10.0,15,0,0,0,0,2019-09-08
+2019,Italian Grand Prix,8,GRO,Haas F1 Team,13,16.0,16,0,0,0,0,2019-09-08
+2019,Italian Grand Prix,88,KUB,Williams,15,19.0,17,0,0,0,0,2019-09-08
+2019,Italian Grand Prix,20,MAG,Haas F1 Team,11,12.0,18,0,0,0,0,2019-09-08
+2019,Italian Grand Prix,26,KVY,Toro Rosso,12,13.0,19,0,0,0,0,2019-09-08
+2019,Italian Grand Prix,55,SAI,McLaren,7,7.0,20,0,0,0,0,2019-09-08
+2019,Singapore Grand Prix,5,VET,Ferrari,3,3.0,1,1,1,1,1,2019-09-22
+2019,Singapore Grand Prix,16,LEC,Ferrari,1,1.0,2,1,1,1,1,2019-09-22
+2019,Singapore Grand Prix,33,VER,Red Bull Racing,4,4.0,3,1,1,1,1,2019-09-22
+2019,Singapore Grand Prix,44,HAM,Mercedes,2,2.0,4,1,0,1,1,2019-09-22
+2019,Singapore Grand Prix,77,BOT,Mercedes,5,5.0,5,1,0,1,1,2019-09-22
+2019,Singapore Grand Prix,23,ALB,Red Bull Racing,6,6.0,6,1,0,0,1,2019-09-22
+2019,Singapore Grand Prix,4,NOR,McLaren,9,9.0,7,1,0,0,1,2019-09-22
+2019,Singapore Grand Prix,10,GAS,Toro Rosso,11,12.0,8,1,0,0,1,2019-09-22
+2019,Singapore Grand Prix,27,HUL,Renault,8,8.0,9,1,0,0,1,2019-09-22
+2019,Singapore Grand Prix,99,GIO,Alfa Romeo Racing,10,11.0,10,1,0,0,1,2019-09-22
+2019,Singapore Grand Prix,8,GRO,Haas F1 Team,17,17.0,11,1,0,0,0,2019-09-22
+2019,Singapore Grand Prix,55,SAI,McLaren,7,7.0,12,1,0,0,0,2019-09-22
+2019,Singapore Grand Prix,18,STR,Racing Point,16,16.0,13,1,0,0,0,2019-09-22
+2019,Singapore Grand Prix,3,RIC,Renault,20,20.0,14,1,0,0,0,2019-09-22
+2019,Singapore Grand Prix,26,KVY,Toro Rosso,14,15.0,15,1,0,0,0,2019-09-22
+2019,Singapore Grand Prix,88,KUB,Williams,19,19.0,16,1,0,0,0,2019-09-22
+2019,Singapore Grand Prix,20,MAG,Haas F1 Team,13,14.0,17,1,0,0,0,2019-09-22
+2019,Singapore Grand Prix,7,RAI,Alfa Romeo Racing,12,13.0,18,0,0,0,0,2019-09-22
+2019,Singapore Grand Prix,11,PER,Racing Point,15,10.0,19,0,0,0,0,2019-09-22
+2019,Singapore Grand Prix,63,RUS,Williams,18,18.0,20,0,0,0,0,2019-09-22
+2019,Russian Grand Prix,44,HAM,Mercedes,2,2.0,1,1,1,1,1,2019-09-29
+2019,Russian Grand Prix,77,BOT,Mercedes,4,5.0,2,1,1,1,1,2019-09-29
+2019,Russian Grand Prix,16,LEC,Ferrari,1,1.0,3,1,1,1,1,2019-09-29
+2019,Russian Grand Prix,33,VER,Red Bull Racing,9,4.0,4,1,0,1,1,2019-09-29
+2019,Russian Grand Prix,23,ALB,Red Bull Racing,0,19.0,5,1,0,1,1,2019-09-29
+2019,Russian Grand Prix,55,SAI,McLaren,5,6.0,6,1,0,0,1,2019-09-29
+2019,Russian Grand Prix,11,PER,Racing Point,11,12.0,7,1,0,0,1,2019-09-29
+2019,Russian Grand Prix,4,NOR,McLaren,7,8.0,8,1,0,0,1,2019-09-29
+2019,Russian Grand Prix,20,MAG,Haas F1 Team,13,14.0,9,1,0,0,1,2019-09-29
+2019,Russian Grand Prix,27,HUL,Renault,6,7.0,10,1,0,0,1,2019-09-29
+2019,Russian Grand Prix,18,STR,Racing Point,14,15.0,11,1,0,0,0,2019-09-29
+2019,Russian Grand Prix,26,KVY,Toro Rosso,19,20.0,12,1,0,0,0,2019-09-29
+2019,Russian Grand Prix,7,RAI,Alfa Romeo Racing,15,16.0,13,1,0,0,0,2019-09-29
+2019,Russian Grand Prix,10,GAS,Toro Rosso,16,11.0,14,1,0,0,0,2019-09-29
+2019,Russian Grand Prix,99,GIO,Alfa Romeo Racing,12,13.0,15,1,0,0,0,2019-09-29
+2019,Russian Grand Prix,88,KUB,Williams,18,18.0,16,0,0,0,0,2019-09-29
+2019,Russian Grand Prix,63,RUS,Williams,17,17.0,17,0,0,0,0,2019-09-29
+2019,Russian Grand Prix,5,VET,Ferrari,3,3.0,18,0,0,0,0,2019-09-29
+2019,Russian Grand Prix,3,RIC,Renault,10,10.0,19,0,0,0,0,2019-09-29
+2019,Russian Grand Prix,8,GRO,Haas F1 Team,8,9.0,20,0,0,0,0,2019-09-29
+2019,Japanese Grand Prix,77,BOT,Mercedes,3,3.0,1,1,1,1,1,2019-10-13
+2019,Japanese Grand Prix,5,VET,Ferrari,1,1.0,2,1,1,1,1,2019-10-13
+2019,Japanese Grand Prix,44,HAM,Mercedes,4,4.0,3,1,1,1,1,2019-10-13
+2019,Japanese Grand Prix,23,ALB,Red Bull Racing,6,6.0,4,1,0,1,1,2019-10-13
+2019,Japanese Grand Prix,55,SAI,McLaren,7,7.0,5,1,0,1,1,2019-10-13
+2019,Japanese Grand Prix,16,LEC,Ferrari,2,2.0,6,0,0,0,1,2019-10-13
+2019,Japanese Grand Prix,10,GAS,Toro Rosso,9,9.0,7,0,0,0,1,2019-10-13
+2019,Japanese Grand Prix,11,PER,Racing Point,17,17.0,8,0,0,0,1,2019-10-13
+2019,Japanese Grand Prix,18,STR,Racing Point,12,12.0,9,0,0,0,1,2019-10-13
+2019,Japanese Grand Prix,26,KVY,Toro Rosso,14,14.0,10,0,0,0,1,2019-10-13
+2019,Japanese Grand Prix,4,NOR,McLaren,8,8.0,11,0,0,0,0,2019-10-13
+2019,Japanese Grand Prix,7,RAI,Alfa Romeo Racing,13,13.0,12,0,0,0,0,2019-10-13
+2019,Japanese Grand Prix,8,GRO,Haas F1 Team,10,10.0,13,0,0,0,0,2019-10-13
+2019,Japanese Grand Prix,99,GIO,Alfa Romeo Racing,11,11.0,14,0,0,0,0,2019-10-13
+2019,Japanese Grand Prix,20,MAG,Haas F1 Team,19,19.0,15,0,0,0,0,2019-10-13
+2019,Japanese Grand Prix,63,RUS,Williams,18,18.0,16,0,0,0,0,2019-10-13
+2019,Japanese Grand Prix,88,KUB,Williams,0,20.0,17,0,0,0,0,2019-10-13
+2019,Japanese Grand Prix,33,VER,Red Bull Racing,5,5.0,18,0,0,0,0,2019-10-13
+2019,Japanese Grand Prix,3,RIC,Renault,16,16.0,19,0,0,0,0,2019-10-13
+2019,Japanese Grand Prix,27,HUL,Renault,15,15.0,20,0,0,0,0,2019-10-13
+2019,Mexican Grand Prix,44,HAM,Mercedes,3,4.0,1,1,1,1,1,2019-10-27
+2019,Mexican Grand Prix,5,VET,Ferrari,2,3.0,2,1,1,1,1,2019-10-27
+2019,Mexican Grand Prix,77,BOT,Mercedes,6,6.0,3,1,1,1,1,2019-10-27
+2019,Mexican Grand Prix,16,LEC,Ferrari,1,2.0,4,1,0,1,1,2019-10-27
+2019,Mexican Grand Prix,23,ALB,Red Bull Racing,5,5.0,5,1,0,1,1,2019-10-27
+2019,Mexican Grand Prix,33,VER,Red Bull Racing,4,1.0,6,1,0,0,1,2019-10-27
+2019,Mexican Grand Prix,11,PER,Racing Point,11,11.0,7,1,0,0,1,2019-10-27
+2019,Mexican Grand Prix,3,RIC,Renault,13,13.0,8,1,0,0,1,2019-10-27
+2019,Mexican Grand Prix,10,GAS,Toro Rosso,10,10.0,9,0,0,0,1,2019-10-27
+2019,Mexican Grand Prix,27,HUL,Renault,12,12.0,10,0,0,0,1,2019-10-27
+2019,Mexican Grand Prix,26,KVY,Toro Rosso,9,9.0,11,0,0,0,0,2019-10-27
+2019,Mexican Grand Prix,18,STR,Racing Point,16,16.0,12,0,0,0,0,2019-10-27
+2019,Mexican Grand Prix,55,SAI,McLaren,7,7.0,13,0,0,0,0,2019-10-27
+2019,Mexican Grand Prix,99,GIO,Alfa Romeo Racing,15,15.0,14,0,0,0,0,2019-10-27
+2019,Mexican Grand Prix,20,MAG,Haas F1 Team,17,17.0,15,0,0,0,0,2019-10-27
+2019,Mexican Grand Prix,63,RUS,Williams,19,19.0,16,0,0,0,0,2019-10-27
+2019,Mexican Grand Prix,8,GRO,Haas F1 Team,18,18.0,17,0,0,0,0,2019-10-27
+2019,Mexican Grand Prix,88,KUB,Williams,20,20.0,18,0,0,0,0,2019-10-27
+2019,Mexican Grand Prix,7,RAI,Alfa Romeo Racing,14,14.0,19,0,0,0,0,2019-10-27
+2019,Mexican Grand Prix,4,NOR,McLaren,8,8.0,20,0,0,0,0,2019-10-27
+2019,United States Grand Prix,77,BOT,Mercedes,1,1.0,1,1,1,1,1,2019-11-03
+2019,United States Grand Prix,44,HAM,Mercedes,5,5.0,2,1,1,1,1,2019-11-03
+2019,United States Grand Prix,33,VER,Red Bull Racing,3,3.0,3,1,1,1,1,2019-11-03
+2019,United States Grand Prix,16,LEC,Ferrari,4,4.0,4,1,0,1,1,2019-11-03
+2019,United States Grand Prix,23,ALB,Red Bull Racing,6,6.0,5,1,0,1,1,2019-11-03
+2019,United States Grand Prix,3,RIC,Renault,9,9.0,6,1,0,0,1,2019-11-03
+2019,United States Grand Prix,4,NOR,McLaren,8,8.0,7,1,0,0,1,2019-11-03
+2019,United States Grand Prix,55,SAI,McLaren,7,7.0,8,0,0,0,1,2019-11-03
+2019,United States Grand Prix,27,HUL,Renault,11,11.0,9,0,0,0,1,2019-11-03
+2019,United States Grand Prix,11,PER,Racing Point,0,19.0,10,0,0,0,1,2019-11-03
+2019,United States Grand Prix,7,RAI,Alfa Romeo Racing,17,17.0,11,0,0,0,0,2019-11-03
+2019,United States Grand Prix,26,KVY,Toro Rosso,13,13.0,12,0,0,0,0,2019-11-03
+2019,United States Grand Prix,18,STR,Racing Point,14,14.0,13,0,0,0,0,2019-11-03
+2019,United States Grand Prix,99,GIO,Alfa Romeo Racing,16,16.0,14,0,0,0,0,2019-11-03
+2019,United States Grand Prix,8,GRO,Haas F1 Team,15,15.0,15,0,0,0,0,2019-11-03
+2019,United States Grand Prix,10,GAS,Toro Rosso,10,10.0,16,0,0,0,0,2019-11-03
+2019,United States Grand Prix,63,RUS,Williams,18,18.0,17,0,0,0,0,2019-11-03
+2019,United States Grand Prix,20,MAG,Haas F1 Team,12,12.0,18,0,0,0,0,2019-11-03
+2019,United States Grand Prix,88,KUB,Williams,19,20.0,19,0,0,0,0,2019-11-03
+2019,United States Grand Prix,5,VET,Ferrari,2,2.0,20,0,0,0,0,2019-11-03
+2019,Brazilian Grand Prix,33,VER,Red Bull Racing,1,1.0,1,1,1,1,1,2019-11-17
+2019,Brazilian Grand Prix,10,GAS,Toro Rosso,6,7.0,2,1,1,1,1,2019-11-17
+2019,Brazilian Grand Prix,55,SAI,McLaren,20,20.0,3,1,1,1,1,2019-11-17
+2019,Brazilian Grand Prix,7,RAI,Alfa Romeo Racing,8,9.0,4,1,0,1,1,2019-11-17
+2019,Brazilian Grand Prix,99,GIO,Alfa Romeo Racing,12,13.0,5,1,0,1,1,2019-11-17
+2019,Brazilian Grand Prix,3,RIC,Renault,11,12.0,6,1,0,0,1,2019-11-17
+2019,Brazilian Grand Prix,44,HAM,Mercedes,3,3.0,7,1,0,0,1,2019-11-17
+2019,Brazilian Grand Prix,4,NOR,McLaren,10,11.0,8,1,0,0,1,2019-11-17
+2019,Brazilian Grand Prix,11,PER,Racing Point,15,15.0,9,1,0,0,1,2019-11-17
+2019,Brazilian Grand Prix,26,KVY,Toro Rosso,16,16.0,10,1,0,0,1,2019-11-17
+2019,Brazilian Grand Prix,20,MAG,Haas F1 Team,9,10.0,11,1,0,0,0,2019-11-17
+2019,Brazilian Grand Prix,63,RUS,Williams,18,18.0,12,1,0,0,0,2019-11-17
+2019,Brazilian Grand Prix,8,GRO,Haas F1 Team,7,8.0,13,1,0,0,0,2019-11-17
+2019,Brazilian Grand Prix,23,ALB,Red Bull Racing,5,6.0,14,1,0,0,0,2019-11-17
+2019,Brazilian Grand Prix,27,HUL,Renault,13,14.0,15,1,0,0,0,2019-11-17
+2019,Brazilian Grand Prix,88,KUB,Williams,19,19.0,16,0,0,0,0,2019-11-17
+2019,Brazilian Grand Prix,5,VET,Ferrari,2,2.0,17,0,0,0,0,2019-11-17
+2019,Brazilian Grand Prix,16,LEC,Ferrari,14,4.0,18,0,0,0,0,2019-11-17
+2019,Brazilian Grand Prix,18,STR,Racing Point,17,17.0,19,0,0,0,0,2019-11-17
+2019,Brazilian Grand Prix,77,BOT,Mercedes,4,5.0,20,0,0,0,0,2019-11-17
+2019,Abu Dhabi Grand Prix,44,HAM,Mercedes,1,1.0,1,1,1,1,1,2019-12-01
+2019,Abu Dhabi Grand Prix,33,VER,Red Bull Racing,2,3.0,2,1,1,1,1,2019-12-01
+2019,Abu Dhabi Grand Prix,16,LEC,Ferrari,3,4.0,3,1,1,1,1,2019-12-01
+2019,Abu Dhabi Grand Prix,77,BOT,Mercedes,20,2.0,4,1,0,1,1,2019-12-01
+2019,Abu Dhabi Grand Prix,5,VET,Ferrari,4,5.0,5,1,0,1,1,2019-12-01
+2019,Abu Dhabi Grand Prix,23,ALB,Red Bull Racing,5,6.0,6,1,0,0,1,2019-12-01
+2019,Abu Dhabi Grand Prix,11,PER,Racing Point,10,11.0,7,0,0,0,1,2019-12-01
+2019,Abu Dhabi Grand Prix,4,NOR,McLaren,6,7.0,8,0,0,0,1,2019-12-01
+2019,Abu Dhabi Grand Prix,26,KVY,Toro Rosso,13,14.0,9,0,0,0,1,2019-12-01
+2019,Abu Dhabi Grand Prix,55,SAI,McLaren,8,9.0,10,0,0,0,1,2019-12-01
+2019,Abu Dhabi Grand Prix,3,RIC,Renault,7,8.0,11,0,0,0,0,2019-12-01
+2019,Abu Dhabi Grand Prix,27,HUL,Renault,9,10.0,12,0,0,0,0,2019-12-01
+2019,Abu Dhabi Grand Prix,7,RAI,Alfa Romeo Racing,17,18.0,13,0,0,0,0,2019-12-01
+2019,Abu Dhabi Grand Prix,20,MAG,Haas F1 Team,14,15.0,14,0,0,0,0,2019-12-01
+2019,Abu Dhabi Grand Prix,8,GRO,Haas F1 Team,15,16.0,15,0,0,0,0,2019-12-01
+2019,Abu Dhabi Grand Prix,99,GIO,Alfa Romeo Racing,16,17.0,16,0,0,0,0,2019-12-01
+2019,Abu Dhabi Grand Prix,63,RUS,Williams,18,19.0,17,0,0,0,0,2019-12-01
+2019,Abu Dhabi Grand Prix,10,GAS,Toro Rosso,11,12.0,18,0,0,0,0,2019-12-01
+2019,Abu Dhabi Grand Prix,88,KUB,Williams,19,20.0,19,0,0,0,0,2019-12-01
+2019,Abu Dhabi Grand Prix,18,STR,Racing Point,12,13.0,20,0,0,0,0,2019-12-01

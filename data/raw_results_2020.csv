@@ -1,0 +1,381 @@
+Year,EventName,DriverNumber,Abbreviation,TeamName,GridPos,QualiPos,FinishPos,DidFinish,Top3,Top5,Top10,EventDate
+2020,Pre-Season Test 1,77,BOT,Mercedes,1,1,1,1,1,1,1,2020-02-21
+2020,Pre-Season Test 1,16,LEC,Ferrari,7,7,2,1,1,1,1,2020-02-21
+2020,Pre-Season Test 1,4,NOR,McLaren,3,4,3,1,1,1,1,2020-02-21
+2020,Pre-Season Test 1,44,HAM,Mercedes,5,2,4,1,0,1,1,2020-02-21
+2020,Pre-Season Test 1,55,SAI,McLaren,8,8,5,1,0,1,1,2020-02-21
+2020,Pre-Season Test 1,11,PER,Racing Point,6,6,6,1,0,0,1,2020-02-21
+2020,Pre-Season Test 1,10,GAS,AlphaTauri,12,12,7,1,0,0,1,2020-02-21
+2020,Pre-Season Test 1,31,OCO,Renault,14,14,8,1,0,0,1,2020-02-21
+2020,Pre-Season Test 1,99,GIO,Alfa Romeo Racing,18,18,9,1,0,0,1,2020-02-21
+2020,Pre-Season Test 1,5,VET,Ferrari,11,11,10,1,0,0,1,2020-02-21
+2020,Pre-Season Test 1,6,LAT,Williams,20,20,11,1,0,0,0,2020-02-21
+2020,Pre-Season Test 1,26,KVY,AlphaTauri,13,13,12,0,0,0,0,2020-02-21
+2020,Pre-Season Test 1,23,ALB,Red Bull Racing,4,5,13,0,0,0,0,2020-02-21
+2020,Pre-Season Test 1,7,RAI,Alfa Romeo Racing,19,19,14,0,0,0,0,2020-02-21
+2020,Pre-Season Test 1,63,RUS,Williams,17,17,15,0,0,0,0,2020-02-21
+2020,Pre-Season Test 1,8,GRO,Haas F1 Team,15,15,16,0,0,0,0,2020-02-21
+2020,Pre-Season Test 1,20,MAG,Haas F1 Team,16,16,17,0,0,0,0,2020-02-21
+2020,Pre-Season Test 1,18,STR,Racing Point,9,9,18,0,0,0,0,2020-02-21
+2020,Pre-Season Test 1,3,RIC,Renault,10,10,19,0,0,0,0,2020-02-21
+2020,Pre-Season Test 1,33,VER,Red Bull Racing,2,3,20,0,0,0,0,2020-02-21
+2020,Pre-Season Test 2,77,BOT,Mercedes,1,1,1,1,1,1,1,2020-02-28
+2020,Pre-Season Test 2,16,LEC,Ferrari,7,7,2,1,1,1,1,2020-02-28
+2020,Pre-Season Test 2,4,NOR,McLaren,3,4,3,1,1,1,1,2020-02-28
+2020,Pre-Season Test 2,44,HAM,Mercedes,5,2,4,1,0,1,1,2020-02-28
+2020,Pre-Season Test 2,55,SAI,McLaren,8,8,5,1,0,1,1,2020-02-28
+2020,Pre-Season Test 2,11,PER,Racing Point,6,6,6,1,0,0,1,2020-02-28
+2020,Pre-Season Test 2,10,GAS,AlphaTauri,12,12,7,1,0,0,1,2020-02-28
+2020,Pre-Season Test 2,31,OCO,Renault,14,14,8,1,0,0,1,2020-02-28
+2020,Pre-Season Test 2,99,GIO,Alfa Romeo Racing,18,18,9,1,0,0,1,2020-02-28
+2020,Pre-Season Test 2,5,VET,Ferrari,11,11,10,1,0,0,1,2020-02-28
+2020,Pre-Season Test 2,6,LAT,Williams,20,20,11,1,0,0,0,2020-02-28
+2020,Pre-Season Test 2,26,KVY,AlphaTauri,13,13,12,0,0,0,0,2020-02-28
+2020,Pre-Season Test 2,23,ALB,Red Bull Racing,4,5,13,0,0,0,0,2020-02-28
+2020,Pre-Season Test 2,7,RAI,Alfa Romeo Racing,19,19,14,0,0,0,0,2020-02-28
+2020,Pre-Season Test 2,63,RUS,Williams,17,17,15,0,0,0,0,2020-02-28
+2020,Pre-Season Test 2,8,GRO,Haas F1 Team,15,15,16,0,0,0,0,2020-02-28
+2020,Pre-Season Test 2,20,MAG,Haas F1 Team,16,16,17,0,0,0,0,2020-02-28
+2020,Pre-Season Test 2,18,STR,Racing Point,9,9,18,0,0,0,0,2020-02-28
+2020,Pre-Season Test 2,3,RIC,Renault,10,10,19,0,0,0,0,2020-02-28
+2020,Pre-Season Test 2,33,VER,Red Bull Racing,2,3,20,0,0,0,0,2020-02-28
+2020,Austrian Grand Prix,77,BOT,Mercedes,1,1,1,1,1,1,1,2020-07-05
+2020,Austrian Grand Prix,16,LEC,Ferrari,7,7,2,1,1,1,1,2020-07-05
+2020,Austrian Grand Prix,4,NOR,McLaren,3,4,3,1,1,1,1,2020-07-05
+2020,Austrian Grand Prix,44,HAM,Mercedes,5,2,4,1,0,1,1,2020-07-05
+2020,Austrian Grand Prix,55,SAI,McLaren,8,8,5,1,0,1,1,2020-07-05
+2020,Austrian Grand Prix,11,PER,Racing Point,6,6,6,1,0,0,1,2020-07-05
+2020,Austrian Grand Prix,10,GAS,AlphaTauri,12,12,7,1,0,0,1,2020-07-05
+2020,Austrian Grand Prix,31,OCO,Renault,14,14,8,1,0,0,1,2020-07-05
+2020,Austrian Grand Prix,99,GIO,Alfa Romeo Racing,18,18,9,1,0,0,1,2020-07-05
+2020,Austrian Grand Prix,5,VET,Ferrari,11,11,10,1,0,0,1,2020-07-05
+2020,Austrian Grand Prix,6,LAT,Williams,20,20,11,1,0,0,0,2020-07-05
+2020,Austrian Grand Prix,26,KVY,AlphaTauri,13,13,12,0,0,0,0,2020-07-05
+2020,Austrian Grand Prix,23,ALB,Red Bull Racing,4,5,13,0,0,0,0,2020-07-05
+2020,Austrian Grand Prix,7,RAI,Alfa Romeo Racing,19,19,14,0,0,0,0,2020-07-05
+2020,Austrian Grand Prix,63,RUS,Williams,17,17,15,0,0,0,0,2020-07-05
+2020,Austrian Grand Prix,8,GRO,Haas F1 Team,15,15,16,0,0,0,0,2020-07-05
+2020,Austrian Grand Prix,20,MAG,Haas F1 Team,16,16,17,0,0,0,0,2020-07-05
+2020,Austrian Grand Prix,18,STR,Racing Point,9,9,18,0,0,0,0,2020-07-05
+2020,Austrian Grand Prix,3,RIC,Renault,10,10,19,0,0,0,0,2020-07-05
+2020,Austrian Grand Prix,33,VER,Red Bull Racing,2,3,20,0,0,0,0,2020-07-05
+2020,Styrian Grand Prix,44,HAM,Mercedes,1,1,1,1,1,1,1,2020-07-12
+2020,Styrian Grand Prix,77,BOT,Mercedes,4,4,2,1,1,1,1,2020-07-12
+2020,Styrian Grand Prix,33,VER,Red Bull Racing,2,2,3,1,1,1,1,2020-07-12
+2020,Styrian Grand Prix,23,ALB,Red Bull Racing,6,7,4,1,0,1,1,2020-07-12
+2020,Styrian Grand Prix,4,NOR,McLaren,9,6,5,1,0,1,1,2020-07-12
+2020,Styrian Grand Prix,11,PER,Racing Point,17,17,6,1,0,0,1,2020-07-12
+2020,Styrian Grand Prix,18,STR,Racing Point,12,13,7,1,0,0,1,2020-07-12
+2020,Styrian Grand Prix,3,RIC,Renault,8,9,8,1,0,0,1,2020-07-12
+2020,Styrian Grand Prix,55,SAI,McLaren,3,3,9,0,0,0,1,2020-07-12
+2020,Styrian Grand Prix,26,KVY,AlphaTauri,13,14,10,0,0,0,1,2020-07-12
+2020,Styrian Grand Prix,7,RAI,Alfa Romeo Racing,16,16,11,0,0,0,0,2020-07-12
+2020,Styrian Grand Prix,20,MAG,Haas F1 Team,15,15,12,0,0,0,0,2020-07-12
+2020,Styrian Grand Prix,8,GRO,Haas F1 Team,0,20,13,0,0,0,0,2020-07-12
+2020,Styrian Grand Prix,99,GIO,Alfa Romeo Racing,19,19,14,0,0,0,0,2020-07-12
+2020,Styrian Grand Prix,10,GAS,AlphaTauri,7,8,15,0,0,0,0,2020-07-12
+2020,Styrian Grand Prix,63,RUS,Williams,11,12,16,0,0,0,0,2020-07-12
+2020,Styrian Grand Prix,6,LAT,Williams,18,18,17,0,0,0,0,2020-07-12
+2020,Styrian Grand Prix,31,OCO,Renault,5,5,18,0,0,0,0,2020-07-12
+2020,Styrian Grand Prix,16,LEC,Ferrari,14,11,19,0,0,0,0,2020-07-12
+2020,Styrian Grand Prix,5,VET,Ferrari,10,10,20,0,0,0,0,2020-07-12
+2020,Hungarian Grand Prix,44,HAM,Mercedes,1,1,1,1,1,1,1,2020-07-19
+2020,Hungarian Grand Prix,33,VER,Red Bull Racing,7,7,2,1,1,1,1,2020-07-19
+2020,Hungarian Grand Prix,77,BOT,Mercedes,2,2,3,1,1,1,1,2020-07-19
+2020,Hungarian Grand Prix,18,STR,Racing Point,3,3,4,1,0,1,1,2020-07-19
+2020,Hungarian Grand Prix,23,ALB,Red Bull Racing,13,13,5,1,0,1,1,2020-07-19
+2020,Hungarian Grand Prix,5,VET,Ferrari,5,5,6,0,0,0,1,2020-07-19
+2020,Hungarian Grand Prix,11,PER,Racing Point,4,4,7,0,0,0,1,2020-07-19
+2020,Hungarian Grand Prix,3,RIC,Renault,11,11,8,0,0,0,1,2020-07-19
+2020,Hungarian Grand Prix,55,SAI,McLaren,9,9,9,0,0,0,1,2020-07-19
+2020,Hungarian Grand Prix,20,MAG,Haas F1 Team,0,16,10,0,0,0,1,2020-07-19
+2020,Hungarian Grand Prix,16,LEC,Ferrari,6,6,11,0,0,0,0,2020-07-19
+2020,Hungarian Grand Prix,26,KVY,AlphaTauri,17,17,12,0,0,0,0,2020-07-19
+2020,Hungarian Grand Prix,4,NOR,McLaren,8,8,13,0,0,0,0,2020-07-19
+2020,Hungarian Grand Prix,31,OCO,Renault,14,14,14,0,0,0,0,2020-07-19
+2020,Hungarian Grand Prix,7,RAI,Alfa Romeo Racing,20,20,15,0,0,0,0,2020-07-19
+2020,Hungarian Grand Prix,8,GRO,Haas F1 Team,0,18,16,0,0,0,0,2020-07-19
+2020,Hungarian Grand Prix,99,GIO,Alfa Romeo Racing,19,19,17,0,0,0,0,2020-07-19
+2020,Hungarian Grand Prix,63,RUS,Williams,12,12,18,0,0,0,0,2020-07-19
+2020,Hungarian Grand Prix,6,LAT,Williams,15,15,19,0,0,0,0,2020-07-19
+2020,Hungarian Grand Prix,10,GAS,AlphaTauri,10,10,20,0,0,0,0,2020-07-19
+2020,British Grand Prix,44,HAM,Mercedes,1,1,1,1,1,1,1,2020-08-02
+2020,British Grand Prix,33,VER,Red Bull Racing,3,3,2,1,1,1,1,2020-08-02
+2020,British Grand Prix,16,LEC,Ferrari,4,4,3,1,1,1,1,2020-08-02
+2020,British Grand Prix,3,RIC,Renault,8,8,4,1,0,1,1,2020-08-02
+2020,British Grand Prix,4,NOR,McLaren,5,5,5,1,0,1,1,2020-08-02
+2020,British Grand Prix,31,OCO,Renault,9,9,6,1,0,0,1,2020-08-02
+2020,British Grand Prix,10,GAS,AlphaTauri,11,11,7,1,0,0,1,2020-08-02
+2020,British Grand Prix,23,ALB,Red Bull Racing,12,12,8,1,0,0,1,2020-08-02
+2020,British Grand Prix,18,STR,Racing Point,6,6,9,1,0,0,1,2020-08-02
+2020,British Grand Prix,5,VET,Ferrari,10,10,10,1,0,0,1,2020-08-02
+2020,British Grand Prix,77,BOT,Mercedes,2,2,11,1,0,0,0,2020-08-02
+2020,British Grand Prix,63,RUS,Williams,20,15,12,1,0,0,0,2020-08-02
+2020,British Grand Prix,55,SAI,McLaren,7,7,13,1,0,0,0,2020-08-02
+2020,British Grand Prix,99,GIO,Alfa Romeo Racing,15,17,14,1,0,0,0,2020-08-02
+2020,British Grand Prix,6,LAT,Williams,18,20,15,1,0,0,0,2020-08-02
+2020,British Grand Prix,8,GRO,Haas F1 Team,17,19,16,1,0,0,0,2020-08-02
+2020,British Grand Prix,7,RAI,Alfa Romeo Racing,16,18,17,0,0,0,0,2020-08-02
+2020,British Grand Prix,26,KVY,AlphaTauri,19,14,18,0,0,0,0,2020-08-02
+2020,British Grand Prix,20,MAG,Haas F1 Team,14,16,19,0,0,0,0,2020-08-02
+2020,British Grand Prix,27,HUL,Racing Point,13,13,20,0,0,0,0,2020-08-02
+2020,70th Anniversary Grand Prix,33,VER,Red Bull Racing,4,4,1,1,1,1,1,2020-08-09
+2020,70th Anniversary Grand Prix,44,HAM,Mercedes,2,2,2,1,1,1,1,2020-08-09
+2020,70th Anniversary Grand Prix,77,BOT,Mercedes,1,1,3,1,1,1,1,2020-08-09
+2020,70th Anniversary Grand Prix,16,LEC,Ferrari,8,8,4,1,0,1,1,2020-08-09
+2020,70th Anniversary Grand Prix,23,ALB,Red Bull Racing,9,9,5,1,0,1,1,2020-08-09
+2020,70th Anniversary Grand Prix,18,STR,Racing Point,6,6,6,1,0,0,1,2020-08-09
+2020,70th Anniversary Grand Prix,27,HUL,Racing Point,3,3,7,1,0,0,1,2020-08-09
+2020,70th Anniversary Grand Prix,31,OCO,Renault,14,11,8,1,0,0,1,2020-08-09
+2020,70th Anniversary Grand Prix,4,NOR,McLaren,10,10,9,1,0,0,1,2020-08-09
+2020,70th Anniversary Grand Prix,26,KVY,AlphaTauri,16,16,10,1,0,0,1,2020-08-09
+2020,70th Anniversary Grand Prix,10,GAS,AlphaTauri,7,7,11,1,0,0,0,2020-08-09
+2020,70th Anniversary Grand Prix,5,VET,Ferrari,11,12,12,1,0,0,0,2020-08-09
+2020,70th Anniversary Grand Prix,55,SAI,McLaren,12,13,13,1,0,0,0,2020-08-09
+2020,70th Anniversary Grand Prix,3,RIC,Renault,5,5,14,0,0,0,0,2020-08-09
+2020,70th Anniversary Grand Prix,7,RAI,Alfa Romeo Racing,20,20,15,0,0,0,0,2020-08-09
+2020,70th Anniversary Grand Prix,8,GRO,Haas F1 Team,13,14,16,0,0,0,0,2020-08-09
+2020,70th Anniversary Grand Prix,99,GIO,Alfa Romeo Racing,19,19,17,0,0,0,0,2020-08-09
+2020,70th Anniversary Grand Prix,63,RUS,Williams,15,15,18,0,0,0,0,2020-08-09
+2020,70th Anniversary Grand Prix,6,LAT,Williams,18,18,19,0,0,0,0,2020-08-09
+2020,70th Anniversary Grand Prix,20,MAG,Haas F1 Team,17,17,20,0,0,0,0,2020-08-09
+2020,Spanish Grand Prix,44,HAM,Mercedes,1,1,1,1,1,1,1,2020-08-16
+2020,Spanish Grand Prix,33,VER,Red Bull Racing,3,3,2,1,1,1,1,2020-08-16
+2020,Spanish Grand Prix,77,BOT,Mercedes,2,2,3,1,1,1,1,2020-08-16
+2020,Spanish Grand Prix,18,STR,Racing Point,5,5,4,0,0,1,1,2020-08-16
+2020,Spanish Grand Prix,11,PER,Racing Point,4,4,5,0,0,1,1,2020-08-16
+2020,Spanish Grand Prix,55,SAI,McLaren,7,7,6,0,0,0,1,2020-08-16
+2020,Spanish Grand Prix,5,VET,Ferrari,11,11,7,0,0,0,1,2020-08-16
+2020,Spanish Grand Prix,23,ALB,Red Bull Racing,6,6,8,0,0,0,1,2020-08-16
+2020,Spanish Grand Prix,10,GAS,AlphaTauri,10,10,9,0,0,0,1,2020-08-16
+2020,Spanish Grand Prix,4,NOR,McLaren,8,8,10,0,0,0,1,2020-08-16
+2020,Spanish Grand Prix,3,RIC,Renault,13,13,11,0,0,0,0,2020-08-16
+2020,Spanish Grand Prix,26,KVY,AlphaTauri,12,12,12,0,0,0,0,2020-08-16
+2020,Spanish Grand Prix,31,OCO,Renault,15,15,13,0,0,0,0,2020-08-16
+2020,Spanish Grand Prix,7,RAI,Alfa Romeo Racing,14,14,14,0,0,0,0,2020-08-16
+2020,Spanish Grand Prix,20,MAG,Haas F1 Team,16,16,15,0,0,0,0,2020-08-16
+2020,Spanish Grand Prix,99,GIO,Alfa Romeo Racing,20,20,16,0,0,0,0,2020-08-16
+2020,Spanish Grand Prix,63,RUS,Williams,18,18,17,0,0,0,0,2020-08-16
+2020,Spanish Grand Prix,6,LAT,Williams,19,19,18,0,0,0,0,2020-08-16
+2020,Spanish Grand Prix,8,GRO,Haas F1 Team,17,17,19,0,0,0,0,2020-08-16
+2020,Spanish Grand Prix,16,LEC,Ferrari,9,9,20,0,0,0,0,2020-08-16
+2020,Belgian Grand Prix,44,HAM,Mercedes,1,1,1,1,1,1,1,2020-08-30
+2020,Belgian Grand Prix,77,BOT,Mercedes,2,2,2,1,1,1,1,2020-08-30
+2020,Belgian Grand Prix,33,VER,Red Bull Racing,3,3,3,1,1,1,1,2020-08-30
+2020,Belgian Grand Prix,3,RIC,Renault,4,4,4,1,0,1,1,2020-08-30
+2020,Belgian Grand Prix,31,OCO,Renault,6,6,5,1,0,1,1,2020-08-30
+2020,Belgian Grand Prix,23,ALB,Red Bull Racing,5,5,6,1,0,0,1,2020-08-30
+2020,Belgian Grand Prix,4,NOR,McLaren,10,10,7,1,0,0,1,2020-08-30
+2020,Belgian Grand Prix,10,GAS,AlphaTauri,12,12,8,1,0,0,1,2020-08-30
+2020,Belgian Grand Prix,18,STR,Racing Point,9,9,9,1,0,0,1,2020-08-30
+2020,Belgian Grand Prix,11,PER,Racing Point,8,8,10,1,0,0,1,2020-08-30
+2020,Belgian Grand Prix,26,KVY,AlphaTauri,11,11,11,1,0,0,0,2020-08-30
+2020,Belgian Grand Prix,7,RAI,Alfa Romeo Racing,16,16,12,1,0,0,0,2020-08-30
+2020,Belgian Grand Prix,5,VET,Ferrari,14,14,13,1,0,0,0,2020-08-30
+2020,Belgian Grand Prix,16,LEC,Ferrari,13,13,14,1,0,0,0,2020-08-30
+2020,Belgian Grand Prix,8,GRO,Haas F1 Team,17,17,15,1,0,0,0,2020-08-30
+2020,Belgian Grand Prix,6,LAT,Williams,19,19,16,1,0,0,0,2020-08-30
+2020,Belgian Grand Prix,20,MAG,Haas F1 Team,20,20,17,1,0,0,0,2020-08-30
+2020,Belgian Grand Prix,99,GIO,Alfa Romeo Racing,18,18,18,0,0,0,0,2020-08-30
+2020,Belgian Grand Prix,63,RUS,Williams,15,15,19,0,0,0,0,2020-08-30
+2020,Belgian Grand Prix,55,SAI,McLaren,7,7,20,0,0,0,0,2020-08-30
+2020,Italian Grand Prix,10,GAS,AlphaTauri,10,10,1,1,1,1,1,2020-09-06
+2020,Italian Grand Prix,55,SAI,McLaren,3,3,2,1,1,1,1,2020-09-06
+2020,Italian Grand Prix,18,STR,Racing Point,8,8,3,1,1,1,1,2020-09-06
+2020,Italian Grand Prix,4,NOR,McLaren,6,6,4,1,0,1,1,2020-09-06
+2020,Italian Grand Prix,77,BOT,Mercedes,2,2,5,1,0,1,1,2020-09-06
+2020,Italian Grand Prix,3,RIC,Renault,7,7,6,1,0,0,1,2020-09-06
+2020,Italian Grand Prix,44,HAM,Mercedes,1,1,7,1,0,0,1,2020-09-06
+2020,Italian Grand Prix,31,OCO,Renault,12,12,8,1,0,0,1,2020-09-06
+2020,Italian Grand Prix,26,KVY,AlphaTauri,11,11,9,1,0,0,1,2020-09-06
+2020,Italian Grand Prix,11,PER,Racing Point,4,4,10,1,0,0,1,2020-09-06
+2020,Italian Grand Prix,6,LAT,Williams,20,20,11,1,0,0,0,2020-09-06
+2020,Italian Grand Prix,8,GRO,Haas F1 Team,16,16,12,1,0,0,0,2020-09-06
+2020,Italian Grand Prix,7,RAI,Alfa Romeo Racing,14,14,13,1,0,0,0,2020-09-06
+2020,Italian Grand Prix,63,RUS,Williams,19,19,14,1,0,0,0,2020-09-06
+2020,Italian Grand Prix,23,ALB,Red Bull Racing,9,9,15,1,0,0,0,2020-09-06
+2020,Italian Grand Prix,99,GIO,Alfa Romeo Racing,18,18,16,1,0,0,0,2020-09-06
+2020,Italian Grand Prix,33,VER,Red Bull Racing,5,5,17,0,0,0,0,2020-09-06
+2020,Italian Grand Prix,16,LEC,Ferrari,13,13,18,0,0,0,0,2020-09-06
+2020,Italian Grand Prix,20,MAG,Haas F1 Team,15,15,19,0,0,0,0,2020-09-06
+2020,Italian Grand Prix,5,VET,Ferrari,17,17,20,0,0,0,0,2020-09-06
+2020,Tuscan Grand Prix,44,HAM,Mercedes,1,1,1,1,1,1,1,2020-09-13
+2020,Tuscan Grand Prix,77,BOT,Mercedes,2,2,2,1,1,1,1,2020-09-13
+2020,Tuscan Grand Prix,23,ALB,Red Bull Racing,4,4,3,1,1,1,1,2020-09-13
+2020,Tuscan Grand Prix,3,RIC,Renault,8,8,4,1,0,1,1,2020-09-13
+2020,Tuscan Grand Prix,11,PER,Racing Point,7,6,5,1,0,1,1,2020-09-13
+2020,Tuscan Grand Prix,4,NOR,McLaren,11,11,6,1,0,0,1,2020-09-13
+2020,Tuscan Grand Prix,26,KVY,AlphaTauri,12,12,7,1,0,0,1,2020-09-13
+2020,Tuscan Grand Prix,16,LEC,Ferrari,5,5,8,1,0,0,1,2020-09-13
+2020,Tuscan Grand Prix,7,RAI,Alfa Romeo Racing,13,13,9,1,0,0,1,2020-09-13
+2020,Tuscan Grand Prix,5,VET,Ferrari,14,14,10,1,0,0,1,2020-09-13
+2020,Tuscan Grand Prix,63,RUS,Williams,18,18,11,1,0,0,0,2020-09-13
+2020,Tuscan Grand Prix,8,GRO,Haas F1 Team,15,15,12,1,0,0,0,2020-09-13
+2020,Tuscan Grand Prix,18,STR,Racing Point,6,7,13,0,0,0,0,2020-09-13
+2020,Tuscan Grand Prix,31,OCO,Renault,10,10,14,0,0,0,0,2020-09-13
+2020,Tuscan Grand Prix,6,LAT,Williams,19,19,15,0,0,0,0,2020-09-13
+2020,Tuscan Grand Prix,20,MAG,Haas F1 Team,20,20,16,0,0,0,0,2020-09-13
+2020,Tuscan Grand Prix,99,GIO,Alfa Romeo Racing,17,17,17,0,0,0,0,2020-09-13
+2020,Tuscan Grand Prix,55,SAI,McLaren,9,9,18,0,0,0,0,2020-09-13
+2020,Tuscan Grand Prix,33,VER,Red Bull Racing,3,3,19,0,0,0,0,2020-09-13
+2020,Tuscan Grand Prix,10,GAS,AlphaTauri,16,16,20,0,0,0,0,2020-09-13
+2020,Russian Grand Prix,77,BOT,Mercedes,3,3,1,1,1,1,1,2020-09-27
+2020,Russian Grand Prix,33,VER,Red Bull Racing,2,2,2,1,1,1,1,2020-09-27
+2020,Russian Grand Prix,44,HAM,Mercedes,1,1,3,1,1,1,1,2020-09-27
+2020,Russian Grand Prix,11,PER,Racing Point,4,4,4,1,0,1,1,2020-09-27
+2020,Russian Grand Prix,3,RIC,Renault,5,5,5,1,0,1,1,2020-09-27
+2020,Russian Grand Prix,16,LEC,Ferrari,10,11,6,1,0,0,1,2020-09-27
+2020,Russian Grand Prix,31,OCO,Renault,7,7,7,1,0,0,1,2020-09-27
+2020,Russian Grand Prix,26,KVY,AlphaTauri,11,12,8,1,0,0,1,2020-09-27
+2020,Russian Grand Prix,10,GAS,AlphaTauri,9,9,9,1,0,0,1,2020-09-27
+2020,Russian Grand Prix,23,ALB,Red Bull Racing,15,10,10,1,0,0,1,2020-09-27
+2020,Russian Grand Prix,99,GIO,Alfa Romeo Racing,17,17,11,0,0,0,0,2020-09-27
+2020,Russian Grand Prix,20,MAG,Haas F1 Team,18,18,12,0,0,0,0,2020-09-27
+2020,Russian Grand Prix,5,VET,Ferrari,14,15,13,0,0,0,0,2020-09-27
+2020,Russian Grand Prix,7,RAI,Alfa Romeo Racing,19,20,14,0,0,0,0,2020-09-27
+2020,Russian Grand Prix,4,NOR,McLaren,8,8,15,0,0,0,0,2020-09-27
+2020,Russian Grand Prix,6,LAT,Williams,20,19,16,0,0,0,0,2020-09-27
+2020,Russian Grand Prix,8,GRO,Haas F1 Team,16,16,17,0,0,0,0,2020-09-27
+2020,Russian Grand Prix,63,RUS,Williams,13,14,18,0,0,0,0,2020-09-27
+2020,Russian Grand Prix,55,SAI,McLaren,6,6,19,0,0,0,0,2020-09-27
+2020,Russian Grand Prix,18,STR,Racing Point,12,13,20,0,0,0,0,2020-09-27
+2020,Eifel Grand Prix,44,HAM,Mercedes,2,2,1,1,1,1,1,2020-10-11
+2020,Eifel Grand Prix,33,VER,Red Bull Racing,3,3,2,1,1,1,1,2020-10-11
+2020,Eifel Grand Prix,3,RIC,Renault,6,6,3,1,1,1,1,2020-10-11
+2020,Eifel Grand Prix,11,PER,Racing Point,9,9,4,1,0,1,1,2020-10-11
+2020,Eifel Grand Prix,55,SAI,McLaren,10,10,5,1,0,1,1,2020-10-11
+2020,Eifel Grand Prix,10,GAS,AlphaTauri,12,12,6,1,0,0,1,2020-10-11
+2020,Eifel Grand Prix,16,LEC,Ferrari,4,4,7,1,0,0,1,2020-10-11
+2020,Eifel Grand Prix,27,HUL,Racing Point,20,20,8,1,0,0,1,2020-10-11
+2020,Eifel Grand Prix,8,GRO,Haas F1 Team,16,16,9,1,0,0,1,2020-10-11
+2020,Eifel Grand Prix,99,GIO,Alfa Romeo Racing,14,14,10,1,0,0,1,2020-10-11
+2020,Eifel Grand Prix,5,VET,Ferrari,11,11,11,1,0,0,0,2020-10-11
+2020,Eifel Grand Prix,7,RAI,Alfa Romeo Racing,19,19,12,1,0,0,0,2020-10-11
+2020,Eifel Grand Prix,20,MAG,Haas F1 Team,15,15,13,1,0,0,0,2020-10-11
+2020,Eifel Grand Prix,6,LAT,Williams,18,18,14,1,0,0,0,2020-10-11
+2020,Eifel Grand Prix,26,KVY,AlphaTauri,13,13,15,1,0,0,0,2020-10-11
+2020,Eifel Grand Prix,4,NOR,McLaren,8,8,16,0,0,0,0,2020-10-11
+2020,Eifel Grand Prix,23,ALB,Red Bull Racing,5,5,17,0,0,0,0,2020-10-11
+2020,Eifel Grand Prix,31,OCO,Renault,7,7,18,0,0,0,0,2020-10-11
+2020,Eifel Grand Prix,77,BOT,Mercedes,1,1,19,0,0,0,0,2020-10-11
+2020,Eifel Grand Prix,63,RUS,Williams,17,17,20,0,0,0,0,2020-10-11
+2020,Portuguese Grand Prix,44,HAM,Mercedes,1,1,1,1,1,1,1,2020-10-25
+2020,Portuguese Grand Prix,77,BOT,Mercedes,2,2,2,1,1,1,1,2020-10-25
+2020,Portuguese Grand Prix,33,VER,Red Bull Racing,3,3,3,1,1,1,1,2020-10-25
+2020,Portuguese Grand Prix,16,LEC,Ferrari,4,4,4,1,0,1,1,2020-10-25
+2020,Portuguese Grand Prix,10,GAS,AlphaTauri,9,9,5,0,0,1,1,2020-10-25
+2020,Portuguese Grand Prix,55,SAI,McLaren,7,7,6,0,0,0,1,2020-10-25
+2020,Portuguese Grand Prix,11,PER,Racing Point,5,5,7,0,0,0,1,2020-10-25
+2020,Portuguese Grand Prix,31,OCO,Renault,11,11,8,0,0,0,1,2020-10-25
+2020,Portuguese Grand Prix,3,RIC,Renault,10,10,9,0,0,0,1,2020-10-25
+2020,Portuguese Grand Prix,5,VET,Ferrari,15,15,10,0,0,0,1,2020-10-25
+2020,Portuguese Grand Prix,7,RAI,Alfa Romeo Racing,16,16,11,0,0,0,0,2020-10-25
+2020,Portuguese Grand Prix,23,ALB,Red Bull Racing,6,6,12,0,0,0,0,2020-10-25
+2020,Portuguese Grand Prix,4,NOR,McLaren,8,8,13,0,0,0,0,2020-10-25
+2020,Portuguese Grand Prix,63,RUS,Williams,14,14,14,0,0,0,0,2020-10-25
+2020,Portuguese Grand Prix,99,GIO,Alfa Romeo Racing,17,17,15,0,0,0,0,2020-10-25
+2020,Portuguese Grand Prix,20,MAG,Haas F1 Team,19,19,16,0,0,0,0,2020-10-25
+2020,Portuguese Grand Prix,8,GRO,Haas F1 Team,18,18,17,0,0,0,0,2020-10-25
+2020,Portuguese Grand Prix,6,LAT,Williams,20,20,18,0,0,0,0,2020-10-25
+2020,Portuguese Grand Prix,26,KVY,AlphaTauri,13,13,19,0,0,0,0,2020-10-25
+2020,Portuguese Grand Prix,18,STR,Racing Point,12,12,20,0,0,0,0,2020-10-25
+2020,Emilia Romagna Grand Prix,44,HAM,Mercedes,2,2,1,1,1,1,1,2020-11-01
+2020,Emilia Romagna Grand Prix,77,BOT,Mercedes,1,1,2,1,1,1,1,2020-11-01
+2020,Emilia Romagna Grand Prix,3,RIC,Renault,5,5,3,1,1,1,1,2020-11-01
+2020,Emilia Romagna Grand Prix,26,KVY,AlphaTauri,8,8,4,1,0,1,1,2020-11-01
+2020,Emilia Romagna Grand Prix,16,LEC,Ferrari,7,7,5,1,0,1,1,2020-11-01
+2020,Emilia Romagna Grand Prix,11,PER,Racing Point,11,11,6,1,0,0,1,2020-11-01
+2020,Emilia Romagna Grand Prix,55,SAI,McLaren,10,10,7,1,0,0,1,2020-11-01
+2020,Emilia Romagna Grand Prix,4,NOR,McLaren,9,9,8,1,0,0,1,2020-11-01
+2020,Emilia Romagna Grand Prix,7,RAI,Alfa Romeo Racing,18,18,9,1,0,0,1,2020-11-01
+2020,Emilia Romagna Grand Prix,99,GIO,Alfa Romeo Racing,20,20,10,1,0,0,1,2020-11-01
+2020,Emilia Romagna Grand Prix,6,LAT,Williams,19,19,11,1,0,0,0,2020-11-01
+2020,Emilia Romagna Grand Prix,5,VET,Ferrari,14,14,12,1,0,0,0,2020-11-01
+2020,Emilia Romagna Grand Prix,18,STR,Racing Point,15,15,13,1,0,0,0,2020-11-01
+2020,Emilia Romagna Grand Prix,8,GRO,Haas F1 Team,16,16,14,1,0,0,0,2020-11-01
+2020,Emilia Romagna Grand Prix,23,ALB,Red Bull Racing,6,6,15,1,0,0,0,2020-11-01
+2020,Emilia Romagna Grand Prix,63,RUS,Williams,13,13,16,0,0,0,0,2020-11-01
+2020,Emilia Romagna Grand Prix,33,VER,Red Bull Racing,3,3,17,0,0,0,0,2020-11-01
+2020,Emilia Romagna Grand Prix,20,MAG,Haas F1 Team,17,17,18,0,0,0,0,2020-11-01
+2020,Emilia Romagna Grand Prix,31,OCO,Renault,12,12,19,0,0,0,0,2020-11-01
+2020,Emilia Romagna Grand Prix,10,GAS,AlphaTauri,4,4,20,0,0,0,0,2020-11-01
+2020,Turkish Grand Prix,44,HAM,Mercedes,6,6,1,1,1,1,1,2020-11-15
+2020,Turkish Grand Prix,11,PER,Racing Point,3,3,2,1,1,1,1,2020-11-15
+2020,Turkish Grand Prix,5,VET,Ferrari,11,12,3,1,1,1,1,2020-11-15
+2020,Turkish Grand Prix,16,LEC,Ferrari,12,14,4,1,0,1,1,2020-11-15
+2020,Turkish Grand Prix,55,SAI,McLaren,15,13,5,1,0,1,1,2020-11-15
+2020,Turkish Grand Prix,33,VER,Red Bull Racing,2,2,6,1,0,0,1,2020-11-15
+2020,Turkish Grand Prix,23,ALB,Red Bull Racing,4,4,7,1,0,0,1,2020-11-15
+2020,Turkish Grand Prix,4,NOR,McLaren,14,11,8,1,0,0,1,2020-11-15
+2020,Turkish Grand Prix,18,STR,Racing Point,1,1,9,1,0,0,1,2020-11-15
+2020,Turkish Grand Prix,3,RIC,Renault,5,5,10,1,0,0,1,2020-11-15
+2020,Turkish Grand Prix,31,OCO,Renault,7,7,11,0,0,0,0,2020-11-15
+2020,Turkish Grand Prix,26,KVY,AlphaTauri,16,17,12,0,0,0,0,2020-11-15
+2020,Turkish Grand Prix,10,GAS,AlphaTauri,19,15,13,0,0,0,0,2020-11-15
+2020,Turkish Grand Prix,77,BOT,Mercedes,9,9,14,0,0,0,0,2020-11-15
+2020,Turkish Grand Prix,7,RAI,Alfa Romeo Racing,8,8,15,0,0,0,0,2020-11-15
+2020,Turkish Grand Prix,63,RUS,Williams,0,18,16,0,0,0,0,2020-11-15
+2020,Turkish Grand Prix,20,MAG,Haas F1 Team,13,16,17,0,0,0,0,2020-11-15
+2020,Turkish Grand Prix,8,GRO,Haas F1 Team,17,19,18,0,0,0,0,2020-11-15
+2020,Turkish Grand Prix,6,LAT,Williams,0,20,19,0,0,0,0,2020-11-15
+2020,Turkish Grand Prix,99,GIO,Alfa Romeo Racing,10,10,20,0,0,0,0,2020-11-15
+2020,Bahrain Grand Prix,44,HAM,Mercedes,1,1,1,1,1,1,1,2020-11-29
+2020,Bahrain Grand Prix,33,VER,Red Bull Racing,3,3,2,1,1,1,1,2020-11-29
+2020,Bahrain Grand Prix,23,ALB,Red Bull Racing,4,4,3,1,1,1,1,2020-11-29
+2020,Bahrain Grand Prix,4,NOR,McLaren,9,9,4,1,0,1,1,2020-11-29
+2020,Bahrain Grand Prix,55,SAI,McLaren,15,15,5,1,0,1,1,2020-11-29
+2020,Bahrain Grand Prix,10,GAS,AlphaTauri,8,8,6,1,0,0,1,2020-11-29
+2020,Bahrain Grand Prix,3,RIC,Renault,6,6,7,1,0,0,1,2020-11-29
+2020,Bahrain Grand Prix,77,BOT,Mercedes,2,2,8,1,0,0,1,2020-11-29
+2020,Bahrain Grand Prix,31,OCO,Renault,7,7,9,1,0,0,1,2020-11-29
+2020,Bahrain Grand Prix,16,LEC,Ferrari,12,12,10,0,0,0,1,2020-11-29
+2020,Bahrain Grand Prix,26,KVY,AlphaTauri,10,10,11,0,0,0,0,2020-11-29
+2020,Bahrain Grand Prix,63,RUS,Williams,14,14,12,0,0,0,0,2020-11-29
+2020,Bahrain Grand Prix,5,VET,Ferrari,11,11,13,0,0,0,0,2020-11-29
+2020,Bahrain Grand Prix,6,LAT,Williams,20,20,14,0,0,0,0,2020-11-29
+2020,Bahrain Grand Prix,7,RAI,Alfa Romeo Racing,17,17,15,0,0,0,0,2020-11-29
+2020,Bahrain Grand Prix,99,GIO,Alfa Romeo Racing,16,16,16,0,0,0,0,2020-11-29
+2020,Bahrain Grand Prix,20,MAG,Haas F1 Team,18,18,17,0,0,0,0,2020-11-29
+2020,Bahrain Grand Prix,11,PER,Racing Point,5,5,18,0,0,0,0,2020-11-29
+2020,Bahrain Grand Prix,18,STR,Racing Point,13,13,19,0,0,0,0,2020-11-29
+2020,Bahrain Grand Prix,8,GRO,Haas F1 Team,19,19,20,0,0,0,0,2020-11-29
+2020,Sakhir Grand Prix,11,PER,Racing Point,5,5,1,1,1,1,1,2020-12-06
+2020,Sakhir Grand Prix,31,OCO,Renault,11,11,2,1,1,1,1,2020-12-06
+2020,Sakhir Grand Prix,18,STR,Racing Point,10,10,3,1,1,1,1,2020-12-06
+2020,Sakhir Grand Prix,55,SAI,McLaren,8,8,4,1,0,1,1,2020-12-06
+2020,Sakhir Grand Prix,3,RIC,Renault,7,7,5,1,0,1,1,2020-12-06
+2020,Sakhir Grand Prix,23,ALB,Red Bull Racing,12,12,6,1,0,0,1,2020-12-06
+2020,Sakhir Grand Prix,26,KVY,AlphaTauri,6,6,7,1,0,0,1,2020-12-06
+2020,Sakhir Grand Prix,77,BOT,Mercedes,1,1,8,1,0,0,1,2020-12-06
+2020,Sakhir Grand Prix,63,RUS,Mercedes,2,2,9,1,0,0,1,2020-12-06
+2020,Sakhir Grand Prix,4,NOR,McLaren,19,15,10,1,0,0,1,2020-12-06
+2020,Sakhir Grand Prix,10,GAS,AlphaTauri,9,9,11,1,0,0,0,2020-12-06
+2020,Sakhir Grand Prix,5,VET,Ferrari,13,13,12,1,0,0,0,2020-12-06
+2020,Sakhir Grand Prix,99,GIO,Alfa Romeo Racing,14,14,13,1,0,0,0,2020-12-06
+2020,Sakhir Grand Prix,7,RAI,Alfa Romeo Racing,18,19,14,1,0,0,0,2020-12-06
+2020,Sakhir Grand Prix,20,MAG,Haas F1 Team,15,16,15,1,0,0,0,2020-12-06
+2020,Sakhir Grand Prix,89,AIT,Williams,17,18,16,1,0,0,0,2020-12-06
+2020,Sakhir Grand Prix,51,FIT,Haas F1 Team,20,20,17,1,0,0,0,2020-12-06
+2020,Sakhir Grand Prix,6,LAT,Williams,16,17,18,0,0,0,0,2020-12-06
+2020,Sakhir Grand Prix,33,VER,Red Bull Racing,3,3,19,0,0,0,0,2020-12-06
+2020,Sakhir Grand Prix,16,LEC,Ferrari,4,4,20,0,0,0,0,2020-12-06
+2020,Abu Dhabi Grand Prix,33,VER,Red Bull Racing,1,1,1,1,1,1,1,2020-12-13
+2020,Abu Dhabi Grand Prix,77,BOT,Mercedes,2,2,2,1,1,1,1,2020-12-13
+2020,Abu Dhabi Grand Prix,44,HAM,Mercedes,3,3,3,1,1,1,1,2020-12-13
+2020,Abu Dhabi Grand Prix,23,ALB,Red Bull Racing,5,5,4,1,0,1,1,2020-12-13
+2020,Abu Dhabi Grand Prix,4,NOR,McLaren,4,4,5,1,0,1,1,2020-12-13
+2020,Abu Dhabi Grand Prix,55,SAI,McLaren,6,6,6,1,0,0,1,2020-12-13
+2020,Abu Dhabi Grand Prix,3,RIC,Renault,11,12,7,1,0,0,1,2020-12-13
+2020,Abu Dhabi Grand Prix,10,GAS,AlphaTauri,9,10,8,1,0,0,1,2020-12-13
+2020,Abu Dhabi Grand Prix,31,OCO,Renault,10,11,9,1,0,0,1,2020-12-13
+2020,Abu Dhabi Grand Prix,18,STR,Racing Point,8,8,10,1,0,0,1,2020-12-13
+2020,Abu Dhabi Grand Prix,26,KVY,AlphaTauri,7,7,11,0,0,0,0,2020-12-13
+2020,Abu Dhabi Grand Prix,7,RAI,Alfa Romeo Racing,15,16,12,0,0,0,0,2020-12-13
+2020,Abu Dhabi Grand Prix,16,LEC,Ferrari,12,9,13,0,0,0,0,2020-12-13
+2020,Abu Dhabi Grand Prix,5,VET,Ferrari,13,13,14,0,0,0,0,2020-12-13
+2020,Abu Dhabi Grand Prix,63,RUS,Williams,16,18,15,0,0,0,0,2020-12-13
+2020,Abu Dhabi Grand Prix,99,GIO,Alfa Romeo Racing,14,14,16,0,0,0,0,2020-12-13
+2020,Abu Dhabi Grand Prix,6,LAT,Williams,18,20,17,0,0,0,0,2020-12-13
+2020,Abu Dhabi Grand Prix,20,MAG,Haas F1 Team,20,17,18,0,0,0,0,2020-12-13
+2020,Abu Dhabi Grand Prix,51,FIT,Haas F1 Team,17,19,19,0,0,0,0,2020-12-13
+2020,Abu Dhabi Grand Prix,11,PER,Racing Point,19,15,20,0,0,0,0,2020-12-13

@@ -1,0 +1,400 @@
+Year,EventName,DriverNumber,Abbreviation,TeamName,GridPos,QualiPos,FinishPos,DidFinish,Top3,Top5,Top10,EventDate
+2023,Pre-Season Testing,1,VER,Red Bull Racing,1.0,1.0,1.0,1,1,1,1,2023-02-25
+2023,Pre-Season Testing,4,NOR,McLaren,2.0,2.0,2.0,1,1,1,1,2023-02-25
+2023,Pre-Season Testing,44,HAM,Mercedes,7.0,7.0,3.0,1,1,1,1,2023-02-25
+2023,Pre-Season Testing,81,PIA,McLaren,3.0,3.0,4.0,1,0,1,1,2023-02-25
+2023,Pre-Season Testing,63,RUS,Mercedes,6.0,6.0,5.0,1,0,1,1,2023-02-25
+2023,Pre-Season Testing,11,PER,Red Bull Racing,15.0,15.0,6.0,1,0,0,1,2023-02-25
+2023,Pre-Season Testing,14,ALO,Aston Martin,9.0,9.0,7.0,1,0,0,1,2023-02-25
+2023,Pre-Season Testing,23,ALB,Williams,8.0,8.0,8.0,1,0,0,1,2023-02-25
+2023,Pre-Season Testing,16,LEC,Ferrari,4.0,4.0,9.0,1,0,0,1,2023-02-25
+2023,Pre-Season Testing,55,SAI,Ferrari,5.0,5.0,10.0,1,0,0,1,2023-02-25
+2023,Pre-Season Testing,2,SAR,Williams,14.0,14.0,11.0,1,0,0,0,2023-02-25
+2023,Pre-Season Testing,77,BOT,Alfa Romeo,20.0,15.0,12.0,1,0,0,0,2023-02-25
+2023,Pre-Season Testing,27,HUL,Haas F1 Team,11.0,11.0,13.0,1,0,0,0,2023-02-25
+2023,Pre-Season Testing,18,STR,Aston Martin,12.0,12.0,14.0,1,0,0,0,2023-02-25
+2023,Pre-Season Testing,24,ZHO,Alfa Romeo,17.0,17.0,15.0,1,0,0,0,2023-02-25
+2023,Pre-Season Testing,22,TSU,AlphaTauri,16.0,16.0,16.0,1,0,0,0,2023-02-25
+2023,Pre-Season Testing,21,DEV,AlphaTauri,18.0,18.0,17.0,1,0,0,0,2023-02-25
+2023,Pre-Season Testing,10,GAS,Alpine,10.0,10.0,18.0,0,0,0,0,2023-02-25
+2023,Pre-Season Testing,20,MAG,Haas F1 Team,19.0,19.0,19.0,0,0,0,0,2023-02-25
+2023,Pre-Season Testing,31,OCO,Alpine,13.0,13.0,20.0,0,0,0,0,2023-02-25
+2023,Bahrain Grand Prix,1,VER,Red Bull Racing,1.0,1.0,1.0,1,1,1,1,2023-03-05
+2023,Bahrain Grand Prix,11,PER,Red Bull Racing,2.0,2.0,2.0,1,1,1,1,2023-03-05
+2023,Bahrain Grand Prix,14,ALO,Aston Martin,5.0,5.0,3.0,1,1,1,1,2023-03-05
+2023,Bahrain Grand Prix,55,SAI,Ferrari,4.0,4.0,4.0,1,0,1,1,2023-03-05
+2023,Bahrain Grand Prix,44,HAM,Mercedes,7.0,7.0,5.0,1,0,1,1,2023-03-05
+2023,Bahrain Grand Prix,18,STR,Aston Martin,8.0,8.0,6.0,1,0,0,1,2023-03-05
+2023,Bahrain Grand Prix,63,RUS,Mercedes,6.0,6.0,7.0,1,0,0,1,2023-03-05
+2023,Bahrain Grand Prix,77,BOT,Alfa Romeo,12.0,12.0,8.0,1,0,0,1,2023-03-05
+2023,Bahrain Grand Prix,10,GAS,Alpine,20.0,20.0,9.0,1,0,0,1,2023-03-05
+2023,Bahrain Grand Prix,23,ALB,Williams,15.0,15.0,10.0,1,0,0,1,2023-03-05
+2023,Bahrain Grand Prix,22,TSU,AlphaTauri,14.0,14.0,11.0,1,0,0,0,2023-03-05
+2023,Bahrain Grand Prix,2,SAR,Williams,16.0,16.0,12.0,0,0,0,0,2023-03-05
+2023,Bahrain Grand Prix,20,MAG,Haas F1 Team,17.0,17.0,13.0,0,0,0,0,2023-03-05
+2023,Bahrain Grand Prix,21,DEV,AlphaTauri,19.0,19.0,14.0,0,0,0,0,2023-03-05
+2023,Bahrain Grand Prix,27,HUL,Haas F1 Team,10.0,10.0,15.0,0,0,0,0,2023-03-05
+2023,Bahrain Grand Prix,24,ZHO,Alfa Romeo,13.0,13.0,16.0,0,0,0,0,2023-03-05
+2023,Bahrain Grand Prix,4,NOR,McLaren,11.0,11.0,17.0,0,0,0,0,2023-03-05
+2023,Bahrain Grand Prix,31,OCO,Alpine,9.0,9.0,18.0,0,0,0,0,2023-03-05
+2023,Bahrain Grand Prix,16,LEC,Ferrari,3.0,3.0,19.0,0,0,0,0,2023-03-05
+2023,Bahrain Grand Prix,81,PIA,McLaren,18.0,18.0,20.0,0,0,0,0,2023-03-05
+2023,Saudi Arabian Grand Prix,11,PER,Red Bull Racing,1.0,1.0,1.0,1,1,1,1,2023-03-19
+2023,Saudi Arabian Grand Prix,1,VER,Red Bull Racing,15.0,15.0,2.0,1,1,1,1,2023-03-19
+2023,Saudi Arabian Grand Prix,14,ALO,Aston Martin,2.0,3.0,3.0,1,1,1,1,2023-03-19
+2023,Saudi Arabian Grand Prix,63,RUS,Mercedes,3.0,4.0,4.0,1,0,1,1,2023-03-19
+2023,Saudi Arabian Grand Prix,44,HAM,Mercedes,7.0,8.0,5.0,1,0,1,1,2023-03-19
+2023,Saudi Arabian Grand Prix,55,SAI,Ferrari,4.0,5.0,6.0,1,0,0,1,2023-03-19
+2023,Saudi Arabian Grand Prix,16,LEC,Ferrari,12.0,2.0,7.0,1,0,0,1,2023-03-19
+2023,Saudi Arabian Grand Prix,31,OCO,Alpine,6.0,7.0,8.0,1,0,0,1,2023-03-19
+2023,Saudi Arabian Grand Prix,10,GAS,Alpine,9.0,10.0,9.0,1,0,0,1,2023-03-19
+2023,Saudi Arabian Grand Prix,20,MAG,Haas F1 Team,13.0,13.0,10.0,1,0,0,1,2023-03-19
+2023,Saudi Arabian Grand Prix,22,TSU,AlphaTauri,16.0,16.0,11.0,1,0,0,0,2023-03-19
+2023,Saudi Arabian Grand Prix,27,HUL,Haas F1 Team,10.0,11.0,12.0,1,0,0,0,2023-03-19
+2023,Saudi Arabian Grand Prix,24,ZHO,Alfa Romeo,11.0,12.0,13.0,1,0,0,0,2023-03-19
+2023,Saudi Arabian Grand Prix,21,DEV,AlphaTauri,18.0,18.0,14.0,1,0,0,0,2023-03-19
+2023,Saudi Arabian Grand Prix,81,PIA,McLaren,8.0,9.0,15.0,1,0,0,0,2023-03-19
+2023,Saudi Arabian Grand Prix,2,SAR,Williams,20.0,20.0,16.0,1,0,0,0,2023-03-19
+2023,Saudi Arabian Grand Prix,4,NOR,McLaren,19.0,19.0,17.0,1,0,0,0,2023-03-19
+2023,Saudi Arabian Grand Prix,77,BOT,Alfa Romeo,14.0,14.0,18.0,0,0,0,0,2023-03-19
+2023,Saudi Arabian Grand Prix,23,ALB,Williams,17.0,17.0,19.0,0,0,0,0,2023-03-19
+2023,Saudi Arabian Grand Prix,18,STR,Aston Martin,5.0,6.0,20.0,0,0,0,0,2023-03-19
+2023,Australian Grand Prix,1,VER,Red Bull Racing,1.0,1.0,1.0,1,1,1,1,2023-04-02
+2023,Australian Grand Prix,44,HAM,Mercedes,3.0,3.0,2.0,1,1,1,1,2023-04-02
+2023,Australian Grand Prix,14,ALO,Aston Martin,4.0,4.0,3.0,1,1,1,1,2023-04-02
+2023,Australian Grand Prix,18,STR,Aston Martin,6.0,6.0,4.0,1,0,1,1,2023-04-02
+2023,Australian Grand Prix,11,PER,Red Bull Racing,20.0,20.0,5.0,1,0,1,1,2023-04-02
+2023,Australian Grand Prix,4,NOR,McLaren,13.0,13.0,6.0,1,0,0,1,2023-04-02
+2023,Australian Grand Prix,27,HUL,Haas F1 Team,10.0,10.0,7.0,1,0,0,1,2023-04-02
+2023,Australian Grand Prix,81,PIA,McLaren,16.0,16.0,8.0,1,0,0,1,2023-04-02
+2023,Australian Grand Prix,24,ZHO,Alfa Romeo,17.0,17.0,9.0,1,0,0,1,2023-04-02
+2023,Australian Grand Prix,22,TSU,AlphaTauri,12.0,12.0,10.0,1,0,0,1,2023-04-02
+2023,Australian Grand Prix,77,BOT,Alfa Romeo,19.0,19.0,11.0,1,0,0,0,2023-04-02
+2023,Australian Grand Prix,55,SAI,Ferrari,5.0,5.0,12.0,1,0,0,0,2023-04-02
+2023,Australian Grand Prix,10,GAS,Alpine,9.0,9.0,13.0,0,0,0,0,2023-04-02
+2023,Australian Grand Prix,31,OCO,Alpine,11.0,11.0,14.0,0,0,0,0,2023-04-02
+2023,Australian Grand Prix,21,DEV,AlphaTauri,15.0,15.0,15.0,0,0,0,0,2023-04-02
+2023,Australian Grand Prix,2,SAR,Williams,18.0,18.0,16.0,0,0,0,0,2023-04-02
+2023,Australian Grand Prix,20,MAG,Haas F1 Team,14.0,14.0,17.0,0,0,0,0,2023-04-02
+2023,Australian Grand Prix,63,RUS,Mercedes,2.0,2.0,18.0,0,0,0,0,2023-04-02
+2023,Australian Grand Prix,23,ALB,Williams,8.0,8.0,19.0,0,0,0,0,2023-04-02
+2023,Australian Grand Prix,16,LEC,Ferrari,7.0,7.0,20.0,0,0,0,0,2023-04-02
+2023,Azerbaijan Grand Prix,11,PER,Red Bull Racing,3.0,3.0,1.0,1,1,1,1,2023-04-30
+2023,Azerbaijan Grand Prix,1,VER,Red Bull Racing,2.0,2.0,2.0,1,1,1,1,2023-04-30
+2023,Azerbaijan Grand Prix,16,LEC,Ferrari,1.0,1.0,3.0,1,1,1,1,2023-04-30
+2023,Azerbaijan Grand Prix,14,ALO,Aston Martin,6.0,6.0,4.0,1,0,1,1,2023-04-30
+2023,Azerbaijan Grand Prix,55,SAI,Ferrari,4.0,4.0,5.0,1,0,1,1,2023-04-30
+2023,Azerbaijan Grand Prix,44,HAM,Mercedes,5.0,5.0,6.0,1,0,0,1,2023-04-30
+2023,Azerbaijan Grand Prix,18,STR,Aston Martin,9.0,9.0,7.0,1,0,0,1,2023-04-30
+2023,Azerbaijan Grand Prix,63,RUS,Mercedes,11.0,11.0,8.0,1,0,0,1,2023-04-30
+2023,Azerbaijan Grand Prix,4,NOR,McLaren,7.0,7.0,9.0,1,0,0,1,2023-04-30
+2023,Azerbaijan Grand Prix,22,TSU,AlphaTauri,8.0,8.0,10.0,1,0,0,1,2023-04-30
+2023,Azerbaijan Grand Prix,81,PIA,McLaren,10.0,10.0,11.0,1,0,0,0,2023-04-30
+2023,Azerbaijan Grand Prix,23,ALB,Williams,12.0,13.0,12.0,1,0,0,0,2023-04-30
+2023,Azerbaijan Grand Prix,20,MAG,Haas F1 Team,16.0,18.0,13.0,1,0,0,0,2023-04-30
+2023,Azerbaijan Grand Prix,10,GAS,Alpine,17.0,19.0,14.0,1,0,0,0,2023-04-30
+2023,Azerbaijan Grand Prix,31,OCO,Alpine,19.0,12.0,15.0,1,0,0,0,2023-04-30
+2023,Azerbaijan Grand Prix,2,SAR,Williams,14.0,15.0,16.0,1,0,0,0,2023-04-30
+2023,Azerbaijan Grand Prix,27,HUL,Haas F1 Team,20.0,17.0,17.0,0,0,0,0,2023-04-30
+2023,Azerbaijan Grand Prix,77,BOT,Alfa Romeo,13.0,14.0,18.0,0,0,0,0,2023-04-30
+2023,Azerbaijan Grand Prix,24,ZHO,Alfa Romeo,15.0,16.0,19.0,0,0,0,0,2023-04-30
+2023,Azerbaijan Grand Prix,21,DEV,AlphaTauri,18.0,20.0,20.0,0,0,0,0,2023-04-30
+2023,Miami Grand Prix,1,VER,Red Bull Racing,9.0,9.0,1.0,1,1,1,1,2023-05-07
+2023,Miami Grand Prix,11,PER,Red Bull Racing,1.0,1.0,2.0,1,1,1,1,2023-05-07
+2023,Miami Grand Prix,14,ALO,Aston Martin,2.0,2.0,3.0,1,1,1,1,2023-05-07
+2023,Miami Grand Prix,63,RUS,Mercedes,6.0,6.0,4.0,1,0,1,1,2023-05-07
+2023,Miami Grand Prix,55,SAI,Ferrari,3.0,3.0,5.0,1,0,1,1,2023-05-07
+2023,Miami Grand Prix,44,HAM,Mercedes,13.0,13.0,6.0,1,0,0,1,2023-05-07
+2023,Miami Grand Prix,16,LEC,Ferrari,7.0,7.0,7.0,1,0,0,1,2023-05-07
+2023,Miami Grand Prix,10,GAS,Alpine,5.0,5.0,8.0,1,0,0,1,2023-05-07
+2023,Miami Grand Prix,31,OCO,Alpine,8.0,8.0,9.0,1,0,0,1,2023-05-07
+2023,Miami Grand Prix,20,MAG,Haas F1 Team,4.0,4.0,10.0,1,0,0,1,2023-05-07
+2023,Miami Grand Prix,22,TSU,AlphaTauri,17.0,17.0,11.0,1,0,0,0,2023-05-07
+2023,Miami Grand Prix,18,STR,Aston Martin,18.0,18.0,12.0,1,0,0,0,2023-05-07
+2023,Miami Grand Prix,77,BOT,Alfa Romeo,10.0,10.0,13.0,1,0,0,0,2023-05-07
+2023,Miami Grand Prix,23,ALB,Williams,11.0,11.0,14.0,1,0,0,0,2023-05-07
+2023,Miami Grand Prix,27,HUL,Haas F1 Team,12.0,12.0,15.0,1,0,0,0,2023-05-07
+2023,Miami Grand Prix,24,ZHO,Alfa Romeo,14.0,14.0,16.0,1,0,0,0,2023-05-07
+2023,Miami Grand Prix,4,NOR,McLaren,16.0,16.0,17.0,1,0,0,0,2023-05-07
+2023,Miami Grand Prix,21,DEV,AlphaTauri,15.0,15.0,18.0,1,0,0,0,2023-05-07
+2023,Miami Grand Prix,81,PIA,McLaren,19.0,19.0,19.0,0,0,0,0,2023-05-07
+2023,Miami Grand Prix,2,SAR,Williams,20.0,20.0,20.0,0,0,0,0,2023-05-07
+2023,Monaco Grand Prix,1,VER,Red Bull Racing,1.0,,1.0,1,1,1,1,2023-05-28
+2023,Monaco Grand Prix,14,ALO,Aston Martin,2.0,,2.0,1,1,1,1,2023-05-28
+2023,Monaco Grand Prix,31,OCO,Alpine,3.0,,3.0,1,1,1,1,2023-05-28
+2023,Monaco Grand Prix,44,HAM,Mercedes,5.0,,4.0,1,0,1,1,2023-05-28
+2023,Monaco Grand Prix,63,RUS,Mercedes,8.0,,5.0,1,0,1,1,2023-05-28
+2023,Monaco Grand Prix,16,LEC,Ferrari,6.0,,6.0,1,0,0,1,2023-05-28
+2023,Monaco Grand Prix,10,GAS,Alpine,7.0,,7.0,1,0,0,1,2023-05-28
+2023,Monaco Grand Prix,55,SAI,Ferrari,4.0,,8.0,1,0,0,1,2023-05-28
+2023,Monaco Grand Prix,4,NOR,McLaren,10.0,,9.0,0,0,0,1,2023-05-28
+2023,Monaco Grand Prix,81,PIA,McLaren,11.0,,10.0,0,0,0,1,2023-05-28
+2023,Monaco Grand Prix,77,BOT,Alfa Romeo,15.0,,11.0,0,0,0,0,2023-05-28
+2023,Monaco Grand Prix,21,DEV,AlphaTauri,12.0,,12.0,0,0,0,0,2023-05-28
+2023,Monaco Grand Prix,24,ZHO,Alfa Romeo,19.0,,13.0,0,0,0,0,2023-05-28
+2023,Monaco Grand Prix,23,ALB,Williams,13.0,,14.0,0,0,0,0,2023-05-28
+2023,Monaco Grand Prix,22,TSU,AlphaTauri,9.0,,15.0,0,0,0,0,2023-05-28
+2023,Monaco Grand Prix,11,PER,Red Bull Racing,20.0,,16.0,0,0,0,0,2023-05-28
+2023,Monaco Grand Prix,27,HUL,Haas F1 Team,18.0,,17.0,0,0,0,0,2023-05-28
+2023,Monaco Grand Prix,2,SAR,Williams,16.0,,18.0,0,0,0,0,2023-05-28
+2023,Monaco Grand Prix,20,MAG,Haas F1 Team,17.0,,19.0,0,0,0,0,2023-05-28
+2023,Monaco Grand Prix,18,STR,Aston Martin,14.0,,20.0,0,0,0,0,2023-05-28
+2023,Spanish Grand Prix,1,VER,Red Bull Racing,1.0,,1.0,1,1,1,1,2023-06-04
+2023,Spanish Grand Prix,44,HAM,Mercedes,4.0,,2.0,1,1,1,1,2023-06-04
+2023,Spanish Grand Prix,63,RUS,Mercedes,12.0,,3.0,1,1,1,1,2023-06-04
+2023,Spanish Grand Prix,11,PER,Red Bull Racing,11.0,,4.0,1,0,1,1,2023-06-04
+2023,Spanish Grand Prix,55,SAI,Ferrari,2.0,,5.0,1,0,1,1,2023-06-04
+2023,Spanish Grand Prix,18,STR,Aston Martin,5.0,,6.0,1,0,0,1,2023-06-04
+2023,Spanish Grand Prix,14,ALO,Aston Martin,8.0,,7.0,1,0,0,1,2023-06-04
+2023,Spanish Grand Prix,31,OCO,Alpine,6.0,,8.0,1,0,0,1,2023-06-04
+2023,Spanish Grand Prix,24,ZHO,Alfa Romeo,13.0,,9.0,1,0,0,1,2023-06-04
+2023,Spanish Grand Prix,10,GAS,Alpine,10.0,,10.0,1,0,0,1,2023-06-04
+2023,Spanish Grand Prix,16,LEC,Ferrari,19.0,,11.0,1,0,0,0,2023-06-04
+2023,Spanish Grand Prix,22,TSU,AlphaTauri,15.0,,12.0,1,0,0,0,2023-06-04
+2023,Spanish Grand Prix,81,PIA,McLaren,9.0,,13.0,0,0,0,0,2023-06-04
+2023,Spanish Grand Prix,21,DEV,AlphaTauri,14.0,,14.0,0,0,0,0,2023-06-04
+2023,Spanish Grand Prix,27,HUL,Haas F1 Team,7.0,,15.0,0,0,0,0,2023-06-04
+2023,Spanish Grand Prix,23,ALB,Williams,18.0,,16.0,0,0,0,0,2023-06-04
+2023,Spanish Grand Prix,4,NOR,McLaren,3.0,,17.0,0,0,0,0,2023-06-04
+2023,Spanish Grand Prix,20,MAG,Haas F1 Team,17.0,,18.0,0,0,0,0,2023-06-04
+2023,Spanish Grand Prix,77,BOT,Alfa Romeo,16.0,,19.0,0,0,0,0,2023-06-04
+2023,Spanish Grand Prix,2,SAR,Williams,20.0,,20.0,0,0,0,0,2023-06-04
+2023,Canadian Grand Prix,1,VER,Red Bull Racing,1.0,,1.0,1,1,1,1,2023-06-18
+2023,Canadian Grand Prix,14,ALO,Aston Martin,2.0,,2.0,1,1,1,1,2023-06-18
+2023,Canadian Grand Prix,44,HAM,Mercedes,3.0,,3.0,1,1,1,1,2023-06-18
+2023,Canadian Grand Prix,16,LEC,Ferrari,10.0,,4.0,1,0,1,1,2023-06-18
+2023,Canadian Grand Prix,55,SAI,Ferrari,11.0,,5.0,1,0,1,1,2023-06-18
+2023,Canadian Grand Prix,11,PER,Red Bull Racing,12.0,,6.0,1,0,0,1,2023-06-18
+2023,Canadian Grand Prix,23,ALB,Williams,9.0,,7.0,1,0,0,1,2023-06-18
+2023,Canadian Grand Prix,31,OCO,Alpine,6.0,,8.0,1,0,0,1,2023-06-18
+2023,Canadian Grand Prix,18,STR,Aston Martin,16.0,,9.0,1,0,0,1,2023-06-18
+2023,Canadian Grand Prix,77,BOT,Alfa Romeo,14.0,,10.0,1,0,0,1,2023-06-18
+2023,Canadian Grand Prix,81,PIA,McLaren,8.0,,11.0,1,0,0,0,2023-06-18
+2023,Canadian Grand Prix,10,GAS,Alpine,15.0,,12.0,1,0,0,0,2023-06-18
+2023,Canadian Grand Prix,4,NOR,McLaren,7.0,,13.0,1,0,0,0,2023-06-18
+2023,Canadian Grand Prix,22,TSU,AlphaTauri,19.0,,14.0,1,0,0,0,2023-06-18
+2023,Canadian Grand Prix,27,HUL,Haas F1 Team,5.0,,15.0,0,0,0,0,2023-06-18
+2023,Canadian Grand Prix,24,ZHO,Alfa Romeo,20.0,,16.0,0,0,0,0,2023-06-18
+2023,Canadian Grand Prix,20,MAG,Haas F1 Team,13.0,,17.0,0,0,0,0,2023-06-18
+2023,Canadian Grand Prix,21,DEV,AlphaTauri,17.0,,18.0,0,0,0,0,2023-06-18
+2023,Canadian Grand Prix,63,RUS,Mercedes,4.0,,19.0,0,0,0,0,2023-06-18
+2023,Canadian Grand Prix,2,SAR,Williams,18.0,,20.0,0,0,0,0,2023-06-18
+2023,Austrian Grand Prix,1,VER,Red Bull Racing,1.0,,1.0,1,1,1,1,2023-07-02
+2023,Austrian Grand Prix,16,LEC,Ferrari,2.0,,2.0,1,1,1,1,2023-07-02
+2023,Austrian Grand Prix,11,PER,Red Bull Racing,15.0,,3.0,1,1,1,1,2023-07-02
+2023,Austrian Grand Prix,4,NOR,McLaren,4.0,,4.0,1,0,1,1,2023-07-02
+2023,Austrian Grand Prix,14,ALO,Aston Martin,7.0,,5.0,1,0,1,1,2023-07-02
+2023,Austrian Grand Prix,55,SAI,Ferrari,3.0,,6.0,1,0,0,1,2023-07-02
+2023,Austrian Grand Prix,63,RUS,Mercedes,11.0,,7.0,1,0,0,1,2023-07-02
+2023,Austrian Grand Prix,44,HAM,Mercedes,5.0,,8.0,1,0,0,1,2023-07-02
+2023,Austrian Grand Prix,18,STR,Aston Martin,6.0,,9.0,1,0,0,1,2023-07-02
+2023,Austrian Grand Prix,10,GAS,Alpine,9.0,,10.0,1,0,0,1,2023-07-02
+2023,Austrian Grand Prix,23,ALB,Williams,10.0,,11.0,1,0,0,0,2023-07-02
+2023,Austrian Grand Prix,24,ZHO,Alfa Romeo,17.0,,12.0,0,0,0,0,2023-07-02
+2023,Austrian Grand Prix,2,SAR,Williams,18.0,,13.0,0,0,0,0,2023-07-02
+2023,Austrian Grand Prix,31,OCO,Alpine,12.0,,14.0,0,0,0,0,2023-07-02
+2023,Austrian Grand Prix,77,BOT,Alfa Romeo,14.0,,15.0,0,0,0,0,2023-07-02
+2023,Austrian Grand Prix,81,PIA,McLaren,13.0,,16.0,0,0,0,0,2023-07-02
+2023,Austrian Grand Prix,21,DEV,AlphaTauri,20.0,,17.0,0,0,0,0,2023-07-02
+2023,Austrian Grand Prix,20,MAG,Haas F1 Team,19.0,,18.0,0,0,0,0,2023-07-02
+2023,Austrian Grand Prix,22,TSU,AlphaTauri,16.0,,19.0,0,0,0,0,2023-07-02
+2023,Austrian Grand Prix,27,HUL,Haas F1 Team,8.0,,20.0,0,0,0,0,2023-07-02
+2023,British Grand Prix,1,VER,Red Bull Racing,1.0,1.0,1.0,1,1,1,1,2023-07-09
+2023,British Grand Prix,4,NOR,McLaren,2.0,2.0,2.0,1,1,1,1,2023-07-09
+2023,British Grand Prix,44,HAM,Mercedes,7.0,7.0,3.0,1,1,1,1,2023-07-09
+2023,British Grand Prix,81,PIA,McLaren,3.0,3.0,4.0,1,0,1,1,2023-07-09
+2023,British Grand Prix,63,RUS,Mercedes,6.0,6.0,5.0,1,0,1,1,2023-07-09
+2023,British Grand Prix,11,PER,Red Bull Racing,15.0,15.0,6.0,1,0,0,1,2023-07-09
+2023,British Grand Prix,14,ALO,Aston Martin,9.0,9.0,7.0,1,0,0,1,2023-07-09
+2023,British Grand Prix,23,ALB,Williams,8.0,8.0,8.0,1,0,0,1,2023-07-09
+2023,British Grand Prix,16,LEC,Ferrari,4.0,4.0,9.0,1,0,0,1,2023-07-09
+2023,British Grand Prix,55,SAI,Ferrari,5.0,5.0,10.0,1,0,0,1,2023-07-09
+2023,British Grand Prix,2,SAR,Williams,14.0,14.0,11.0,1,0,0,0,2023-07-09
+2023,British Grand Prix,77,BOT,Alfa Romeo,20.0,15.0,12.0,1,0,0,0,2023-07-09
+2023,British Grand Prix,27,HUL,Haas F1 Team,11.0,11.0,13.0,1,0,0,0,2023-07-09
+2023,British Grand Prix,18,STR,Aston Martin,12.0,12.0,14.0,1,0,0,0,2023-07-09
+2023,British Grand Prix,24,ZHO,Alfa Romeo,17.0,17.0,15.0,1,0,0,0,2023-07-09
+2023,British Grand Prix,22,TSU,AlphaTauri,16.0,16.0,16.0,1,0,0,0,2023-07-09
+2023,British Grand Prix,21,DEV,AlphaTauri,18.0,18.0,17.0,1,0,0,0,2023-07-09
+2023,British Grand Prix,10,GAS,Alpine,10.0,10.0,18.0,0,0,0,0,2023-07-09
+2023,British Grand Prix,20,MAG,Haas F1 Team,19.0,19.0,19.0,0,0,0,0,2023-07-09
+2023,British Grand Prix,31,OCO,Alpine,13.0,13.0,20.0,0,0,0,0,2023-07-09
+2023,Hungarian Grand Prix,1,VER,Red Bull Racing,2.0,2.0,1.0,1,1,1,1,2023-07-23
+2023,Hungarian Grand Prix,4,NOR,McLaren,3.0,3.0,2.0,1,1,1,1,2023-07-23
+2023,Hungarian Grand Prix,11,PER,Red Bull Racing,9.0,9.0,3.0,1,1,1,1,2023-07-23
+2023,Hungarian Grand Prix,44,HAM,Mercedes,1.0,1.0,4.0,1,0,1,1,2023-07-23
+2023,Hungarian Grand Prix,81,PIA,McLaren,4.0,4.0,5.0,1,0,1,1,2023-07-23
+2023,Hungarian Grand Prix,63,RUS,Mercedes,18.0,18.0,6.0,1,0,0,1,2023-07-23
+2023,Hungarian Grand Prix,16,LEC,Ferrari,6.0,6.0,7.0,1,0,0,1,2023-07-23
+2023,Hungarian Grand Prix,55,SAI,Ferrari,11.0,11.0,8.0,1,0,0,1,2023-07-23
+2023,Hungarian Grand Prix,14,ALO,Aston Martin,8.0,8.0,9.0,1,0,0,1,2023-07-23
+2023,Hungarian Grand Prix,18,STR,Aston Martin,14.0,14.0,10.0,0,0,0,1,2023-07-23
+2023,Hungarian Grand Prix,23,ALB,Williams,16.0,16.0,11.0,0,0,0,0,2023-07-23
+2023,Hungarian Grand Prix,77,BOT,Alfa Romeo,7.0,7.0,12.0,0,0,0,0,2023-07-23
+2023,Hungarian Grand Prix,3,RIC,AlphaTauri,13.0,13.0,13.0,0,0,0,0,2023-07-23
+2023,Hungarian Grand Prix,27,HUL,Haas F1 Team,10.0,10.0,14.0,0,0,0,0,2023-07-23
+2023,Hungarian Grand Prix,22,TSU,AlphaTauri,17.0,17.0,15.0,0,0,0,0,2023-07-23
+2023,Hungarian Grand Prix,24,ZHO,Alfa Romeo,5.0,5.0,16.0,0,0,0,0,2023-07-23
+2023,Hungarian Grand Prix,20,MAG,Haas F1 Team,19.0,19.0,17.0,0,0,0,0,2023-07-23
+2023,Hungarian Grand Prix,2,SAR,Williams,20.0,20.0,18.0,0,0,0,0,2023-07-23
+2023,Hungarian Grand Prix,31,OCO,Alpine,12.0,12.0,19.0,0,0,0,0,2023-07-23
+2023,Hungarian Grand Prix,10,GAS,Alpine,15.0,15.0,20.0,0,0,0,0,2023-07-23
+2023,Singapore Grand Prix,55,SAI,Ferrari,1.0,,1.0,1,1,1,1,2023-09-17
+2023,Singapore Grand Prix,4,NOR,McLaren,4.0,,2.0,1,1,1,1,2023-09-17
+2023,Singapore Grand Prix,44,HAM,Mercedes,5.0,,3.0,1,1,1,1,2023-09-17
+2023,Singapore Grand Prix,16,LEC,Ferrari,3.0,,4.0,1,0,1,1,2023-09-17
+2023,Singapore Grand Prix,1,VER,Red Bull Racing,11.0,,5.0,1,0,1,1,2023-09-17
+2023,Singapore Grand Prix,10,GAS,Alpine,12.0,,6.0,1,0,0,1,2023-09-17
+2023,Singapore Grand Prix,81,PIA,McLaren,17.0,,7.0,1,0,0,1,2023-09-17
+2023,Singapore Grand Prix,11,PER,Red Bull Racing,13.0,,8.0,1,0,0,1,2023-09-17
+2023,Singapore Grand Prix,40,LAW,AlphaTauri,10.0,,9.0,1,0,0,1,2023-09-17
+2023,Singapore Grand Prix,20,MAG,Haas F1 Team,6.0,,10.0,1,0,0,1,2023-09-17
+2023,Singapore Grand Prix,23,ALB,Williams,14.0,,11.0,1,0,0,0,2023-09-17
+2023,Singapore Grand Prix,24,ZHO,Alfa Romeo,19.0,,12.0,1,0,0,0,2023-09-17
+2023,Singapore Grand Prix,27,HUL,Haas F1 Team,9.0,,13.0,1,0,0,0,2023-09-17
+2023,Singapore Grand Prix,2,SAR,Williams,18.0,,14.0,1,0,0,0,2023-09-17
+2023,Singapore Grand Prix,14,ALO,Aston Martin,7.0,,15.0,1,0,0,0,2023-09-17
+2023,Singapore Grand Prix,63,RUS,Mercedes,2.0,,16.0,0,0,0,0,2023-09-17
+2023,Singapore Grand Prix,77,BOT,Alfa Romeo,16.0,,17.0,0,0,0,0,2023-09-17
+2023,Singapore Grand Prix,31,OCO,Alpine,8.0,,18.0,0,0,0,0,2023-09-17
+2023,Singapore Grand Prix,22,TSU,AlphaTauri,15.0,,19.0,0,0,0,0,2023-09-17
+2023,Japanese Grand Prix,1,VER,Red Bull Racing,1.0,,1.0,1,1,1,1,2023-09-24
+2023,Japanese Grand Prix,4,NOR,McLaren,3.0,,2.0,1,1,1,1,2023-09-24
+2023,Japanese Grand Prix,81,PIA,McLaren,2.0,,3.0,1,1,1,1,2023-09-24
+2023,Japanese Grand Prix,16,LEC,Ferrari,4.0,,4.0,1,0,1,1,2023-09-24
+2023,Japanese Grand Prix,44,HAM,Mercedes,7.0,,5.0,1,0,1,1,2023-09-24
+2023,Japanese Grand Prix,55,SAI,Ferrari,6.0,,6.0,1,0,0,1,2023-09-24
+2023,Japanese Grand Prix,63,RUS,Mercedes,8.0,,7.0,1,0,0,1,2023-09-24
+2023,Japanese Grand Prix,14,ALO,Aston Martin,10.0,,8.0,1,0,0,1,2023-09-24
+2023,Japanese Grand Prix,31,OCO,Alpine,14.0,,9.0,1,0,0,1,2023-09-24
+2023,Japanese Grand Prix,10,GAS,Alpine,12.0,,10.0,1,0,0,1,2023-09-24
+2023,Japanese Grand Prix,40,LAW,AlphaTauri,11.0,,11.0,0,0,0,0,2023-09-24
+2023,Japanese Grand Prix,22,TSU,AlphaTauri,9.0,,12.0,0,0,0,0,2023-09-24
+2023,Japanese Grand Prix,24,ZHO,Alfa Romeo,19.0,,13.0,0,0,0,0,2023-09-24
+2023,Japanese Grand Prix,27,HUL,Haas F1 Team,18.0,,14.0,0,0,0,0,2023-09-24
+2023,Japanese Grand Prix,20,MAG,Haas F1 Team,15.0,,15.0,0,0,0,0,2023-09-24
+2023,Japanese Grand Prix,23,ALB,Williams,13.0,,16.0,0,0,0,0,2023-09-24
+2023,Japanese Grand Prix,2,SAR,Williams,20.0,,17.0,0,0,0,0,2023-09-24
+2023,Japanese Grand Prix,18,STR,Aston Martin,17.0,,18.0,0,0,0,0,2023-09-24
+2023,Japanese Grand Prix,11,PER,Red Bull Racing,5.0,,19.0,0,0,0,0,2023-09-24
+2023,Japanese Grand Prix,77,BOT,Alfa Romeo,16.0,,20.0,0,0,0,0,2023-09-24
+2023,Qatar Grand Prix,1,VER,Red Bull Racing,1.0,,1.0,1,1,1,1,2023-10-08
+2023,Qatar Grand Prix,81,PIA,McLaren,6.0,,2.0,1,1,1,1,2023-10-08
+2023,Qatar Grand Prix,4,NOR,McLaren,10.0,,3.0,1,1,1,1,2023-10-08
+2023,Qatar Grand Prix,63,RUS,Mercedes,2.0,,4.0,1,0,1,1,2023-10-08
+2023,Qatar Grand Prix,16,LEC,Ferrari,5.0,,5.0,1,0,1,1,2023-10-08
+2023,Qatar Grand Prix,14,ALO,Aston Martin,4.0,,6.0,1,0,0,1,2023-10-08
+2023,Qatar Grand Prix,31,OCO,Alpine,8.0,,7.0,1,0,0,1,2023-10-08
+2023,Qatar Grand Prix,77,BOT,Alfa Romeo,9.0,,8.0,1,0,0,1,2023-10-08
+2023,Qatar Grand Prix,24,ZHO,Alfa Romeo,19.0,,9.0,1,0,0,1,2023-10-08
+2023,Qatar Grand Prix,11,PER,Red Bull Racing,20.0,,10.0,1,0,0,1,2023-10-08
+2023,Qatar Grand Prix,18,STR,Aston Martin,16.0,,11.0,1,0,0,0,2023-10-08
+2023,Qatar Grand Prix,10,GAS,Alpine,7.0,,12.0,1,0,0,0,2023-10-08
+2023,Qatar Grand Prix,23,ALB,Williams,13.0,,13.0,1,0,0,0,2023-10-08
+2023,Qatar Grand Prix,20,MAG,Haas F1 Team,18.0,,14.0,0,0,0,0,2023-10-08
+2023,Qatar Grand Prix,22,TSU,AlphaTauri,11.0,,15.0,0,0,0,0,2023-10-08
+2023,Qatar Grand Prix,27,HUL,Haas F1 Team,14.0,,16.0,0,0,0,0,2023-10-08
+2023,Qatar Grand Prix,40,LAW,AlphaTauri,17.0,,17.0,0,0,0,0,2023-10-08
+2023,Qatar Grand Prix,2,SAR,Williams,15.0,,18.0,0,0,0,0,2023-10-08
+2023,Qatar Grand Prix,44,HAM,Mercedes,3.0,,19.0,0,0,0,0,2023-10-08
+2023,Qatar Grand Prix,55,SAI,Ferrari,12.0,,20.0,0,0,0,0,2023-10-08
+2023,United States Grand Prix,1,VER,Red Bull Racing,6.0,,1.0,1,1,1,1,2023-10-22
+2023,United States Grand Prix,4,NOR,McLaren,2.0,,2.0,1,1,1,1,2023-10-22
+2023,United States Grand Prix,55,SAI,Ferrari,4.0,,3.0,1,1,1,1,2023-10-22
+2023,United States Grand Prix,11,PER,Red Bull Racing,9.0,,4.0,1,0,1,1,2023-10-22
+2023,United States Grand Prix,63,RUS,Mercedes,5.0,,5.0,1,0,1,1,2023-10-22
+2023,United States Grand Prix,10,GAS,Alpine,7.0,,6.0,1,0,0,1,2023-10-22
+2023,United States Grand Prix,18,STR,Aston Martin,20.0,,7.0,1,0,0,1,2023-10-22
+2023,United States Grand Prix,22,TSU,AlphaTauri,11.0,,8.0,1,0,0,1,2023-10-22
+2023,United States Grand Prix,23,ALB,Williams,15.0,,9.0,1,0,0,1,2023-10-22
+2023,United States Grand Prix,2,SAR,Williams,16.0,,10.0,1,0,0,1,2023-10-22
+2023,United States Grand Prix,27,HUL,Haas F1 Team,18.0,,11.0,1,0,0,0,2023-10-22
+2023,United States Grand Prix,77,BOT,Alfa Romeo,13.0,,12.0,1,0,0,0,2023-10-22
+2023,United States Grand Prix,24,ZHO,Alfa Romeo,12.0,,13.0,0,0,0,0,2023-10-22
+2023,United States Grand Prix,20,MAG,Haas F1 Team,17.0,,14.0,0,0,0,0,2023-10-22
+2023,United States Grand Prix,3,RIC,AlphaTauri,14.0,,15.0,0,0,0,0,2023-10-22
+2023,United States Grand Prix,14,ALO,Aston Martin,19.0,,16.0,0,0,0,0,2023-10-22
+2023,United States Grand Prix,81,PIA,McLaren,10.0,,17.0,0,0,0,0,2023-10-22
+2023,United States Grand Prix,31,OCO,Alpine,8.0,,18.0,0,0,0,0,2023-10-22
+2023,United States Grand Prix,44,HAM,Mercedes,3.0,,19.0,0,0,0,0,2023-10-22
+2023,United States Grand Prix,16,LEC,Ferrari,1.0,,20.0,0,0,0,0,2023-10-22
+2023,Mexico City Grand Prix,1,VER,Red Bull Racing,3.0,,1.0,1,1,1,1,2023-10-29
+2023,Mexico City Grand Prix,44,HAM,Mercedes,6.0,,2.0,1,1,1,1,2023-10-29
+2023,Mexico City Grand Prix,16,LEC,Ferrari,1.0,,3.0,1,1,1,1,2023-10-29
+2023,Mexico City Grand Prix,55,SAI,Ferrari,2.0,,4.0,1,0,1,1,2023-10-29
+2023,Mexico City Grand Prix,4,NOR,McLaren,17.0,,5.0,1,0,1,1,2023-10-29
+2023,Mexico City Grand Prix,63,RUS,Mercedes,8.0,,6.0,1,0,0,1,2023-10-29
+2023,Mexico City Grand Prix,3,RIC,AlphaTauri,4.0,,7.0,1,0,0,1,2023-10-29
+2023,Mexico City Grand Prix,81,PIA,McLaren,7.0,,8.0,1,0,0,1,2023-10-29
+2023,Mexico City Grand Prix,23,ALB,Williams,14.0,,9.0,1,0,0,1,2023-10-29
+2023,Mexico City Grand Prix,31,OCO,Alpine,15.0,,10.0,1,0,0,1,2023-10-29
+2023,Mexico City Grand Prix,10,GAS,Alpine,11.0,,11.0,1,0,0,0,2023-10-29
+2023,Mexico City Grand Prix,22,TSU,AlphaTauri,18.0,,12.0,1,0,0,0,2023-10-29
+2023,Mexico City Grand Prix,27,HUL,Haas F1 Team,12.0,,13.0,1,0,0,0,2023-10-29
+2023,Mexico City Grand Prix,24,ZHO,Alfa Romeo,10.0,,14.0,1,0,0,0,2023-10-29
+2023,Mexico City Grand Prix,77,BOT,Alfa Romeo,9.0,,15.0,1,0,0,0,2023-10-29
+2023,Mexico City Grand Prix,2,SAR,Williams,19.0,,16.0,0,0,0,0,2023-10-29
+2023,Mexico City Grand Prix,18,STR,Aston Martin,0.0,,17.0,0,0,0,0,2023-10-29
+2023,Mexico City Grand Prix,14,ALO,Aston Martin,13.0,,18.0,0,0,0,0,2023-10-29
+2023,Mexico City Grand Prix,20,MAG,Haas F1 Team,16.0,,19.0,0,0,0,0,2023-10-29
+2023,Mexico City Grand Prix,11,PER,Red Bull Racing,5.0,,20.0,0,0,0,0,2023-10-29
+2023,São Paulo Grand Prix,1,VER,Red Bull Racing,1.0,,1.0,1,1,1,1,2023-11-05
+2023,São Paulo Grand Prix,4,NOR,McLaren,6.0,,2.0,1,1,1,1,2023-11-05
+2023,São Paulo Grand Prix,14,ALO,Aston Martin,4.0,,3.0,1,1,1,1,2023-11-05
+2023,São Paulo Grand Prix,11,PER,Red Bull Racing,9.0,,4.0,1,0,1,1,2023-11-05
+2023,São Paulo Grand Prix,18,STR,Aston Martin,3.0,,5.0,1,0,1,1,2023-11-05
+2023,São Paulo Grand Prix,55,SAI,Ferrari,7.0,,6.0,1,0,0,1,2023-11-05
+2023,São Paulo Grand Prix,10,GAS,Alpine,15.0,,7.0,1,0,0,1,2023-11-05
+2023,São Paulo Grand Prix,44,HAM,Mercedes,5.0,,8.0,1,0,0,1,2023-11-05
+2023,São Paulo Grand Prix,22,TSU,AlphaTauri,16.0,,9.0,1,0,0,1,2023-11-05
+2023,São Paulo Grand Prix,31,OCO,Alpine,14.0,,10.0,0,0,0,1,2023-11-05
+2023,São Paulo Grand Prix,2,SAR,Williams,19.0,,11.0,0,0,0,0,2023-11-05
+2023,São Paulo Grand Prix,27,HUL,Haas F1 Team,11.0,,12.0,0,0,0,0,2023-11-05
+2023,São Paulo Grand Prix,3,RIC,AlphaTauri,17.0,,13.0,0,0,0,0,2023-11-05
+2023,São Paulo Grand Prix,81,PIA,McLaren,10.0,,14.0,0,0,0,0,2023-11-05
+2023,São Paulo Grand Prix,63,RUS,Mercedes,8.0,,15.0,0,0,0,0,2023-11-05
+2023,São Paulo Grand Prix,77,BOT,Alfa Romeo,18.0,,16.0,0,0,0,0,2023-11-05
+2023,São Paulo Grand Prix,24,ZHO,Alfa Romeo,20.0,,17.0,0,0,0,0,2023-11-05
+2023,São Paulo Grand Prix,20,MAG,Haas F1 Team,12.0,,18.0,0,0,0,0,2023-11-05
+2023,São Paulo Grand Prix,23,ALB,Williams,13.0,,19.0,0,0,0,0,2023-11-05
+2023,São Paulo Grand Prix,16,LEC,Ferrari,2.0,,20.0,0,0,0,0,2023-11-05
+2023,Las Vegas Grand Prix,1,VER,Red Bull Racing,2.0,,1.0,1,1,1,1,2023-11-18
+2023,Las Vegas Grand Prix,16,LEC,Ferrari,1.0,,2.0,1,1,1,1,2023-11-18
+2023,Las Vegas Grand Prix,11,PER,Red Bull Racing,11.0,,3.0,1,1,1,1,2023-11-18
+2023,Las Vegas Grand Prix,31,OCO,Alpine,16.0,,4.0,1,0,1,1,2023-11-18
+2023,Las Vegas Grand Prix,18,STR,Aston Martin,19.0,,5.0,1,0,1,1,2023-11-18
+2023,Las Vegas Grand Prix,55,SAI,Ferrari,12.0,,6.0,1,0,0,1,2023-11-18
+2023,Las Vegas Grand Prix,44,HAM,Mercedes,10.0,,7.0,1,0,0,1,2023-11-18
+2023,Las Vegas Grand Prix,63,RUS,Mercedes,3.0,,8.0,1,0,0,1,2023-11-18
+2023,Las Vegas Grand Prix,14,ALO,Aston Martin,9.0,,9.0,1,0,0,1,2023-11-18
+2023,Las Vegas Grand Prix,81,PIA,McLaren,18.0,,10.0,1,0,0,1,2023-11-18
+2023,Las Vegas Grand Prix,10,GAS,Alpine,4.0,,11.0,1,0,0,0,2023-11-18
+2023,Las Vegas Grand Prix,23,ALB,Williams,5.0,,12.0,1,0,0,0,2023-11-18
+2023,Las Vegas Grand Prix,20,MAG,Haas F1 Team,8.0,,13.0,1,0,0,0,2023-11-18
+2023,Las Vegas Grand Prix,3,RIC,AlphaTauri,14.0,,14.0,1,0,0,0,2023-11-18
+2023,Las Vegas Grand Prix,24,ZHO,Alfa Romeo,17.0,,15.0,1,0,0,0,2023-11-18
+2023,Las Vegas Grand Prix,2,SAR,Williams,6.0,,16.0,1,0,0,0,2023-11-18
+2023,Las Vegas Grand Prix,77,BOT,Alfa Romeo,7.0,,17.0,1,0,0,0,2023-11-18
+2023,Las Vegas Grand Prix,22,TSU,AlphaTauri,20.0,,18.0,0,0,0,0,2023-11-18
+2023,Las Vegas Grand Prix,27,HUL,Haas F1 Team,13.0,,19.0,0,0,0,0,2023-11-18
+2023,Las Vegas Grand Prix,4,NOR,McLaren,15.0,,20.0,0,0,0,0,2023-11-18
+2023,Abu Dhabi Grand Prix,1,VER,Red Bull Racing,1.0,,1.0,1,1,1,1,2023-11-26
+2023,Abu Dhabi Grand Prix,16,LEC,Ferrari,2.0,,2.0,1,1,1,1,2023-11-26
+2023,Abu Dhabi Grand Prix,63,RUS,Mercedes,4.0,,3.0,1,1,1,1,2023-11-26
+2023,Abu Dhabi Grand Prix,11,PER,Red Bull Racing,9.0,,4.0,1,0,1,1,2023-11-26
+2023,Abu Dhabi Grand Prix,4,NOR,McLaren,5.0,,5.0,1,0,1,1,2023-11-26
+2023,Abu Dhabi Grand Prix,81,PIA,McLaren,3.0,,6.0,1,0,0,1,2023-11-26
+2023,Abu Dhabi Grand Prix,14,ALO,Aston Martin,7.0,,7.0,1,0,0,1,2023-11-26
+2023,Abu Dhabi Grand Prix,22,TSU,AlphaTauri,6.0,,8.0,1,0,0,1,2023-11-26
+2023,Abu Dhabi Grand Prix,44,HAM,Mercedes,11.0,,9.0,1,0,0,1,2023-11-26
+2023,Abu Dhabi Grand Prix,18,STR,Aston Martin,13.0,,10.0,1,0,0,1,2023-11-26
+2023,Abu Dhabi Grand Prix,3,RIC,AlphaTauri,15.0,,11.0,1,0,0,0,2023-11-26
+2023,Abu Dhabi Grand Prix,31,OCO,Alpine,12.0,,12.0,1,0,0,0,2023-11-26
+2023,Abu Dhabi Grand Prix,10,GAS,Alpine,10.0,,13.0,1,0,0,0,2023-11-26
+2023,Abu Dhabi Grand Prix,23,ALB,Williams,14.0,,14.0,1,0,0,0,2023-11-26
+2023,Abu Dhabi Grand Prix,27,HUL,Haas F1 Team,8.0,,15.0,1,0,0,0,2023-11-26
+2023,Abu Dhabi Grand Prix,2,SAR,Williams,20.0,,16.0,1,0,0,0,2023-11-26
+2023,Abu Dhabi Grand Prix,24,ZHO,Alfa Romeo,19.0,,17.0,1,0,0,0,2023-11-26
+2023,Abu Dhabi Grand Prix,55,SAI,Ferrari,16.0,,18.0,0,0,0,0,2023-11-26
+2023,Abu Dhabi Grand Prix,77,BOT,Alfa Romeo,18.0,,19.0,0,0,0,0,2023-11-26
+2023,Abu Dhabi Grand Prix,20,MAG,Haas F1 Team,17.0,,20.0,0,0,0,0,2023-11-26

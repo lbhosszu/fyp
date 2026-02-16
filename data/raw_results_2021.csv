@@ -1,0 +1,460 @@
+Year,EventName,DriverNumber,Abbreviation,TeamName,GridPos,QualiPos,FinishPos,DidFinish,Top3,Top5,Top10,EventDate
+2021,Pre-Season Test,33,VER,Red Bull Racing,1.0,1.0,1.0,1,1,1,1,2021-03-14
+2021,Pre-Season Test,44,HAM,Mercedes,2.0,2.0,2.0,1,1,1,1,2021-03-14
+2021,Pre-Season Test,11,PER,Red Bull Racing,3.0,3.0,3.0,1,1,1,1,2021-03-14
+2021,Pre-Season Test,16,LEC,Ferrari,4.0,5.0,4.0,1,0,1,1,2021-03-14
+2021,Pre-Season Test,3,RIC,McLaren,6.0,7.0,5.0,1,0,1,1,2021-03-14
+2021,Pre-Season Test,77,BOT,Mercedes,9.0,4.0,6.0,1,0,0,1,2021-03-14
+2021,Pre-Season Test,55,SAI,Ferrari,5.0,6.0,7.0,1,0,0,1,2021-03-14
+2021,Pre-Season Test,4,NOR,McLaren,7.0,8.0,8.0,1,0,0,1,2021-03-14
+2021,Pre-Season Test,22,TSU,AlphaTauri,10.0,10.0,9.0,0,0,0,1,2021-03-14
+2021,Pre-Season Test,5,VET,Aston Martin,18.0,12.0,10.0,0,0,0,1,2021-03-14
+2021,Pre-Season Test,99,GIO,Alfa Romeo Racing,12.0,13.0,11.0,0,0,0,0,2021-03-14
+2021,Pre-Season Test,18,STR,Aston Martin,13.0,16.0,12.0,0,0,0,0,2021-03-14
+2021,Pre-Season Test,7,RAI,Alfa Romeo Racing,15.0,18.0,13.0,0,0,0,0,2021-03-14
+2021,Pre-Season Test,63,RUS,Williams,20.0,15.0,14.0,0,0,0,0,2021-03-14
+2021,Pre-Season Test,6,LAT,Williams,14.0,17.0,15.0,0,0,0,0,2021-03-14
+2021,Pre-Season Test,47,MSC,Haas F1 Team,16.0,19.0,16.0,0,0,0,0,2021-03-14
+2021,Pre-Season Test,9,MAZ,Haas F1 Team,17.0,20.0,17.0,0,0,0,0,2021-03-14
+2021,Pre-Season Test,14,ALO,Alpine,19.0,14.0,18.0,0,0,0,0,2021-03-14
+2021,Pre-Season Test,31,OCO,Alpine,11.0,11.0,19.0,0,0,0,0,2021-03-14
+2021,Pre-Season Test,10,GAS,AlphaTauri,8.0,9.0,20.0,0,0,0,0,2021-03-14
+2021,Bahrain Grand Prix,44,HAM,Mercedes,2.0,2.0,1.0,1,1,1,1,2021-03-28
+2021,Bahrain Grand Prix,33,VER,Red Bull Racing,1.0,1.0,2.0,1,1,1,1,2021-03-28
+2021,Bahrain Grand Prix,77,BOT,Mercedes,3.0,3.0,3.0,1,1,1,1,2021-03-28
+2021,Bahrain Grand Prix,4,NOR,McLaren,7.0,7.0,4.0,1,0,1,1,2021-03-28
+2021,Bahrain Grand Prix,11,PER,Red Bull Racing,0.0,11.0,5.0,1,0,1,1,2021-03-28
+2021,Bahrain Grand Prix,16,LEC,Ferrari,4.0,4.0,6.0,1,0,0,1,2021-03-28
+2021,Bahrain Grand Prix,3,RIC,McLaren,6.0,6.0,7.0,1,0,0,1,2021-03-28
+2021,Bahrain Grand Prix,55,SAI,Ferrari,8.0,8.0,8.0,1,0,0,1,2021-03-28
+2021,Bahrain Grand Prix,22,TSU,AlphaTauri,13.0,13.0,9.0,1,0,0,1,2021-03-28
+2021,Bahrain Grand Prix,18,STR,Aston Martin,10.0,10.0,10.0,1,0,0,1,2021-03-28
+2021,Bahrain Grand Prix,7,RAI,Alfa Romeo Racing,14.0,14.0,11.0,1,0,0,0,2021-03-28
+2021,Bahrain Grand Prix,99,GIO,Alfa Romeo Racing,12.0,12.0,12.0,0,0,0,0,2021-03-28
+2021,Bahrain Grand Prix,31,OCO,Alpine,16.0,16.0,13.0,0,0,0,0,2021-03-28
+2021,Bahrain Grand Prix,63,RUS,Williams,15.0,15.0,14.0,0,0,0,0,2021-03-28
+2021,Bahrain Grand Prix,5,VET,Aston Martin,20.0,18.0,15.0,0,0,0,0,2021-03-28
+2021,Bahrain Grand Prix,47,MSC,Haas F1 Team,18.0,19.0,16.0,0,0,0,0,2021-03-28
+2021,Bahrain Grand Prix,10,GAS,AlphaTauri,5.0,5.0,17.0,0,0,0,0,2021-03-28
+2021,Bahrain Grand Prix,6,LAT,Williams,17.0,17.0,18.0,0,0,0,0,2021-03-28
+2021,Bahrain Grand Prix,14,ALO,Alpine,9.0,9.0,19.0,0,0,0,0,2021-03-28
+2021,Bahrain Grand Prix,9,MAZ,Haas F1 Team,19.0,20.0,20.0,0,0,0,0,2021-03-28
+2021,Emilia Romagna Grand Prix,33,VER,Red Bull Racing,3.0,3.0,1.0,1,1,1,1,2021-04-18
+2021,Emilia Romagna Grand Prix,44,HAM,Mercedes,1.0,1.0,2.0,1,1,1,1,2021-04-18
+2021,Emilia Romagna Grand Prix,4,NOR,McLaren,7.0,7.0,3.0,1,1,1,1,2021-04-18
+2021,Emilia Romagna Grand Prix,16,LEC,Ferrari,4.0,4.0,4.0,1,0,1,1,2021-04-18
+2021,Emilia Romagna Grand Prix,55,SAI,Ferrari,11.0,11.0,5.0,1,0,1,1,2021-04-18
+2021,Emilia Romagna Grand Prix,3,RIC,McLaren,6.0,6.0,6.0,1,0,0,1,2021-04-18
+2021,Emilia Romagna Grand Prix,10,GAS,AlphaTauri,5.0,5.0,7.0,1,0,0,1,2021-04-18
+2021,Emilia Romagna Grand Prix,18,STR,Aston Martin,10.0,10.0,8.0,1,0,0,1,2021-04-18
+2021,Emilia Romagna Grand Prix,31,OCO,Alpine,9.0,9.0,9.0,1,0,0,1,2021-04-18
+2021,Emilia Romagna Grand Prix,14,ALO,Alpine,15.0,15.0,10.0,1,0,0,1,2021-04-18
+2021,Emilia Romagna Grand Prix,11,PER,Red Bull Racing,2.0,2.0,11.0,1,0,0,0,2021-04-18
+2021,Emilia Romagna Grand Prix,22,TSU,AlphaTauri,20.0,20.0,12.0,1,0,0,0,2021-04-18
+2021,Emilia Romagna Grand Prix,7,RAI,Alfa Romeo Racing,16.0,16.0,13.0,1,0,0,0,2021-04-18
+2021,Emilia Romagna Grand Prix,99,GIO,Alfa Romeo Racing,17.0,17.0,14.0,0,0,0,0,2021-04-18
+2021,Emilia Romagna Grand Prix,5,VET,Aston Martin,0.0,13.0,15.0,0,0,0,0,2021-04-18
+2021,Emilia Romagna Grand Prix,47,MSC,Haas F1 Team,18.0,18.0,16.0,0,0,0,0,2021-04-18
+2021,Emilia Romagna Grand Prix,9,MAZ,Haas F1 Team,19.0,19.0,17.0,0,0,0,0,2021-04-18
+2021,Emilia Romagna Grand Prix,77,BOT,Mercedes,8.0,8.0,18.0,0,0,0,0,2021-04-18
+2021,Emilia Romagna Grand Prix,63,RUS,Williams,12.0,12.0,19.0,0,0,0,0,2021-04-18
+2021,Emilia Romagna Grand Prix,6,LAT,Williams,14.0,14.0,20.0,0,0,0,0,2021-04-18
+2021,Portuguese Grand Prix,44,HAM,Mercedes,2.0,2.0,1.0,1,1,1,1,2021-05-02
+2021,Portuguese Grand Prix,33,VER,Red Bull Racing,3.0,3.0,2.0,1,1,1,1,2021-05-02
+2021,Portuguese Grand Prix,77,BOT,Mercedes,1.0,1.0,3.0,1,1,1,1,2021-05-02
+2021,Portuguese Grand Prix,11,PER,Red Bull Racing,4.0,4.0,4.0,1,0,1,1,2021-05-02
+2021,Portuguese Grand Prix,4,NOR,McLaren,7.0,7.0,5.0,1,0,1,1,2021-05-02
+2021,Portuguese Grand Prix,16,LEC,Ferrari,8.0,8.0,6.0,1,0,0,1,2021-05-02
+2021,Portuguese Grand Prix,31,OCO,Alpine,6.0,6.0,7.0,1,0,0,1,2021-05-02
+2021,Portuguese Grand Prix,14,ALO,Alpine,13.0,13.0,8.0,1,0,0,1,2021-05-02
+2021,Portuguese Grand Prix,3,RIC,McLaren,16.0,16.0,9.0,1,0,0,1,2021-05-02
+2021,Portuguese Grand Prix,10,GAS,AlphaTauri,9.0,9.0,10.0,1,0,0,1,2021-05-02
+2021,Portuguese Grand Prix,55,SAI,Ferrari,5.0,5.0,11.0,1,0,0,0,2021-05-02
+2021,Portuguese Grand Prix,99,GIO,Alfa Romeo Racing,12.0,12.0,12.0,0,0,0,0,2021-05-02
+2021,Portuguese Grand Prix,5,VET,Aston Martin,10.0,10.0,13.0,0,0,0,0,2021-05-02
+2021,Portuguese Grand Prix,18,STR,Aston Martin,17.0,17.0,14.0,0,0,0,0,2021-05-02
+2021,Portuguese Grand Prix,22,TSU,AlphaTauri,14.0,14.0,15.0,0,0,0,0,2021-05-02
+2021,Portuguese Grand Prix,63,RUS,Williams,11.0,11.0,16.0,0,0,0,0,2021-05-02
+2021,Portuguese Grand Prix,47,MSC,Haas F1 Team,19.0,19.0,17.0,0,0,0,0,2021-05-02
+2021,Portuguese Grand Prix,6,LAT,Williams,18.0,18.0,18.0,0,0,0,0,2021-05-02
+2021,Portuguese Grand Prix,9,MAZ,Haas F1 Team,20.0,20.0,19.0,0,0,0,0,2021-05-02
+2021,Portuguese Grand Prix,7,RAI,Alfa Romeo Racing,15.0,15.0,20.0,0,0,0,0,2021-05-02
+2021,Spanish Grand Prix,44,HAM,Mercedes,1.0,1.0,1.0,1,1,1,1,2021-05-09
+2021,Spanish Grand Prix,33,VER,Red Bull Racing,2.0,2.0,2.0,1,1,1,1,2021-05-09
+2021,Spanish Grand Prix,77,BOT,Mercedes,3.0,3.0,3.0,1,1,1,1,2021-05-09
+2021,Spanish Grand Prix,16,LEC,Ferrari,4.0,4.0,4.0,1,0,1,1,2021-05-09
+2021,Spanish Grand Prix,11,PER,Red Bull Racing,8.0,8.0,5.0,1,0,1,1,2021-05-09
+2021,Spanish Grand Prix,3,RIC,McLaren,7.0,7.0,6.0,1,0,0,1,2021-05-09
+2021,Spanish Grand Prix,55,SAI,Ferrari,6.0,6.0,7.0,1,0,0,1,2021-05-09
+2021,Spanish Grand Prix,4,NOR,McLaren,9.0,9.0,8.0,0,0,0,1,2021-05-09
+2021,Spanish Grand Prix,31,OCO,Alpine,5.0,5.0,9.0,0,0,0,1,2021-05-09
+2021,Spanish Grand Prix,10,GAS,AlphaTauri,12.0,12.0,10.0,0,0,0,1,2021-05-09
+2021,Spanish Grand Prix,18,STR,Aston Martin,11.0,11.0,11.0,0,0,0,0,2021-05-09
+2021,Spanish Grand Prix,7,RAI,Alfa Romeo Racing,17.0,17.0,12.0,0,0,0,0,2021-05-09
+2021,Spanish Grand Prix,5,VET,Aston Martin,13.0,13.0,13.0,0,0,0,0,2021-05-09
+2021,Spanish Grand Prix,63,RUS,Williams,15.0,15.0,14.0,0,0,0,0,2021-05-09
+2021,Spanish Grand Prix,99,GIO,Alfa Romeo Racing,14.0,14.0,15.0,0,0,0,0,2021-05-09
+2021,Spanish Grand Prix,6,LAT,Williams,19.0,19.0,16.0,0,0,0,0,2021-05-09
+2021,Spanish Grand Prix,14,ALO,Alpine,10.0,10.0,17.0,0,0,0,0,2021-05-09
+2021,Spanish Grand Prix,47,MSC,Haas F1 Team,18.0,18.0,18.0,0,0,0,0,2021-05-09
+2021,Spanish Grand Prix,9,MAZ,Haas F1 Team,20.0,20.0,19.0,0,0,0,0,2021-05-09
+2021,Spanish Grand Prix,22,TSU,AlphaTauri,16.0,16.0,20.0,0,0,0,0,2021-05-09
+2021,Monaco Grand Prix,33,VER,Red Bull Racing,2.0,2.0,1.0,1,1,1,1,2021-05-23
+2021,Monaco Grand Prix,55,SAI,Ferrari,4.0,4.0,2.0,1,1,1,1,2021-05-23
+2021,Monaco Grand Prix,4,NOR,McLaren,5.0,5.0,3.0,1,1,1,1,2021-05-23
+2021,Monaco Grand Prix,11,PER,Red Bull Racing,9.0,9.0,4.0,1,0,1,1,2021-05-23
+2021,Monaco Grand Prix,5,VET,Aston Martin,8.0,8.0,5.0,1,0,1,1,2021-05-23
+2021,Monaco Grand Prix,10,GAS,AlphaTauri,6.0,6.0,6.0,1,0,0,1,2021-05-23
+2021,Monaco Grand Prix,44,HAM,Mercedes,7.0,7.0,7.0,1,0,0,1,2021-05-23
+2021,Monaco Grand Prix,18,STR,Aston Martin,13.0,13.0,8.0,0,0,0,1,2021-05-23
+2021,Monaco Grand Prix,31,OCO,Alpine,11.0,11.0,9.0,0,0,0,1,2021-05-23
+2021,Monaco Grand Prix,99,GIO,Alfa Romeo Racing,10.0,10.0,10.0,0,0,0,1,2021-05-23
+2021,Monaco Grand Prix,7,RAI,Alfa Romeo Racing,14.0,14.0,11.0,0,0,0,0,2021-05-23
+2021,Monaco Grand Prix,3,RIC,McLaren,12.0,12.0,12.0,0,0,0,0,2021-05-23
+2021,Monaco Grand Prix,14,ALO,Alpine,17.0,17.0,13.0,0,0,0,0,2021-05-23
+2021,Monaco Grand Prix,63,RUS,Williams,15.0,15.0,14.0,0,0,0,0,2021-05-23
+2021,Monaco Grand Prix,6,LAT,Williams,18.0,18.0,15.0,0,0,0,0,2021-05-23
+2021,Monaco Grand Prix,22,TSU,AlphaTauri,16.0,16.0,16.0,0,0,0,0,2021-05-23
+2021,Monaco Grand Prix,9,MAZ,Haas F1 Team,19.0,19.0,17.0,0,0,0,0,2021-05-23
+2021,Monaco Grand Prix,47,MSC,Haas F1 Team,20.0,,18.0,0,0,0,0,2021-05-23
+2021,Monaco Grand Prix,77,BOT,Mercedes,3.0,3.0,19.0,0,0,0,0,2021-05-23
+2021,Monaco Grand Prix,16,LEC,Ferrari,1.0,1.0,20.0,0,0,0,0,2021-05-23
+2021,Azerbaijan Grand Prix,11,PER,Red Bull Racing,6.0,7.0,1.0,1,1,1,1,2021-06-06
+2021,Azerbaijan Grand Prix,5,VET,Aston Martin,11.0,11.0,2.0,1,1,1,1,2021-06-06
+2021,Azerbaijan Grand Prix,10,GAS,AlphaTauri,4.0,4.0,3.0,1,1,1,1,2021-06-06
+2021,Azerbaijan Grand Prix,16,LEC,Ferrari,1.0,1.0,4.0,1,0,1,1,2021-06-06
+2021,Azerbaijan Grand Prix,4,NOR,McLaren,9.0,6.0,5.0,1,0,1,1,2021-06-06
+2021,Azerbaijan Grand Prix,14,ALO,Alpine,8.0,9.0,6.0,1,0,0,1,2021-06-06
+2021,Azerbaijan Grand Prix,22,TSU,AlphaTauri,7.0,8.0,7.0,1,0,0,1,2021-06-06
+2021,Azerbaijan Grand Prix,55,SAI,Ferrari,5.0,5.0,8.0,1,0,0,1,2021-06-06
+2021,Azerbaijan Grand Prix,3,RIC,McLaren,13.0,13.0,9.0,1,0,0,1,2021-06-06
+2021,Azerbaijan Grand Prix,7,RAI,Alfa Romeo Racing,14.0,14.0,10.0,1,0,0,1,2021-06-06
+2021,Azerbaijan Grand Prix,99,GIO,Alfa Romeo Racing,20.0,20.0,11.0,1,0,0,0,2021-06-06
+2021,Azerbaijan Grand Prix,77,BOT,Mercedes,10.0,10.0,12.0,1,0,0,0,2021-06-06
+2021,Azerbaijan Grand Prix,47,MSC,Haas F1 Team,17.0,17.0,13.0,1,0,0,0,2021-06-06
+2021,Azerbaijan Grand Prix,9,MAZ,Haas F1 Team,18.0,18.0,14.0,1,0,0,0,2021-06-06
+2021,Azerbaijan Grand Prix,44,HAM,Mercedes,2.0,2.0,15.0,1,0,0,0,2021-06-06
+2021,Azerbaijan Grand Prix,6,LAT,Williams,16.0,16.0,16.0,1,0,0,0,2021-06-06
+2021,Azerbaijan Grand Prix,63,RUS,Williams,15.0,15.0,17.0,0,0,0,0,2021-06-06
+2021,Azerbaijan Grand Prix,33,VER,Red Bull Racing,3.0,3.0,18.0,0,0,0,0,2021-06-06
+2021,Azerbaijan Grand Prix,18,STR,Aston Martin,19.0,19.0,19.0,0,0,0,0,2021-06-06
+2021,Azerbaijan Grand Prix,31,OCO,Alpine,12.0,12.0,20.0,0,0,0,0,2021-06-06
+2021,French Grand Prix,33,VER,Red Bull Racing,1.0,1.0,1.0,1,1,1,1,2021-06-20
+2021,French Grand Prix,44,HAM,Mercedes,2.0,2.0,2.0,1,1,1,1,2021-06-20
+2021,French Grand Prix,11,PER,Red Bull Racing,4.0,4.0,3.0,1,1,1,1,2021-06-20
+2021,French Grand Prix,77,BOT,Mercedes,3.0,3.0,4.0,1,0,1,1,2021-06-20
+2021,French Grand Prix,4,NOR,McLaren,8.0,8.0,5.0,1,0,1,1,2021-06-20
+2021,French Grand Prix,3,RIC,McLaren,10.0,10.0,6.0,1,0,0,1,2021-06-20
+2021,French Grand Prix,10,GAS,AlphaTauri,6.0,6.0,7.0,1,0,0,1,2021-06-20
+2021,French Grand Prix,14,ALO,Alpine,9.0,9.0,8.0,1,0,0,1,2021-06-20
+2021,French Grand Prix,5,VET,Aston Martin,12.0,12.0,9.0,1,0,0,1,2021-06-20
+2021,French Grand Prix,18,STR,Aston Martin,19.0,19.0,10.0,1,0,0,1,2021-06-20
+2021,French Grand Prix,55,SAI,Ferrari,5.0,5.0,11.0,1,0,0,0,2021-06-20
+2021,French Grand Prix,63,RUS,Williams,14.0,14.0,12.0,0,0,0,0,2021-06-20
+2021,French Grand Prix,22,TSU,AlphaTauri,0.0,20.0,13.0,0,0,0,0,2021-06-20
+2021,French Grand Prix,31,OCO,Alpine,11.0,11.0,14.0,0,0,0,0,2021-06-20
+2021,French Grand Prix,99,GIO,Alfa Romeo Racing,13.0,13.0,15.0,0,0,0,0,2021-06-20
+2021,French Grand Prix,16,LEC,Ferrari,7.0,7.0,16.0,0,0,0,0,2021-06-20
+2021,French Grand Prix,7,RAI,Alfa Romeo Racing,17.0,17.0,17.0,0,0,0,0,2021-06-20
+2021,French Grand Prix,6,LAT,Williams,16.0,16.0,18.0,0,0,0,0,2021-06-20
+2021,French Grand Prix,47,MSC,Haas F1 Team,15.0,15.0,19.0,0,0,0,0,2021-06-20
+2021,French Grand Prix,9,MAZ,Haas F1 Team,18.0,18.0,20.0,0,0,0,0,2021-06-20
+2021,Styrian Grand Prix,33,VER,Red Bull Racing,1.0,1.0,1.0,1,1,1,1,2021-06-27
+2021,Styrian Grand Prix,44,HAM,Mercedes,2.0,3.0,2.0,1,1,1,1,2021-06-27
+2021,Styrian Grand Prix,77,BOT,Mercedes,5.0,2.0,3.0,1,1,1,1,2021-06-27
+2021,Styrian Grand Prix,11,PER,Red Bull Racing,4.0,5.0,4.0,1,0,1,1,2021-06-27
+2021,Styrian Grand Prix,4,NOR,McLaren,3.0,4.0,5.0,0,0,1,1,2021-06-27
+2021,Styrian Grand Prix,55,SAI,Ferrari,12.0,12.0,6.0,0,0,0,1,2021-06-27
+2021,Styrian Grand Prix,16,LEC,Ferrari,7.0,7.0,7.0,0,0,0,1,2021-06-27
+2021,Styrian Grand Prix,18,STR,Aston Martin,9.0,10.0,8.0,0,0,0,1,2021-06-27
+2021,Styrian Grand Prix,14,ALO,Alpine,8.0,9.0,9.0,0,0,0,1,2021-06-27
+2021,Styrian Grand Prix,22,TSU,AlphaTauri,11.0,8.0,10.0,0,0,0,1,2021-06-27
+2021,Styrian Grand Prix,7,RAI,Alfa Romeo Racing,18.0,18.0,11.0,0,0,0,0,2021-06-27
+2021,Styrian Grand Prix,5,VET,Aston Martin,14.0,14.0,12.0,0,0,0,0,2021-06-27
+2021,Styrian Grand Prix,3,RIC,McLaren,13.0,13.0,13.0,0,0,0,0,2021-06-27
+2021,Styrian Grand Prix,31,OCO,Alpine,17.0,17.0,14.0,0,0,0,0,2021-06-27
+2021,Styrian Grand Prix,99,GIO,Alfa Romeo Racing,15.0,15.0,15.0,0,0,0,0,2021-06-27
+2021,Styrian Grand Prix,47,MSC,Haas F1 Team,19.0,19.0,16.0,0,0,0,0,2021-06-27
+2021,Styrian Grand Prix,6,LAT,Williams,16.0,16.0,17.0,0,0,0,0,2021-06-27
+2021,Styrian Grand Prix,9,MAZ,Haas F1 Team,20.0,20.0,18.0,0,0,0,0,2021-06-27
+2021,Styrian Grand Prix,63,RUS,Williams,10.0,11.0,19.0,0,0,0,0,2021-06-27
+2021,Styrian Grand Prix,10,GAS,AlphaTauri,6.0,6.0,20.0,0,0,0,0,2021-06-27
+2021,Austrian Grand Prix,33,VER,Red Bull Racing,1.0,1.0,1.0,1,1,1,1,2021-07-04
+2021,Austrian Grand Prix,77,BOT,Mercedes,5.0,5.0,2.0,1,1,1,1,2021-07-04
+2021,Austrian Grand Prix,4,NOR,McLaren,2.0,2.0,3.0,1,1,1,1,2021-07-04
+2021,Austrian Grand Prix,44,HAM,Mercedes,4.0,4.0,4.0,1,0,1,1,2021-07-04
+2021,Austrian Grand Prix,55,SAI,Ferrari,10.0,11.0,5.0,1,0,1,1,2021-07-04
+2021,Austrian Grand Prix,11,PER,Red Bull Racing,3.0,3.0,6.0,1,0,0,1,2021-07-04
+2021,Austrian Grand Prix,3,RIC,McLaren,13.0,13.0,7.0,1,0,0,1,2021-07-04
+2021,Austrian Grand Prix,16,LEC,Ferrari,12.0,12.0,8.0,1,0,0,1,2021-07-04
+2021,Austrian Grand Prix,10,GAS,AlphaTauri,6.0,6.0,9.0,1,0,0,1,2021-07-04
+2021,Austrian Grand Prix,14,ALO,Alpine,14.0,14.0,10.0,0,0,0,1,2021-07-04
+2021,Austrian Grand Prix,63,RUS,Williams,8.0,9.0,11.0,0,0,0,0,2021-07-04
+2021,Austrian Grand Prix,22,TSU,AlphaTauri,7.0,7.0,12.0,0,0,0,0,2021-07-04
+2021,Austrian Grand Prix,18,STR,Aston Martin,9.0,10.0,13.0,0,0,0,0,2021-07-04
+2021,Austrian Grand Prix,99,GIO,Alfa Romeo Racing,15.0,15.0,14.0,0,0,0,0,2021-07-04
+2021,Austrian Grand Prix,7,RAI,Alfa Romeo Racing,16.0,16.0,15.0,0,0,0,0,2021-07-04
+2021,Austrian Grand Prix,6,LAT,Williams,18.0,18.0,16.0,0,0,0,0,2021-07-04
+2021,Austrian Grand Prix,5,VET,Aston Martin,11.0,8.0,17.0,0,0,0,0,2021-07-04
+2021,Austrian Grand Prix,47,MSC,Haas F1 Team,19.0,19.0,18.0,0,0,0,0,2021-07-04
+2021,Austrian Grand Prix,9,MAZ,Haas F1 Team,20.0,20.0,19.0,0,0,0,0,2021-07-04
+2021,Austrian Grand Prix,31,OCO,Alpine,17.0,17.0,20.0,0,0,0,0,2021-07-04
+2021,British Grand Prix,44,HAM,Mercedes,2.0,1.0,1.0,1,1,1,1,2021-07-18
+2021,British Grand Prix,16,LEC,Ferrari,4.0,4.0,2.0,1,1,1,1,2021-07-18
+2021,British Grand Prix,77,BOT,Mercedes,3.0,3.0,3.0,1,1,1,1,2021-07-18
+2021,British Grand Prix,4,NOR,McLaren,5.0,6.0,4.0,1,0,1,1,2021-07-18
+2021,British Grand Prix,3,RIC,McLaren,6.0,7.0,5.0,1,0,1,1,2021-07-18
+2021,British Grand Prix,55,SAI,Ferrari,10.0,9.0,6.0,1,0,0,1,2021-07-18
+2021,British Grand Prix,14,ALO,Alpine,7.0,11.0,7.0,1,0,0,1,2021-07-18
+2021,British Grand Prix,18,STR,Aston Martin,14.0,15.0,8.0,1,0,0,1,2021-07-18
+2021,British Grand Prix,31,OCO,Alpine,9.0,13.0,9.0,1,0,0,1,2021-07-18
+2021,British Grand Prix,22,TSU,AlphaTauri,16.0,16.0,10.0,1,0,0,1,2021-07-18
+2021,British Grand Prix,10,GAS,AlphaTauri,11.0,12.0,11.0,1,0,0,0,2021-07-18
+2021,British Grand Prix,63,RUS,Williams,12.0,8.0,12.0,0,0,0,0,2021-07-18
+2021,British Grand Prix,99,GIO,Alfa Romeo Racing,15.0,14.0,13.0,0,0,0,0,2021-07-18
+2021,British Grand Prix,6,LAT,Williams,17.0,18.0,14.0,0,0,0,0,2021-07-18
+2021,British Grand Prix,7,RAI,Alfa Romeo Racing,13.0,17.0,15.0,0,0,0,0,2021-07-18
+2021,British Grand Prix,11,PER,Red Bull Racing,0.0,5.0,16.0,0,0,0,0,2021-07-18
+2021,British Grand Prix,9,MAZ,Haas F1 Team,19.0,20.0,17.0,0,0,0,0,2021-07-18
+2021,British Grand Prix,47,MSC,Haas F1 Team,18.0,19.0,18.0,0,0,0,0,2021-07-18
+2021,British Grand Prix,5,VET,Aston Martin,8.0,10.0,19.0,0,0,0,0,2021-07-18
+2021,British Grand Prix,33,VER,Red Bull Racing,1.0,2.0,20.0,0,0,0,0,2021-07-18
+2021,Hungarian Grand Prix,31,OCO,Alpine,8.0,8.0,1.0,1,1,1,1,2021-08-01
+2021,Hungarian Grand Prix,44,HAM,Mercedes,1.0,1.0,2.0,1,1,1,1,2021-08-01
+2021,Hungarian Grand Prix,55,SAI,Ferrari,15.0,15.0,3.0,1,1,1,1,2021-08-01
+2021,Hungarian Grand Prix,14,ALO,Alpine,9.0,9.0,4.0,1,0,1,1,2021-08-01
+2021,Hungarian Grand Prix,10,GAS,AlphaTauri,5.0,5.0,5.0,1,0,1,1,2021-08-01
+2021,Hungarian Grand Prix,22,TSU,AlphaTauri,16.0,16.0,6.0,1,0,0,1,2021-08-01
+2021,Hungarian Grand Prix,6,LAT,Williams,18.0,18.0,7.0,1,0,0,1,2021-08-01
+2021,Hungarian Grand Prix,63,RUS,Williams,17.0,17.0,8.0,1,0,0,1,2021-08-01
+2021,Hungarian Grand Prix,33,VER,Red Bull Racing,3.0,3.0,9.0,1,0,0,1,2021-08-01
+2021,Hungarian Grand Prix,7,RAI,Alfa Romeo Racing,13.0,13.0,10.0,0,0,0,1,2021-08-01
+2021,Hungarian Grand Prix,3,RIC,McLaren,11.0,11.0,11.0,0,0,0,0,2021-08-01
+2021,Hungarian Grand Prix,47,MSC,Haas F1 Team,20.0,20.0,12.0,0,0,0,0,2021-08-01
+2021,Hungarian Grand Prix,99,GIO,Alfa Romeo Racing,0.0,14.0,13.0,0,0,0,0,2021-08-01
+2021,Hungarian Grand Prix,9,MAZ,Haas F1 Team,19.0,19.0,14.0,0,0,0,0,2021-08-01
+2021,Hungarian Grand Prix,4,NOR,McLaren,6.0,6.0,15.0,0,0,0,0,2021-08-01
+2021,Hungarian Grand Prix,77,BOT,Mercedes,2.0,2.0,16.0,0,0,0,0,2021-08-01
+2021,Hungarian Grand Prix,11,PER,Red Bull Racing,4.0,4.0,17.0,0,0,0,0,2021-08-01
+2021,Hungarian Grand Prix,16,LEC,Ferrari,7.0,7.0,18.0,0,0,0,0,2021-08-01
+2021,Hungarian Grand Prix,18,STR,Aston Martin,12.0,12.0,19.0,0,0,0,0,2021-08-01
+2021,Hungarian Grand Prix,5,VET,Aston Martin,10.0,10.0,20.0,0,0,0,0,2021-08-01
+2021,Belgian Grand Prix,33,VER,Red Bull Racing,1.0,1.0,1.0,1,1,1,1,2021-08-29
+2021,Belgian Grand Prix,63,RUS,Williams,2.0,2.0,2.0,1,1,1,1,2021-08-29
+2021,Belgian Grand Prix,44,HAM,Mercedes,3.0,3.0,3.0,1,1,1,1,2021-08-29
+2021,Belgian Grand Prix,3,RIC,McLaren,4.0,4.0,4.0,1,0,1,1,2021-08-29
+2021,Belgian Grand Prix,5,VET,Aston Martin,5.0,5.0,5.0,1,0,1,1,2021-08-29
+2021,Belgian Grand Prix,10,GAS,AlphaTauri,6.0,6.0,6.0,1,0,0,1,2021-08-29
+2021,Belgian Grand Prix,31,OCO,Alpine,8.0,9.0,7.0,1,0,0,1,2021-08-29
+2021,Belgian Grand Prix,16,LEC,Ferrari,9.0,11.0,8.0,1,0,0,1,2021-08-29
+2021,Belgian Grand Prix,6,LAT,Williams,10.0,12.0,9.0,1,0,0,1,2021-08-29
+2021,Belgian Grand Prix,55,SAI,Ferrari,11.0,13.0,10.0,1,0,0,1,2021-08-29
+2021,Belgian Grand Prix,14,ALO,Alpine,12.0,14.0,11.0,1,0,0,0,2021-08-29
+2021,Belgian Grand Prix,77,BOT,Mercedes,13.0,8.0,12.0,1,0,0,0,2021-08-29
+2021,Belgian Grand Prix,99,GIO,Alfa Romeo Racing,14.0,16.0,13.0,1,0,0,0,2021-08-29
+2021,Belgian Grand Prix,4,NOR,McLaren,15.0,10.0,14.0,1,0,0,0,2021-08-29
+2021,Belgian Grand Prix,22,TSU,AlphaTauri,16.0,17.0,15.0,1,0,0,0,2021-08-29
+2021,Belgian Grand Prix,47,MSC,Haas F1 Team,17.0,18.0,16.0,1,0,0,0,2021-08-29
+2021,Belgian Grand Prix,9,MAZ,Haas F1 Team,18.0,20.0,17.0,1,0,0,0,2021-08-29
+2021,Belgian Grand Prix,7,RAI,Alfa Romeo Racing,0.0,19.0,18.0,1,0,0,0,2021-08-29
+2021,Belgian Grand Prix,11,PER,Red Bull Racing,0.0,7.0,19.0,1,0,0,0,2021-08-29
+2021,Belgian Grand Prix,18,STR,Aston Martin,19.0,15.0,20.0,1,0,0,0,2021-08-29
+2021,Dutch Grand Prix,33,VER,Red Bull Racing,1.0,1.0,1.0,1,1,1,1,2021-09-05
+2021,Dutch Grand Prix,44,HAM,Mercedes,2.0,2.0,2.0,1,1,1,1,2021-09-05
+2021,Dutch Grand Prix,77,BOT,Mercedes,3.0,3.0,3.0,1,1,1,1,2021-09-05
+2021,Dutch Grand Prix,10,GAS,AlphaTauri,4.0,4.0,4.0,0,0,1,1,2021-09-05
+2021,Dutch Grand Prix,16,LEC,Ferrari,5.0,5.0,5.0,0,0,1,1,2021-09-05
+2021,Dutch Grand Prix,14,ALO,Alpine,9.0,9.0,6.0,0,0,0,1,2021-09-05
+2021,Dutch Grand Prix,55,SAI,Ferrari,6.0,6.0,7.0,0,0,0,1,2021-09-05
+2021,Dutch Grand Prix,11,PER,Red Bull Racing,0.0,16.0,8.0,0,0,0,1,2021-09-05
+2021,Dutch Grand Prix,31,OCO,Alpine,8.0,8.0,9.0,0,0,0,1,2021-09-05
+2021,Dutch Grand Prix,4,NOR,McLaren,13.0,13.0,10.0,0,0,0,1,2021-09-05
+2021,Dutch Grand Prix,3,RIC,McLaren,10.0,10.0,11.0,0,0,0,0,2021-09-05
+2021,Dutch Grand Prix,18,STR,Aston Martin,12.0,12.0,12.0,0,0,0,0,2021-09-05
+2021,Dutch Grand Prix,5,VET,Aston Martin,15.0,17.0,13.0,0,0,0,0,2021-09-05
+2021,Dutch Grand Prix,99,GIO,Alfa Romeo Racing,7.0,7.0,14.0,0,0,0,0,2021-09-05
+2021,Dutch Grand Prix,88,KUB,Alfa Romeo Racing,16.0,18.0,15.0,0,0,0,0,2021-09-05
+2021,Dutch Grand Prix,6,LAT,Williams,0.0,14.0,16.0,0,0,0,0,2021-09-05
+2021,Dutch Grand Prix,63,RUS,Williams,11.0,11.0,17.0,0,0,0,0,2021-09-05
+2021,Dutch Grand Prix,47,MSC,Haas F1 Team,17.0,19.0,18.0,0,0,0,0,2021-09-05
+2021,Dutch Grand Prix,22,TSU,AlphaTauri,14.0,15.0,19.0,0,0,0,0,2021-09-05
+2021,Dutch Grand Prix,9,MAZ,Haas F1 Team,18.0,20.0,20.0,0,0,0,0,2021-09-05
+2021,Italian Grand Prix,3,RIC,McLaren,2.0,5.0,1.0,1,1,1,1,2021-09-12
+2021,Italian Grand Prix,4,NOR,McLaren,3.0,4.0,2.0,1,1,1,1,2021-09-12
+2021,Italian Grand Prix,77,BOT,Mercedes,19.0,1.0,3.0,1,1,1,1,2021-09-12
+2021,Italian Grand Prix,16,LEC,Ferrari,5.0,8.0,4.0,1,0,1,1,2021-09-12
+2021,Italian Grand Prix,11,PER,Red Bull Racing,8.0,9.0,5.0,1,0,1,1,2021-09-12
+2021,Italian Grand Prix,55,SAI,Ferrari,6.0,7.0,6.0,1,0,0,1,2021-09-12
+2021,Italian Grand Prix,18,STR,Aston Martin,9.0,12.0,7.0,1,0,0,1,2021-09-12
+2021,Italian Grand Prix,14,ALO,Alpine,10.0,13.0,8.0,1,0,0,1,2021-09-12
+2021,Italian Grand Prix,63,RUS,Williams,14.0,15.0,9.0,1,0,0,1,2021-09-12
+2021,Italian Grand Prix,31,OCO,Alpine,12.0,14.0,10.0,1,0,0,1,2021-09-12
+2021,Italian Grand Prix,6,LAT,Williams,13.0,16.0,11.0,1,0,0,0,2021-09-12
+2021,Italian Grand Prix,5,VET,Aston Martin,11.0,11.0,12.0,1,0,0,0,2021-09-12
+2021,Italian Grand Prix,99,GIO,Alfa Romeo Racing,7.0,10.0,13.0,1,0,0,0,2021-09-12
+2021,Italian Grand Prix,88,KUB,Alfa Romeo Racing,17.0,19.0,14.0,1,0,0,0,2021-09-12
+2021,Italian Grand Prix,47,MSC,Haas F1 Team,18.0,18.0,15.0,1,0,0,0,2021-09-12
+2021,Italian Grand Prix,9,MAZ,Haas F1 Team,16.0,20.0,16.0,0,0,0,0,2021-09-12
+2021,Italian Grand Prix,44,HAM,Mercedes,4.0,2.0,17.0,0,0,0,0,2021-09-12
+2021,Italian Grand Prix,33,VER,Red Bull Racing,1.0,3.0,18.0,0,0,0,0,2021-09-12
+2021,Italian Grand Prix,10,GAS,AlphaTauri,0.0,6.0,19.0,0,0,0,0,2021-09-12
+2021,Italian Grand Prix,22,TSU,AlphaTauri,0.0,17.0,20.0,0,0,0,0,2021-09-12
+2021,Russian Grand Prix,44,HAM,Mercedes,4.0,4.0,1.0,1,1,1,1,2021-09-26
+2021,Russian Grand Prix,33,VER,Red Bull Racing,20.0,20.0,2.0,1,1,1,1,2021-09-26
+2021,Russian Grand Prix,55,SAI,Ferrari,2.0,2.0,3.0,1,1,1,1,2021-09-26
+2021,Russian Grand Prix,3,RIC,McLaren,5.0,5.0,4.0,1,0,1,1,2021-09-26
+2021,Russian Grand Prix,77,BOT,Mercedes,16.0,7.0,5.0,1,0,1,1,2021-09-26
+2021,Russian Grand Prix,14,ALO,Alpine,6.0,6.0,6.0,1,0,0,1,2021-09-26
+2021,Russian Grand Prix,4,NOR,McLaren,1.0,1.0,7.0,1,0,0,1,2021-09-26
+2021,Russian Grand Prix,7,RAI,Alfa Romeo Racing,13.0,16.0,8.0,1,0,0,1,2021-09-26
+2021,Russian Grand Prix,11,PER,Red Bull Racing,8.0,9.0,9.0,1,0,0,1,2021-09-26
+2021,Russian Grand Prix,63,RUS,Williams,3.0,3.0,10.0,1,0,0,1,2021-09-26
+2021,Russian Grand Prix,18,STR,Aston Martin,7.0,8.0,11.0,1,0,0,0,2021-09-26
+2021,Russian Grand Prix,5,VET,Aston Martin,10.0,11.0,12.0,0,0,0,0,2021-09-26
+2021,Russian Grand Prix,10,GAS,AlphaTauri,11.0,12.0,13.0,0,0,0,0,2021-09-26
+2021,Russian Grand Prix,31,OCO,Alpine,9.0,10.0,14.0,0,0,0,0,2021-09-26
+2021,Russian Grand Prix,16,LEC,Ferrari,19.0,15.0,15.0,0,0,0,0,2021-09-26
+2021,Russian Grand Prix,99,GIO,Alfa Romeo Racing,17.0,18.0,16.0,0,0,0,0,2021-09-26
+2021,Russian Grand Prix,22,TSU,AlphaTauri,12.0,13.0,17.0,0,0,0,0,2021-09-26
+2021,Russian Grand Prix,9,MAZ,Haas F1 Team,15.0,19.0,18.0,0,0,0,0,2021-09-26
+2021,Russian Grand Prix,6,LAT,Williams,18.0,14.0,19.0,0,0,0,0,2021-09-26
+2021,Russian Grand Prix,47,MSC,Haas F1 Team,14.0,17.0,20.0,0,0,0,0,2021-09-26
+2021,Turkish Grand Prix,77,BOT,Mercedes,1.0,2.0,1.0,1,1,1,1,2021-10-10
+2021,Turkish Grand Prix,33,VER,Red Bull Racing,2.0,3.0,2.0,1,1,1,1,2021-10-10
+2021,Turkish Grand Prix,11,PER,Red Bull Racing,6.0,7.0,3.0,1,1,1,1,2021-10-10
+2021,Turkish Grand Prix,16,LEC,Ferrari,3.0,4.0,4.0,1,0,1,1,2021-10-10
+2021,Turkish Grand Prix,44,HAM,Mercedes,11.0,1.0,5.0,1,0,1,1,2021-10-10
+2021,Turkish Grand Prix,10,GAS,AlphaTauri,4.0,5.0,6.0,1,0,0,1,2021-10-10
+2021,Turkish Grand Prix,4,NOR,McLaren,7.0,8.0,7.0,1,0,0,1,2021-10-10
+2021,Turkish Grand Prix,55,SAI,Ferrari,19.0,15.0,8.0,1,0,0,1,2021-10-10
+2021,Turkish Grand Prix,18,STR,Aston Martin,8.0,9.0,9.0,1,0,0,1,2021-10-10
+2021,Turkish Grand Prix,31,OCO,Alpine,12.0,12.0,10.0,0,0,0,1,2021-10-10
+2021,Turkish Grand Prix,99,GIO,Alfa Romeo Racing,16.0,18.0,11.0,0,0,0,0,2021-10-10
+2021,Turkish Grand Prix,7,RAI,Alfa Romeo Racing,17.0,19.0,12.0,0,0,0,0,2021-10-10
+2021,Turkish Grand Prix,3,RIC,McLaren,20.0,16.0,13.0,0,0,0,0,2021-10-10
+2021,Turkish Grand Prix,22,TSU,AlphaTauri,9.0,10.0,14.0,0,0,0,0,2021-10-10
+2021,Turkish Grand Prix,63,RUS,Williams,13.0,13.0,15.0,0,0,0,0,2021-10-10
+2021,Turkish Grand Prix,14,ALO,Alpine,5.0,6.0,16.0,0,0,0,0,2021-10-10
+2021,Turkish Grand Prix,6,LAT,Williams,15.0,17.0,17.0,0,0,0,0,2021-10-10
+2021,Turkish Grand Prix,5,VET,Aston Martin,10.0,11.0,18.0,0,0,0,0,2021-10-10
+2021,Turkish Grand Prix,47,MSC,Haas F1 Team,14.0,14.0,19.0,0,0,0,0,2021-10-10
+2021,Turkish Grand Prix,9,MAZ,Haas F1 Team,18.0,20.0,20.0,0,0,0,0,2021-10-10
+2021,United States Grand Prix,33,VER,Red Bull Racing,1.0,1.0,1.0,1,1,1,1,2021-10-24
+2021,United States Grand Prix,44,HAM,Mercedes,2.0,2.0,2.0,1,1,1,1,2021-10-24
+2021,United States Grand Prix,11,PER,Red Bull Racing,3.0,3.0,3.0,1,1,1,1,2021-10-24
+2021,United States Grand Prix,16,LEC,Ferrari,4.0,5.0,4.0,1,0,1,1,2021-10-24
+2021,United States Grand Prix,3,RIC,McLaren,6.0,7.0,5.0,1,0,1,1,2021-10-24
+2021,United States Grand Prix,77,BOT,Mercedes,9.0,4.0,6.0,1,0,0,1,2021-10-24
+2021,United States Grand Prix,55,SAI,Ferrari,5.0,6.0,7.0,1,0,0,1,2021-10-24
+2021,United States Grand Prix,4,NOR,McLaren,7.0,8.0,8.0,1,0,0,1,2021-10-24
+2021,United States Grand Prix,22,TSU,AlphaTauri,10.0,10.0,9.0,0,0,0,1,2021-10-24
+2021,United States Grand Prix,5,VET,Aston Martin,18.0,12.0,10.0,0,0,0,1,2021-10-24
+2021,United States Grand Prix,99,GIO,Alfa Romeo Racing,12.0,13.0,11.0,0,0,0,0,2021-10-24
+2021,United States Grand Prix,18,STR,Aston Martin,13.0,16.0,12.0,0,0,0,0,2021-10-24
+2021,United States Grand Prix,7,RAI,Alfa Romeo Racing,15.0,18.0,13.0,0,0,0,0,2021-10-24
+2021,United States Grand Prix,63,RUS,Williams,20.0,15.0,14.0,0,0,0,0,2021-10-24
+2021,United States Grand Prix,6,LAT,Williams,14.0,17.0,15.0,0,0,0,0,2021-10-24
+2021,United States Grand Prix,47,MSC,Haas F1 Team,16.0,19.0,16.0,0,0,0,0,2021-10-24
+2021,United States Grand Prix,9,MAZ,Haas F1 Team,17.0,20.0,17.0,0,0,0,0,2021-10-24
+2021,United States Grand Prix,14,ALO,Alpine,19.0,14.0,18.0,0,0,0,0,2021-10-24
+2021,United States Grand Prix,31,OCO,Alpine,11.0,11.0,19.0,0,0,0,0,2021-10-24
+2021,United States Grand Prix,10,GAS,AlphaTauri,8.0,9.0,20.0,0,0,0,0,2021-10-24
+2021,Mexico City Grand Prix,33,VER,Red Bull Racing,3.0,3.0,1.0,1,1,1,1,2021-11-07
+2021,Mexico City Grand Prix,44,HAM,Mercedes,2.0,2.0,2.0,1,1,1,1,2021-11-07
+2021,Mexico City Grand Prix,11,PER,Red Bull Racing,4.0,4.0,3.0,1,1,1,1,2021-11-07
+2021,Mexico City Grand Prix,10,GAS,AlphaTauri,5.0,5.0,4.0,1,0,1,1,2021-11-07
+2021,Mexico City Grand Prix,16,LEC,Ferrari,8.0,8.0,5.0,1,0,1,1,2021-11-07
+2021,Mexico City Grand Prix,55,SAI,Ferrari,6.0,6.0,6.0,0,0,0,1,2021-11-07
+2021,Mexico City Grand Prix,5,VET,Aston Martin,9.0,11.0,7.0,0,0,0,1,2021-11-07
+2021,Mexico City Grand Prix,7,RAI,Alfa Romeo Racing,10.0,12.0,8.0,0,0,0,1,2021-11-07
+2021,Mexico City Grand Prix,14,ALO,Alpine,12.0,16.0,9.0,0,0,0,1,2021-11-07
+2021,Mexico City Grand Prix,4,NOR,McLaren,18.0,10.0,10.0,0,0,0,1,2021-11-07
+2021,Mexico City Grand Prix,99,GIO,Alfa Romeo Racing,11.0,14.0,11.0,0,0,0,0,2021-11-07
+2021,Mexico City Grand Prix,3,RIC,McLaren,7.0,7.0,12.0,0,0,0,0,2021-11-07
+2021,Mexico City Grand Prix,31,OCO,Alpine,19.0,15.0,13.0,0,0,0,0,2021-11-07
+2021,Mexico City Grand Prix,18,STR,Aston Martin,20.0,20.0,14.0,0,0,0,0,2021-11-07
+2021,Mexico City Grand Prix,77,BOT,Mercedes,1.0,1.0,15.0,0,0,0,0,2021-11-07
+2021,Mexico City Grand Prix,63,RUS,Williams,16.0,13.0,16.0,0,0,0,0,2021-11-07
+2021,Mexico City Grand Prix,6,LAT,Williams,13.0,17.0,17.0,0,0,0,0,2021-11-07
+2021,Mexico City Grand Prix,9,MAZ,Haas F1 Team,15.0,19.0,18.0,0,0,0,0,2021-11-07
+2021,Mexico City Grand Prix,47,MSC,Haas F1 Team,14.0,18.0,19.0,0,0,0,0,2021-11-07
+2021,Mexico City Grand Prix,22,TSU,AlphaTauri,17.0,9.0,20.0,0,0,0,0,2021-11-07
+2021,São Paulo Grand Prix,44,HAM,Mercedes,10.0,1.0,1.0,1,1,1,1,2021-11-14
+2021,São Paulo Grand Prix,33,VER,Red Bull Racing,2.0,2.0,2.0,1,1,1,1,2021-11-14
+2021,São Paulo Grand Prix,77,BOT,Mercedes,1.0,3.0,3.0,1,1,1,1,2021-11-14
+2021,São Paulo Grand Prix,11,PER,Red Bull Racing,4.0,4.0,4.0,1,0,1,1,2021-11-14
+2021,São Paulo Grand Prix,16,LEC,Ferrari,6.0,7.0,5.0,1,0,1,1,2021-11-14
+2021,São Paulo Grand Prix,55,SAI,Ferrari,3.0,6.0,6.0,1,0,0,1,2021-11-14
+2021,São Paulo Grand Prix,10,GAS,AlphaTauri,7.0,5.0,7.0,0,0,0,1,2021-11-14
+2021,São Paulo Grand Prix,31,OCO,Alpine,8.0,11.0,8.0,0,0,0,1,2021-11-14
+2021,São Paulo Grand Prix,14,ALO,Alpine,12.0,10.0,9.0,0,0,0,1,2021-11-14
+2021,São Paulo Grand Prix,4,NOR,McLaren,5.0,8.0,10.0,0,0,0,1,2021-11-14
+2021,São Paulo Grand Prix,5,VET,Aston Martin,9.0,12.0,11.0,0,0,0,0,2021-11-14
+2021,São Paulo Grand Prix,7,RAI,Alfa Romeo Racing,0.0,14.0,12.0,0,0,0,0,2021-11-14
+2021,São Paulo Grand Prix,63,RUS,Williams,17.0,18.0,13.0,0,0,0,0,2021-11-14
+2021,São Paulo Grand Prix,99,GIO,Alfa Romeo Racing,13.0,15.0,14.0,0,0,0,0,2021-11-14
+2021,São Paulo Grand Prix,22,TSU,AlphaTauri,15.0,13.0,15.0,0,0,0,0,2021-11-14
+2021,São Paulo Grand Prix,6,LAT,Williams,16.0,17.0,16.0,0,0,0,0,2021-11-14
+2021,São Paulo Grand Prix,9,MAZ,Haas F1 Team,19.0,20.0,17.0,0,0,0,0,2021-11-14
+2021,São Paulo Grand Prix,47,MSC,Haas F1 Team,18.0,19.0,18.0,0,0,0,0,2021-11-14
+2021,São Paulo Grand Prix,3,RIC,McLaren,11.0,9.0,19.0,0,0,0,0,2021-11-14
+2021,São Paulo Grand Prix,18,STR,Aston Martin,14.0,16.0,20.0,0,0,0,0,2021-11-14
+2021,Qatar Grand Prix,44,HAM,Mercedes,1.0,1.0,1.0,1,1,1,1,2021-11-21
+2021,Qatar Grand Prix,33,VER,Red Bull Racing,7.0,2.0,2.0,1,1,1,1,2021-11-21
+2021,Qatar Grand Prix,14,ALO,Alpine,3.0,5.0,3.0,1,1,1,1,2021-11-21
+2021,Qatar Grand Prix,11,PER,Red Bull Racing,11.0,11.0,4.0,1,0,1,1,2021-11-21
+2021,Qatar Grand Prix,31,OCO,Alpine,9.0,9.0,5.0,1,0,1,1,2021-11-21
+2021,Qatar Grand Prix,18,STR,Aston Martin,12.0,12.0,6.0,1,0,0,1,2021-11-21
+2021,Qatar Grand Prix,55,SAI,Ferrari,5.0,7.0,7.0,1,0,0,1,2021-11-21
+2021,Qatar Grand Prix,16,LEC,Ferrari,13.0,13.0,8.0,1,0,0,1,2021-11-21
+2021,Qatar Grand Prix,4,NOR,McLaren,4.0,6.0,9.0,0,0,0,1,2021-11-21
+2021,Qatar Grand Prix,5,VET,Aston Martin,10.0,10.0,10.0,0,0,0,1,2021-11-21
+2021,Qatar Grand Prix,10,GAS,AlphaTauri,2.0,4.0,11.0,0,0,0,0,2021-11-21
+2021,Qatar Grand Prix,3,RIC,McLaren,14.0,14.0,12.0,0,0,0,0,2021-11-21
+2021,Qatar Grand Prix,22,TSU,AlphaTauri,8.0,8.0,13.0,0,0,0,0,2021-11-21
+2021,Qatar Grand Prix,7,RAI,Alfa Romeo Racing,16.0,16.0,14.0,0,0,0,0,2021-11-21
+2021,Qatar Grand Prix,99,GIO,Alfa Romeo Racing,18.0,18.0,15.0,0,0,0,0,2021-11-21
+2021,Qatar Grand Prix,47,MSC,Haas F1 Team,19.0,19.0,16.0,0,0,0,0,2021-11-21
+2021,Qatar Grand Prix,63,RUS,Williams,15.0,15.0,17.0,0,0,0,0,2021-11-21
+2021,Qatar Grand Prix,9,MAZ,Haas F1 Team,20.0,20.0,18.0,0,0,0,0,2021-11-21
+2021,Qatar Grand Prix,6,LAT,Williams,17.0,17.0,19.0,0,0,0,0,2021-11-21
+2021,Qatar Grand Prix,77,BOT,Mercedes,6.0,3.0,20.0,0,0,0,0,2021-11-21
+2021,Saudi Arabian Grand Prix,44,HAM,Mercedes,1.0,1.0,1.0,1,1,1,1,2021-12-05
+2021,Saudi Arabian Grand Prix,33,VER,Red Bull Racing,3.0,3.0,2.0,1,1,1,1,2021-12-05
+2021,Saudi Arabian Grand Prix,77,BOT,Mercedes,2.0,2.0,3.0,1,1,1,1,2021-12-05
+2021,Saudi Arabian Grand Prix,31,OCO,Alpine,9.0,9.0,4.0,1,0,1,1,2021-12-05
+2021,Saudi Arabian Grand Prix,3,RIC,McLaren,11.0,11.0,5.0,1,0,1,1,2021-12-05
+2021,Saudi Arabian Grand Prix,10,GAS,AlphaTauri,6.0,6.0,6.0,1,0,0,1,2021-12-05
+2021,Saudi Arabian Grand Prix,16,LEC,Ferrari,4.0,4.0,7.0,1,0,0,1,2021-12-05
+2021,Saudi Arabian Grand Prix,55,SAI,Ferrari,15.0,15.0,8.0,1,0,0,1,2021-12-05
+2021,Saudi Arabian Grand Prix,99,GIO,Alfa Romeo Racing,10.0,10.0,9.0,1,0,0,1,2021-12-05
+2021,Saudi Arabian Grand Prix,4,NOR,McLaren,7.0,7.0,10.0,1,0,0,1,2021-12-05
+2021,Saudi Arabian Grand Prix,18,STR,Aston Martin,18.0,18.0,11.0,1,0,0,0,2021-12-05
+2021,Saudi Arabian Grand Prix,6,LAT,Williams,16.0,16.0,12.0,1,0,0,0,2021-12-05
+2021,Saudi Arabian Grand Prix,14,ALO,Alpine,13.0,13.0,13.0,0,0,0,0,2021-12-05
+2021,Saudi Arabian Grand Prix,22,TSU,AlphaTauri,8.0,8.0,14.0,0,0,0,0,2021-12-05
+2021,Saudi Arabian Grand Prix,7,RAI,Alfa Romeo Racing,12.0,12.0,15.0,0,0,0,0,2021-12-05
+2021,Saudi Arabian Grand Prix,5,VET,Aston Martin,17.0,17.0,16.0,0,0,0,0,2021-12-05
+2021,Saudi Arabian Grand Prix,11,PER,Red Bull Racing,5.0,5.0,17.0,0,0,0,0,2021-12-05
+2021,Saudi Arabian Grand Prix,9,MAZ,Haas F1 Team,20.0,20.0,18.0,0,0,0,0,2021-12-05
+2021,Saudi Arabian Grand Prix,63,RUS,Williams,14.0,14.0,19.0,0,0,0,0,2021-12-05
+2021,Saudi Arabian Grand Prix,47,MSC,Haas F1 Team,19.0,19.0,20.0,0,0,0,0,2021-12-05
+2021,Abu Dhabi Grand Prix,33,VER,Red Bull Racing,1.0,1.0,1.0,1,1,1,1,2021-12-12
+2021,Abu Dhabi Grand Prix,44,HAM,Mercedes,2.0,2.0,2.0,1,1,1,1,2021-12-12
+2021,Abu Dhabi Grand Prix,55,SAI,Ferrari,5.0,5.0,3.0,1,1,1,1,2021-12-12
+2021,Abu Dhabi Grand Prix,22,TSU,AlphaTauri,8.0,8.0,4.0,1,0,1,1,2021-12-12
+2021,Abu Dhabi Grand Prix,10,GAS,AlphaTauri,12.0,12.0,5.0,1,0,1,1,2021-12-12
+2021,Abu Dhabi Grand Prix,77,BOT,Mercedes,6.0,6.0,6.0,1,0,0,1,2021-12-12
+2021,Abu Dhabi Grand Prix,4,NOR,McLaren,3.0,3.0,7.0,1,0,0,1,2021-12-12
+2021,Abu Dhabi Grand Prix,14,ALO,Alpine,11.0,11.0,8.0,1,0,0,1,2021-12-12
+2021,Abu Dhabi Grand Prix,31,OCO,Alpine,9.0,9.0,9.0,1,0,0,1,2021-12-12
+2021,Abu Dhabi Grand Prix,16,LEC,Ferrari,7.0,7.0,10.0,1,0,0,1,2021-12-12
+2021,Abu Dhabi Grand Prix,5,VET,Aston Martin,15.0,15.0,11.0,1,0,0,0,2021-12-12
+2021,Abu Dhabi Grand Prix,3,RIC,McLaren,10.0,10.0,12.0,0,0,0,0,2021-12-12
+2021,Abu Dhabi Grand Prix,18,STR,Aston Martin,13.0,13.0,13.0,0,0,0,0,2021-12-12
+2021,Abu Dhabi Grand Prix,47,MSC,Haas F1 Team,19.0,19.0,14.0,0,0,0,0,2021-12-12
+2021,Abu Dhabi Grand Prix,11,PER,Red Bull Racing,4.0,4.0,15.0,0,0,0,0,2021-12-12
+2021,Abu Dhabi Grand Prix,6,LAT,Williams,16.0,16.0,16.0,0,0,0,0,2021-12-12
+2021,Abu Dhabi Grand Prix,99,GIO,Alfa Romeo Racing,14.0,14.0,17.0,0,0,0,0,2021-12-12
+2021,Abu Dhabi Grand Prix,63,RUS,Williams,17.0,17.0,18.0,0,0,0,0,2021-12-12
+2021,Abu Dhabi Grand Prix,7,RAI,Alfa Romeo Racing,18.0,18.0,19.0,0,0,0,0,2021-12-12
