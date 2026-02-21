@@ -138,7 +138,7 @@ if st.session_state.game_key != current_game_key:
     st.session_state.game_result = None
     st.session_state.pick_nonce += 1
 
-if st.sidebar.button("Load race data"):
+if st.sidebar.button("Load race data"): 
     try:
         with st.spinner("Loading race data..."):
             results, weather = get_race_summary(season, gp_name)
