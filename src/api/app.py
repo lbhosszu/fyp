@@ -1,4 +1,8 @@
 import os
+import re
+import unicodedata
+import base64
+
 import joblib
 import numpy as np
 import pandas as pd
@@ -45,7 +49,6 @@ def load_dataset(path: str) -> pd.DataFrame:
             "Make sure you have data/dataset_with_features.csv"
         )
     df = pd.read_csv(path)
-
     required = set(["Year", "EventName", "Abbreviation", "TeamName", "FinishPos"] + FEATURE_COLS)
     missing = sorted(list(required - set(df.columns)))
     if missing:
@@ -69,14 +72,12 @@ def load_model(mode: str):
 def predict_race(df: pd.DataFrame, year: int, event_name: str, mode: str) -> pd.DataFrame:
     k = MODE_TO_K[mode]
     model = load_model(mode)
-
     race_df = df[(df["Year"] == year) & (df["EventName"] == event_name)].copy()
     if race_df.empty:
         raise ValueError(f"No rows found for {year} {event_name} in dataset.")
 
     X = race_df[FEATURE_COLS].copy()
     race_df["Prob"] = model.predict_proba(X)[:, 1]
-
     out = race_df.sort_values("Prob", ascending=False).copy()
     out["PredictedRank"] = np.arange(1, len(out) + 1)
     out["PredictedTopK"] = (out["PredictedRank"] <= k).astype(int)
@@ -105,6 +106,50 @@ def get_race_driver_pool(df: pd.DataFrame, year: int, event_name: str) -> pd.Dat
     return race_df.sort_values("GridPos").reset_index(drop=True)
 
 
+def _normalize_name_key(value: str) -> str:
+    value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode("ascii")
+    value = value.lower()
+    value = re.sub(r"[^a-z0-9]+", "_", value)
+    return value.strip("_")
+
+
+def find_track_layout_path(year: int, event_name: str) -> str | None:
+    year_dir = os.path.join("src", "api", "track_layouts", str(year))
+    if not os.path.isdir(year_dir):
+        return None
+
+    target_key = _normalize_name_key(event_name)
+    for filename in os.listdir(year_dir):
+        if filename.lower().endswith(".png") and _normalize_name_key(os.path.splitext(filename)[0]) == target_key:
+            return os.path.join(year_dir, filename)
+    return None
+
+
+def show_responsive_track_image(image_path: str) -> None:
+    with open(image_path, "rb") as f:
+        encoded = base64.b64encode(f.read()).decode("utf-8")
+
+    st.markdown(
+        f"""
+        <div style="display:flex;justify-content:center;">
+          <div style="width:min(100%, 560px);height:clamp(180px, 34vh, 320px);">
+            <img
+              src="data:image/png;base64,{encoded}"
+              style="width:100%;height:100%;object-fit:contain;image-rendering:auto;"
+            />
+          </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+if "ui_season" not in st.session_state:
+    st.session_state.ui_season = None
+if "ui_race_index" not in st.session_state:
+    st.session_state.ui_race_index = 0
+if "track_select" not in st.session_state:
+    st.session_state.track_select = None
 if "race_loaded" not in st.session_state:
     st.session_state.race_loaded = False
 if "loaded_key" not in st.session_state:
@@ -119,15 +164,72 @@ if "pick_nonce" not in st.session_state:
     st.session_state.pick_nonce = 0
 
 df = load_dataset(DATASET_PATH)
-
-st.sidebar.header("Race Selection")
 years = sorted(df["Year"].unique().tolist())
-season = st.sidebar.selectbox("Season", years, index=len(years) - 1)
-event_names = sorted(df[df["Year"] == season]["EventName"].unique().tolist())
-gp_name = st.sidebar.selectbox("Grand Prix", event_names, index=0)
-mode = st.sidebar.radio("Game mode", ["easy", "medium", "hard"], horizontal=True)
+season = st.selectbox("Season", years, index=len(years) - 1)
 
+if st.session_state.ui_season != season:
+    st.session_state.ui_season = season
+    st.session_state.ui_race_index = 0
+    st.session_state.race_loaded = False
+    st.session_state.loaded_key = None
+    st.session_state.game_submitted = False
+    st.session_state.game_result = None
+    st.session_state.pick_nonce += 1
+    st.session_state.track_select = None
+
+event_names = sorted(df[df["Year"] == season]["EventName"].unique().tolist())
+if not event_names:
+    st.error("No races found for this season in the dataset.")
+    st.stop()
+
+st.session_state.ui_race_index = st.session_state.ui_race_index % len(event_names)
+current_index = st.session_state.ui_race_index
+if st.session_state.track_select is None or st.session_state.track_select not in event_names:
+    st.session_state.track_select = event_names[current_index]
+
+left_col, center_col, right_col = st.columns([1, 8, 1])
+with left_col:
+    if st.button("◀", use_container_width=True):
+        st.session_state.ui_race_index = (st.session_state.ui_race_index - 1) % len(event_names)
+        st.session_state.race_loaded = False
+        st.session_state.track_select = event_names[st.session_state.ui_race_index]
+with right_col:
+    if st.button("▶", use_container_width=True):
+        st.session_state.ui_race_index = (st.session_state.ui_race_index + 1) % len(event_names)
+        st.session_state.race_loaded = False
+        st.session_state.track_select = event_names[st.session_state.ui_race_index]
+
+with center_col:
+    st.selectbox(
+        "Track",
+        options=event_names,
+        key="track_select",
+        label_visibility="collapsed",
+    )
+    if st.session_state.track_select != event_names[st.session_state.ui_race_index]:
+        st.session_state.ui_race_index = event_names.index(st.session_state.track_select)
+        st.session_state.race_loaded = False
+
+gp_name = event_names[st.session_state.ui_race_index]
 selected_key = f"{season}|{gp_name}"
+
+with center_col:
+    st.markdown(f"<h3 style='text-align:center;margin-bottom:0.5rem;'>{gp_name}</h3>", unsafe_allow_html=True)
+    image_path = find_track_layout_path(season, gp_name)
+    if image_path and os.path.exists(image_path):
+        show_responsive_track_image(image_path)
+    else:
+        st.info(f"No track layout image found for {gp_name} ({season}).")
+
+st.markdown("---")
+controls_left, controls_right = st.columns([3, 1])
+with controls_left:
+    mode = st.radio("Game mode", ["easy", "medium", "hard"], horizontal=True)
+with controls_right:
+    st.write("")
+    st.write("")
+    load_clicked = st.button("Load race data", use_container_width=True)
+
 if st.session_state.loaded_key != selected_key:
     st.session_state.race_loaded = False
 
@@ -138,7 +240,7 @@ if st.session_state.game_key != current_game_key:
     st.session_state.game_result = None
     st.session_state.pick_nonce += 1
 
-if st.sidebar.button("Load race data"): 
+if load_clicked:
     try:
         with st.spinner("Loading race data..."):
             results, weather = get_race_summary(season, gp_name)
@@ -278,4 +380,4 @@ if st.session_state.race_loaded and st.session_state.loaded_key == selected_key:
                 st.session_state.pick_nonce += 1
                 st.rerun()
 else:
-    st.info("Select a season and GP, then click 'Load race data' to unlock the prediction game.")
+    st.info("Choose a season/race and click 'Load race data' to unlock the game.")

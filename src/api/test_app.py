@@ -148,6 +148,8 @@ if "ui_season" not in st.session_state:
     st.session_state.ui_season = None
 if "ui_race_index" not in st.session_state:
     st.session_state.ui_race_index = 0
+if "track_select" not in st.session_state:
+    st.session_state.track_select = None
 if "race_loaded" not in st.session_state:
     st.session_state.race_loaded = False
 if "loaded_key" not in st.session_state:
@@ -173,6 +175,7 @@ if st.session_state.ui_season != season:
     st.session_state.game_submitted = False
     st.session_state.game_result = None
     st.session_state.pick_nonce += 1
+    st.session_state.track_select = None
 
 event_names = sorted(df[df["Year"] == season]["EventName"].unique().tolist())
 if not event_names:
@@ -180,15 +183,31 @@ if not event_names:
     st.stop()
 
 st.session_state.ui_race_index = st.session_state.ui_race_index % len(event_names)
+current_index = st.session_state.ui_race_index
+if st.session_state.track_select is None or st.session_state.track_select not in event_names:
+    st.session_state.track_select = event_names[current_index]
 
 left_col, center_col, right_col = st.columns([1, 8, 1])
 with left_col:
     if st.button("◀", use_container_width=True):
         st.session_state.ui_race_index = (st.session_state.ui_race_index - 1) % len(event_names)
         st.session_state.race_loaded = False
+        st.session_state.track_select = event_names[st.session_state.ui_race_index]
 with right_col:
     if st.button("▶", use_container_width=True):
         st.session_state.ui_race_index = (st.session_state.ui_race_index + 1) % len(event_names)
+        st.session_state.race_loaded = False
+        st.session_state.track_select = event_names[st.session_state.ui_race_index]
+
+with center_col:
+    st.selectbox(
+        "Track",
+        options=event_names,
+        key="track_select",
+        label_visibility="collapsed",
+    )
+    if st.session_state.track_select != event_names[st.session_state.ui_race_index]:
+        st.session_state.ui_race_index = event_names.index(st.session_state.track_select)
         st.session_state.race_loaded = False
 
 gp_name = event_names[st.session_state.ui_race_index]
