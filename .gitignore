@@ -9,3 +9,4 @@ coverage.xml
 dist/
 build/
 fastf1_cache/
+.DS_Store
