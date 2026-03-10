@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-from fastf1_utils.fastf1_service import get_race_summary
+from fastf1_utils.fastf1_service import get_race_summary, get_qualifying_results, get_circuit_info
 
 
 st.set_page_config(page_title="F1 Prediction Game", layout="wide")
@@ -104,6 +104,49 @@ def get_race_driver_pool(df: pd.DataFrame, year: int, event_name: str) -> pd.Dat
         subset=["Abbreviation"]
     )
     return race_df.sort_values("GridPos").reset_index(drop=True)
+
+
+def get_driver_form(df: pd.DataFrame, year: int, event_name: str) -> pd.DataFrame:
+    """Get the rolling driver & team form stats for the selected race.
+    These are the same features the model sees at prediction time."""
+    race_df = df[(df["Year"] == year) & (df["EventName"] == event_name)].copy()
+    if race_df.empty:
+        return pd.DataFrame()
+
+    form = race_df[[
+        "Abbreviation", "TeamName", "GridPos",
+        "career_race_count", "is_rookie",
+        "drv_avg_finish_w",
+        "drv_top10_rate_w", "drv_dnf_rate_w",
+        "team_avg_finish_w",
+        "team_top10_rate_w",
+    ]].copy()
+
+    form = form.rename(columns={
+        "Abbreviation": "Driver",
+        "TeamName": "Team",
+        "GridPos": "Grid",
+        "career_race_count": "Races",
+        "is_rookie": "Rookie",
+        "drv_avg_finish_w": "Avg Finish (L5)",
+        "drv_top10_rate_w": "Top-10 Rate (L5)",
+        "drv_dnf_rate_w": "DNF Rate (L5)",
+        "team_avg_finish_w": "Team Avg Finish (L5)",
+        "team_top10_rate_w": "Team Top-10 Rate (L5)",
+    })
+
+    # Round floats for readability
+    float_cols = [
+        "Avg Finish (L5)", "Top-10 Rate (L5)",
+        "DNF Rate (L5)", "Team Avg Finish (L5)",
+        "Team Top-10 Rate (L5)",
+    ]
+    for col in float_cols:
+        form[col] = form[col].round(2)
+
+    form["Rookie"] = form["Rookie"].map({1: "Yes", 0: ""})
+    form = form.sort_values("Grid").reset_index(drop=True)
+    return form
 
 
 def _normalize_name_key(value: str) -> str:
@@ -244,24 +287,96 @@ if load_clicked:
     try:
         with st.spinner("Loading race data..."):
             results, weather = get_race_summary(season, gp_name)
+
+            # Qualifying — load separately so a failure doesn't block everything
+            try:
+                quali_df, name_map = get_qualifying_results(season, gp_name)
+            except Exception:
+                quali_df = pd.DataFrame()
+                name_map = {}
+
+            # Circuit info
+            try:
+                circuit = get_circuit_info(season, gp_name)
+            except Exception:
+                circuit = {}
+
         st.session_state.race_loaded = True
         st.session_state.loaded_key = selected_key
         st.session_state.race_results = results
         st.session_state.weather = weather
+        st.session_state.quali_results = quali_df
+        st.session_state.driver_names = name_map
+        st.session_state.circuit_info = circuit
     except Exception as exc:
         st.session_state.race_loaded = False
         st.error(f"Failed to load race data: {exc}")
 
 if st.session_state.race_loaded and st.session_state.loaded_key == selected_key:
-    st.subheader(f"{gp_name} {season} race summary")
-    st.dataframe(st.session_state.race_results, use_container_width=True)
 
-    st.subheader("Weather summary")
+    # ── Circuit Info ──
+    circuit = st.session_state.get("circuit_info", {})
+    if circuit:
+        info_parts = []
+        if circuit.get("location") and circuit.get("country"):
+            info_parts.append(f"**Location:** {circuit['location']}, {circuit['country']}")
+        if circuit.get("event_date"):
+            info_parts.append(f"**Date:** {circuit['event_date']}")
+        if info_parts:
+            st.caption(" · ".join(info_parts))
+
+    # ── Weather Summary ──
+    st.subheader(f"{gp_name} {season} — race conditions")
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Avg air temp (°C)", f"{st.session_state.weather['avg_air_temp']:.1f}")
     c2.metric("Avg track temp (°C)", f"{st.session_state.weather['avg_track_temp']:.1f}")
     c3.metric("Max wind (m/s)", f"{st.session_state.weather['max_wind']:.1f}")
     c4.metric("Rain", "Yes" if st.session_state.weather["rain_any"] else "No")
+
+    st.markdown("---")
+
+    # ── Qualifying Results ──
+    quali_df = st.session_state.get("quali_results", pd.DataFrame())
+    if not quali_df.empty:
+        st.subheader("Qualifying results")
+        st.caption("Session lap times — empty cells indicate the driver was eliminated in an earlier session.")
+        st.dataframe(quali_df, use_container_width=True, hide_index=True)
+    st.markdown("---")
+
+    # ── Driver & Team Form Guide ──
+    st.subheader("Driver form guide")
+    st.caption("Rolling averages over each driver's last 5 races going into this event (L5 = last 5).")
+    name_map = st.session_state.get("driver_names", {})
+    form_df = get_driver_form(df, season, gp_name)
+    if not form_df.empty:
+        # Replace abbreviations with full names where available
+        form_df["Driver"] = form_df["Driver"].map(lambda abbr: name_map.get(abbr, abbr))
+        tab_drv, tab_team = st.tabs(["Driver stats", "Team stats"])
+        with tab_drv:
+            drv_cols = ["Driver", "Team", "Grid", "Avg Finish (L5)",
+                        "Top-10 Rate (L5)", "DNF Rate (L5)",
+                        "Races", "Rookie"]
+            st.dataframe(
+                form_df[drv_cols].style
+                    .background_gradient(subset=["Avg Finish (L5)"], cmap="RdYlGn_r")
+                    .background_gradient(subset=["Top-10 Rate (L5)"], cmap="RdYlGn")
+                    .format(precision=2),
+                use_container_width=True,
+                hide_index=True,
+            )
+        with tab_team:
+            team_cols = ["Driver", "Team", "Grid", "Team Avg Finish (L5)",
+                         "Team Top-10 Rate (L5)"]
+            st.dataframe(
+                form_df[team_cols].style
+                    .background_gradient(subset=["Team Avg Finish (L5)"], cmap="RdYlGn_r")
+                    .background_gradient(subset=["Team Top-10 Rate (L5)"], cmap="RdYlGn")
+                    .format(precision=2),
+                use_container_width=True,
+                hide_index=True,
+            )
+    else:
+        st.info("No form data available for this race.")
 
     st.markdown("---")
     st.subheader("Play the prediction game")
@@ -270,9 +385,13 @@ if st.session_state.race_loaded and st.session_state.loaded_key == selected_key:
     if race_pool.empty:
         st.warning("No race entries found in the dataset for this event.")
     else:
-        driver_labels = [f"{row.Abbreviation} - {row.TeamName}" for row in race_pool.itertuples()]
+        driver_labels = [
+            f"{name_map.get(row.Abbreviation, row.Abbreviation)} - {row.TeamName}"
+            for row in race_pool.itertuples()
+        ]
         label_to_abbr = {
-            f"{row.Abbreviation} - {row.TeamName}": row.Abbreviation for row in race_pool.itertuples()
+            f"{name_map.get(row.Abbreviation, row.Abbreviation)} - {row.TeamName}": row.Abbreviation
+            for row in race_pool.itertuples()
         }
         abbr_to_team = dict(zip(race_pool["Abbreviation"], race_pool["TeamName"]))
         form_id = f"{current_game_key}_{st.session_state.pick_nonce}"
@@ -335,6 +454,11 @@ if st.session_state.race_loaded and st.session_state.loaded_key == selected_key:
             u2.metric("Drivers in Top-K", f"{result['in_topk_hits']}/{result['k']}")
             u3.metric("Points", f"{result['points']}/{result['k'] * 3}")
 
+            def _display_name(abbr, team_map):
+                full = name_map.get(abbr, abbr)
+                team = team_map.get(abbr, "")
+                return f"{full} ({team})" if team else full
+
             user_rows = []
             for i in range(result["k"]):
                 user_abbr = result["user_pick_abbr"][i]
@@ -342,8 +466,8 @@ if st.session_state.race_loaded and st.session_state.loaded_key == selected_key:
                 user_rows.append(
                     {
                         "Position": i + 1,
-                        "Your pick": f"{user_abbr} ({result['abbr_to_team'].get(user_abbr, '')})",
-                        "Actual": f"{actual_abbr} ({result['abbr_to_team'].get(actual_abbr, '')})",
+                        "Your pick": _display_name(user_abbr, result["abbr_to_team"]),
+                        "Actual": _display_name(actual_abbr, result["abbr_to_team"]),
                         "Exact hit": user_abbr == actual_abbr,
                         "In actual Top-K": user_abbr in actual_set,
                     }
@@ -363,8 +487,8 @@ if st.session_state.race_loaded and st.session_state.loaded_key == selected_key:
                 model_rows.append(
                     {
                         "Position": i + 1,
-                        "Model pick": f"{model_abbr} ({result['abbr_to_team'].get(model_abbr, '')})",
-                        "Actual": f"{actual_abbr} ({result['abbr_to_team'].get(actual_abbr, '')})",
+                        "Model pick": _display_name(model_abbr, result["abbr_to_team"]),
+                        "Actual": _display_name(actual_abbr, result["abbr_to_team"]),
                         "Exact hit": model_abbr == actual_abbr,
                         "In actual Top-K": model_abbr in actual_set,
                     }
