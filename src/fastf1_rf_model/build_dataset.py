@@ -8,7 +8,9 @@ def add_rolling_features(df_all: pd.DataFrame, window: int = 5) -> pd.DataFrame:
     df = df_all.sort_values(["EventDate", "Year", "EventName"]).copy()
 
     df["career_race_count"] = df.groupby("DriverNumber").cumcount()
-    df["is_rookie"] = (df["career_race_count"] == 0).astype(int)
+    # A driver is a rookie for their entire first season in the dataset
+    first_season = df.groupby("DriverNumber")["Year"].transform("min")
+    df["is_rookie"] = (df["Year"] == first_season).astype(int)
 
     gdrv = df.groupby("DriverNumber", group_keys=False)
     df["drv_avg_finish_w"] = gdrv["FinishPos"].apply(lambda s: s.shift(1).rolling(window, min_periods=1).mean())
@@ -54,7 +56,7 @@ def load_years(years, data_dir="data") -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    years = [2018, 2019, 2020, 2021, 2022, 2023, 2024]
+    years = [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
     df_all = load_years(years)
     df_all = add_rolling_features(df_all, window=5)
 
