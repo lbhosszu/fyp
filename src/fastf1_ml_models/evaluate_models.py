@@ -1,15 +1,34 @@
 """
 evaluate_models.py
 ==================
-Comprehensive evaluation of all trained models.
+Model evaluation module — the final step in the ML pipeline.
 
-Produces:
-  1. Side-by-side classification reports (precision, recall, F1)
-  2. Race-level Top-K hit-rate comparison table
-  3. Feature importance plots (for tree-based models)
-  4. Per-race performance breakdown
+Pipeline position:
+  extract_year.py  →  build_dataset.py  →  train_models.py  →  evaluate_models.py
 
-All figures are saved to the evaluation/ directory as PNG files.
+Tests all trained models against the 2024 season (held-out test set)
+and produces comprehensive evaluation outputs:
+
+  1. Row-level metrics: accuracy, precision, recall, F1 per model × target
+     (standard sklearn classification metrics — one row = one driver entry)
+
+  2. Race-level hit-rate: the most GAME-RELEVANT metric. For each race,
+     sorts drivers by predicted probability, takes the top K, and checks
+     how many are actually in the real top K. This directly maps to how
+     well the model would perform in the prediction game.
+
+  3. Per-race breakdown: hit-rate for every 2024 GP — helps identify which
+     races are easy/hard to predict (e.g. wet races tend to be harder)
+
+  4. Feature importance: which features matter most to the RF and GB models
+     (GridPos/QualiPos typically dominate, validating that qualifying is
+     the strongest predictor of race results)
+
+  5. Model comparison charts: bar charts for visual comparison
+
+  6. Per-race heatmap: colour-coded grid showing RF performance at each GP
+
+All outputs (CSVs and PNGs) are saved to the evaluation/ directory.
 """
 
 import os
@@ -76,12 +95,28 @@ def load_models(model_dir: str = "models") -> dict:
 
 
 def topk_hit_rate(df_race: pd.DataFrame, prob_col: str, k: int, truth_col: str) -> float:
-    """
-    For one race: sort drivers by predicted probability (descending),
-    take top k, and count how many are truly in the top k.
+    """Calculate the top-K hit-rate for a single race.
+
+    This is the core game-relevant metric. It simulates what the prediction
+    game does: rank all drivers by the model's predicted probability of
+    finishing in the top K, pick the top K predictions, and check how many
+    of those K drivers actually finished in the top K.
+
+    Example: If k=3 and the model predicts VER, NOR, LEC as top-3, but
+    the actual top-3 is VER, LEC, PIA → hit-rate = 2/3 = 0.667
+
+    Args:
+        df_race: DataFrame with one row per driver for a single race
+        prob_col: Column containing the model's predicted probabilities
+        k: Number of top positions to consider (3, 5, or 10)
+        truth_col: Binary column (1 if truly in top K, 0 otherwise)
+
+    Returns:
+        Float between 0 and 1 — proportion of correct top-K predictions
     """
     df_sorted = df_race.sort_values(prob_col, ascending=False)
     pred_topk = df_sorted.head(k)
+    # .mean() of a binary column = proportion of 1s = hit-rate
     return pred_topk[truth_col].mean()
 
 
@@ -121,9 +156,16 @@ def row_level_comparison(all_models: dict, df_test: pd.DataFrame) -> pd.DataFram
 # ── 2. Race-level Top-K hit-rate ─────────────────────────────────────
 
 def race_level_comparison(all_models: dict, df_test: pd.DataFrame) -> pd.DataFrame:
-    """
-    For each model × target, compute the average top-K hit-rate
-    across all test races. This is the most game-relevant metric.
+    """Compare models using the race-level top-K hit-rate metric.
+
+    For each model × target combination, computes the hit-rate for
+    every race in the 2024 test set, then reports the average, min, max,
+    and standard deviation. This is the most important evaluation metric
+    because it directly reflects how the model performs in the game context.
+
+    Why race-level and not row-level? Row-level F1 treats every driver
+    entry equally, but we care about ranking within each race. A model
+    could have high F1 but still rank drivers poorly within a single GP.
     """
     X_test = df_test[FEATURE_COLS].copy()
     rows = []
@@ -189,7 +231,12 @@ def per_race_breakdown(all_models: dict, df_test: pd.DataFrame, model_key: str =
 # ── 4. Feature importance ────────────────────────────────────────────
 
 def get_feature_names(model_pipeline) -> list:
-    """Extract feature names after one-hot encoding."""
+    """Extract feature names after one-hot encoding.
+
+    After one-hot encoding, TeamName and EventName expand into many
+    binary columns (e.g. TeamName_Red Bull Racing, EventName_Bahrain).
+    This function recovers those expanded names for feature importance plots.
+    """
     prep = model_pipeline.named_steps["prep"]
     cat_encoder = prep.named_transformers_["cat"]
     cat_names = list(cat_encoder.get_feature_names_out(["TeamName", "EventName"]))

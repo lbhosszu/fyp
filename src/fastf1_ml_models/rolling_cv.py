@@ -3,17 +3,26 @@ rolling_cv.py
 =============
 Rolling (expanding-window) cross-validation for F1 prediction models.
 
-Instead of a single train/test split, this trains on progressively
-larger windows and tests on the next unseen season:
+This is a supplementary evaluation script that validates model robustness
+across multiple seasons. Instead of relying on a single train/test split
+(which could be lucky or unlucky), it trains on progressively larger
+windows and tests on the next unseen season:
 
   Fold 1: Train 2018-2020  →  Test 2021
   Fold 2: Train 2018-2021  →  Test 2022
   Fold 3: Train 2018-2022  →  Test 2023
   Fold 4: Train 2018-2023  →  Test 2024
 
+Why expanding window (not sliding)? In F1, more historical data is
+generally better — a model trained on 6 seasons knows more about
+team/driver patterns than one trained on 3. The expanding window
+mirrors how the model would be deployed in practice.
+
 This demonstrates that the model generalises across seasons and is
-not just overfitting to a single test year. Results include per-fold
-metrics and aggregated means with standard deviations.
+not just overfitting to a single test year. Results include:
+  - Per-fold F1 and hit-rate for each model × target
+  - Aggregated means with standard deviations (low std = consistent)
+  - Line charts and bar charts saved to evaluation/
 
 All results are saved to the evaluation/ directory.
 """
@@ -55,7 +64,8 @@ NUM_FEATURES = [c for c in FEATURE_COLS if c not in CAT_FEATURES]
 
 TARGETS = {"Top3": 3, "Top5": 5, "Top10": 10}
 
-# Rolling folds: (train_end_year, test_year)
+# Rolling folds: (last training year, test year)
+# Each fold adds one more season of training data
 FOLDS = [
     (2020, 2021),
     (2021, 2022),
@@ -177,7 +187,12 @@ def run_rolling_cv(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def summarise_cv(cv_df: pd.DataFrame) -> pd.DataFrame:
-    """Aggregate results across folds: mean ± std for each model × target."""
+    """Aggregate results across folds: mean ± std for each model × target.
+
+    A low standard deviation indicates the model performs consistently
+    across different test years, which is evidence of generalisation
+    rather than overfitting to a specific season.
+    """
     summary = (
         cv_df.groupby(["Model", "Target"])
         .agg(

@@ -3,20 +3,25 @@ ablation_study.py
 =================
 Feature group ablation study for the Random Forest model.
 
-Trains the RF model with progressively richer feature sets to measure
-the contribution of each feature group. This answers the question:
-"How much does each group of features improve prediction?"
+This is a supplementary evaluation script (not part of the main pipeline)
+that measures how much each group of features contributes to model accuracy.
 
-Feature groups (added incrementally):
-  1. Grid only         – GridPos, QualiPos
-  2. + Driver history  – Rolling driver performance stats
-  3. + Team history    – Rolling team performance stats
-  4. + Context         – TeamName, EventName, Year, career_race_count, is_rookie
+Two complementary approaches are used:
 
-Also runs a "removal" ablation: start with all features and remove
-one group at a time to measure the drop in performance.
+  INCREMENTAL ABLATION — "How much does adding each group help?"
+    Trains the model with progressively richer feature sets:
+      1. Grid only         – GridPos, QualiPos (qualifying baseline)
+      2. + Driver history  – Rolling driver performance stats (recent form)
+      3. + Team history    – Rolling team performance stats (car performance)
+      4. + Context         – TeamName, EventName, Year, experience, rookie flag
 
-All results are saved to the evaluation/ directory.
+  REMOVAL ABLATION — "How much does removing each group hurt?"
+    Starts with all features and removes one group at a time.
+    This reveals dependencies: if removing driver history hurts more than
+    removing team history, driver form is more predictive than car form.
+
+Both approaches report F1-score (row-level) and hit-rate (race-level).
+Results are saved as CSVs and bar chart PNGs in the evaluation/ directory.
 """
 
 import os
@@ -54,7 +59,7 @@ CONTEXT_FEATURES = ["TeamName", "EventName", "Year", "career_race_count", "is_ro
 
 ALL_FEATURES = GRID_FEATURES + DRIVER_FEATURES + TEAM_FEATURES + CONTEXT_FEATURES
 
-# Incremental sets: each builds on the previous
+# Incremental sets: each builds on the previous one, showing marginal gains
 INCREMENTAL_SETS = {
     "Grid only":                GRID_FEATURES,
     "+ Driver history":         GRID_FEATURES + DRIVER_FEATURES,
@@ -62,7 +67,7 @@ INCREMENTAL_SETS = {
     "+ Context (all features)": ALL_FEATURES,
 }
 
-# Removal sets: remove one group at a time from all features
+# Removal sets: remove one group at a time to measure the performance drop
 REMOVAL_SETS = {
     "All features":        ALL_FEATURES,
     "− Grid position":     [f for f in ALL_FEATURES if f not in GRID_FEATURES],

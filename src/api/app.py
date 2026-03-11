@@ -1,3 +1,23 @@
+"""
+app.py
+======
+Main Streamlit application — the F1 Race Prediction Game.
+
+This is the user-facing frontend of the project. It provides:
+  1. Race selection: browse seasons and GPs with track layout images
+  2. Data exploration: weather conditions, qualifying results, and
+     driver/team form guides with colour-coded styling
+  3. Prediction game: user picks their top-K finishers, then compares
+     their prediction against the ML model's prediction and actual results
+  4. Scoring: exact position matches = 3 pts, correct driver in top-K = 1 pt
+
+The app loads pre-trained Random Forest models (from models/ directory)
+and the feature-engineered dataset (from data/ directory). Live race data
+(weather, qualifying times, circuit info) is fetched via FastF1.
+
+Run with: streamlit run src/api/app.py
+"""
+
 import os
 import re
 import unicodedata
@@ -10,11 +30,18 @@ import streamlit as st
 
 from fastf1_utils.fastf1_service import get_race_summary, get_qualifying_results, get_circuit_info
 
-
+# ── Page configuration ──────────────────────────────────────────────
 st.set_page_config(page_title="F1 Prediction Game", layout="wide")
 st.title("F1 Prediction Game")
 
+# ── Constants ────────────────────────────────────────────────────────
+# Path to the feature-engineered dataset (output of build_dataset.py)
 DATASET_PATH = "data/dataset_with_features.csv"
+
+# Game difficulty maps to different models:
+#   easy   = predict top 3 (easiest — podium is most predictable)
+#   medium = predict top 5
+#   hard   = predict top 10 (hardest — more variance in midfield)
 MODEL_PATHS = {
     "easy": "models/rf_top3.joblib",
     "medium": "models/rf_top5.joblib",
@@ -22,6 +49,7 @@ MODEL_PATHS = {
 }
 MODE_TO_K = {"easy": 3, "medium": 5, "hard": 10}
 
+# Feature columns must match exactly what the model was trained on
 FEATURE_COLS = [
     "TeamName",
     "EventName",
@@ -41,8 +69,12 @@ FEATURE_COLS = [
 ]
 
 
+# ── Data loading (cached) ────────────────────────────────────────────
+
 @st.cache_data(show_spinner=False)
 def load_dataset(path: str) -> pd.DataFrame:
+    """Load the feature-engineered dataset. Cached by Streamlit so it's
+    only read from disk once per session, not on every page interaction."""
     if not os.path.exists(path):
         raise FileNotFoundError(
             f"Missing dataset: {path}. "
@@ -58,6 +90,9 @@ def load_dataset(path: str) -> pd.DataFrame:
 
 @st.cache_resource(show_spinner=False)
 def load_model(mode: str):
+    """Load a trained RF model from disk. cache_resource keeps the model
+    object in memory across reruns (heavier than cache_data, but needed
+    for sklearn objects which aren't hashable)."""
     model_path = MODEL_PATHS.get(mode)
     if not model_path:
         raise ValueError("mode must be one of: easy, medium, hard")
@@ -70,6 +105,14 @@ def load_model(mode: str):
 
 
 def predict_race(df: pd.DataFrame, year: int, event_name: str, mode: str) -> pd.DataFrame:
+    """Generate the model's top-K predictions for a specific race.
+
+    Uses predict_proba to get the probability that each driver finishes
+    in the top K, then ranks all drivers by probability (highest first).
+    The top K by probability become the model's "picks" for the game.
+
+    Note: predict_proba[:, 1] gets the probability of class 1 (= in top K).
+    """
     k = MODE_TO_K[mode]
     model = load_model(mode)
     race_df = df[(df["Year"] == year) & (df["EventName"] == event_name)].copy()
@@ -77,7 +120,9 @@ def predict_race(df: pd.DataFrame, year: int, event_name: str, mode: str) -> pd.
         raise ValueError(f"No rows found for {year} {event_name} in dataset.")
 
     X = race_df[FEATURE_COLS].copy()
+    # Get probability of finishing in top K (column index 1 = positive class)
     race_df["Prob"] = model.predict_proba(X)[:, 1]
+    # Rank drivers by probability — highest probability = predicted P1
     out = race_df.sort_values("Prob", ascending=False).copy()
     out["PredictedRank"] = np.arange(1, len(out) + 1)
     out["PredictedTopK"] = (out["PredictedRank"] <= k).astype(int)
@@ -108,7 +153,12 @@ def get_race_driver_pool(df: pd.DataFrame, year: int, event_name: str) -> pd.Dat
 
 def get_driver_form(df: pd.DataFrame, year: int, event_name: str) -> pd.DataFrame:
     """Get the rolling driver & team form stats for the selected race.
-    These are the same features the model sees at prediction time."""
+
+    These are the same features the model sees at prediction time, displayed
+    in a user-friendly format. The form guide helps users make informed
+    picks — they can see each driver's recent average finish, top-10 rate,
+    DNF rate, and their team's performance before making predictions.
+    """
     race_df = df[(df["Year"] == year) & (df["EventName"] == event_name)].copy()
     if race_df.empty:
         return pd.DataFrame()
@@ -150,6 +200,12 @@ def get_driver_form(df: pd.DataFrame, year: int, event_name: str) -> pd.DataFram
 
 
 def _normalize_name_key(value: str) -> str:
+    """Normalize a string for fuzzy filename matching.
+
+    Removes accents (e.g. São Paulo → sao_paulo), lowercases, and
+    replaces non-alphanumeric characters with underscores. Used to
+    match Grand Prix names to their track layout image filenames.
+    """
     value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode("ascii")
     value = value.lower()
     value = re.sub(r"[^a-z0-9]+", "_", value)
@@ -169,6 +225,11 @@ def find_track_layout_path(year: int, event_name: str) -> str | None:
 
 
 def show_responsive_track_image(image_path: str) -> None:
+    """Display a track layout image using base64-encoded HTML.
+
+    We use raw HTML instead of st.image() for better responsive sizing —
+    the image scales with the viewport while maintaining aspect ratio.
+    """
     with open(image_path, "rb") as f:
         encoded = base64.b64encode(f.read()).decode("utf-8")
 
@@ -187,6 +248,10 @@ def show_responsive_track_image(image_path: str) -> None:
     )
 
 
+# ── Session state initialisation ─────────────────────────────────────
+# Streamlit reruns the entire script on every user interaction.
+# session_state persists values across reruns so the app remembers
+# which race is loaded, whether the game has been submitted, etc.
 if "ui_season" not in st.session_state:
     st.session_state.ui_season = None
 if "ui_race_index" not in st.session_state:
@@ -206,10 +271,13 @@ if "game_result" not in st.session_state:
 if "pick_nonce" not in st.session_state:
     st.session_state.pick_nonce = 0
 
+# ── Season and race selection UI ─────────────────────────────────────
 df = load_dataset(DATASET_PATH)
 years = sorted(df["Year"].unique().tolist())
+# Default to the most recent season
 season = st.selectbox("Season", years, index=len(years) - 1)
 
+# Reset state when the user switches to a different season
 if st.session_state.ui_season != season:
     st.session_state.ui_season = season
     st.session_state.ui_race_index = 0
@@ -230,6 +298,7 @@ current_index = st.session_state.ui_race_index
 if st.session_state.track_select is None or st.session_state.track_select not in event_names:
     st.session_state.track_select = event_names[current_index]
 
+# Navigation arrows (◀ ▶) to cycle through races, with dropdown in centre
 left_col, center_col, right_col = st.columns([1, 8, 1])
 with left_col:
     if st.button("◀", use_container_width=True):
@@ -314,7 +383,7 @@ if load_clicked:
 
 if st.session_state.race_loaded and st.session_state.loaded_key == selected_key:
 
-    # ── Circuit Info ──
+    # ── Circuit Info (location, country, date) ──
     circuit = st.session_state.get("circuit_info", {})
     if circuit:
         info_parts = []
@@ -344,12 +413,15 @@ if st.session_state.race_loaded and st.session_state.loaded_key == selected_key:
     st.markdown("---")
 
     # ── Driver & Team Form Guide ──
+    # Shows the rolling stats the model uses, colour-coded with background_gradient:
+    #   - RdYlGn_r for positions (lower = better = green)
+    #   - RdYlGn for rates (higher = better = green)
     st.subheader("Driver form guide")
     st.caption("Rolling averages over each driver's last 5 races going into this event (L5 = last 5).")
     name_map = st.session_state.get("driver_names", {})
     form_df = get_driver_form(df, season, gp_name)
     if not form_df.empty:
-        # Replace abbreviations with full names where available
+        # Replace 3-letter abbreviations (VER, HAM) with full names
         form_df["Driver"] = form_df["Driver"].map(lambda abbr: name_map.get(abbr, abbr))
         tab_drv, tab_team = st.tabs(["Driver stats", "Team stats"])
         with tab_drv:
@@ -415,15 +487,26 @@ if st.session_state.race_loaded and st.session_state.loaded_key == selected_key:
             elif len(set(picks)) != len(picks):
                 st.error("Each position must have a different driver.")
             else:
+                # Convert user's display labels back to driver abbreviations
                 user_pick_abbr = [label_to_abbr[p] for p in picks]
+
+                # Get the actual top-K finishers from real race results
                 actual_topk_df = race_pool.sort_values("FinishPos").head(k)
                 actual_topk_abbr = actual_topk_df["Abbreviation"].tolist()
+
+                # Get the model's top-K predictions for comparison
                 model_preds = predict_race(df, season, gp_name, mode)
                 model_topk_abbr = model_preds.head(k)["Abbreviation"].tolist()
 
+                # ── Scoring system ──
+                # Exact position hit (e.g. picked VER for P1 and he finished P1) = 3 points
+                # Driver in top-K but wrong position = 1 point
+                # Driver not in top-K = 0 points
                 exact_hits = sum(u == a for u, a in zip(user_pick_abbr, actual_topk_abbr))
                 in_topk_hits = sum(u in set(actual_topk_abbr) for u in user_pick_abbr)
                 points = exact_hits * 3 + (in_topk_hits - exact_hits)
+
+                # Same scoring for the model (so user can compare against it)
                 model_exact_hits = sum(m == a for m, a in zip(model_topk_abbr, actual_topk_abbr))
                 model_in_topk_hits = sum(m in set(actual_topk_abbr) for m in model_topk_abbr)
                 model_points = model_exact_hits * 3 + (model_in_topk_hits - model_exact_hits)
